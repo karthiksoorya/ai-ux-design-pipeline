@@ -34,6 +34,10 @@ st.markdown("""
 [data-testid="stSidebar"] [role="radiogroup"] label span,
 [data-testid="stSidebar"] [data-testid="stCaptionContainer"] {color:#f7fbff !important}
 [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p {color:#f7fbff !important}
+[data-testid="stSidebar"] [data-testid="stButton"] button,
+[data-testid="stSidebar"] [data-testid="stButton"] button p,
+[data-testid="stSidebar"] [data-testid="stLinkButton"] a,
+[data-testid="stSidebar"] [data-testid="stLinkButton"] a p {color:#0b3158 !important;font-weight:700 !important}
 [data-testid="stSidebar"] input {color:#102a43 !important;background:#f7fbff !important}
 [data-testid="stSidebar"] input:disabled {-webkit-text-fill-color:#34516f !important;opacity:1 !important}
 [data-testid="stSidebar"] hr {border-color:#6f91b5 !important}
