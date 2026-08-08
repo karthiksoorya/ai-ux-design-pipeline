@@ -37,6 +37,9 @@ st.markdown("""
 .gate-line {margin-top:.65rem;padding-top:.55rem;border-top:1px dashed #b9cee1;font-size:.76rem;color:#486781}
 .pipeline-console {padding:1rem 1.2rem;border-radius:16px;background:#082f5b;color:#edf8ff;box-shadow:inset 4px 0 #16b8a6,0 8px 22px #082f5b25}
 .pipeline-console small {color:#9fd8ed}.pipeline-console strong {color:#fff}
+.run-overlay {position:fixed;z-index:9999;top:3.6rem;left:50%;transform:translateX(-50%);width:min(780px,calc(100vw - 2rem));padding:.75rem 1rem;border:1px solid #45d6c5;border-radius:14px;background:#062d63f2;color:#fff;box-shadow:0 12px 34px #061f3d55;backdrop-filter:blur(10px);pointer-events:none}
+.run-overlay-head {display:flex;justify-content:space-between;gap:1rem;font-size:.82rem;font-weight:750}.run-overlay-detail {margin-top:.25rem;color:#bcecf0;font-size:.74rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.run-overlay-track {height:7px;margin-top:.55rem;border-radius:999px;background:#ffffff25;overflow:hidden}.run-overlay-fill {height:100%;border-radius:999px;background:linear-gradient(90deg,#11b9aa,#62e7cf);transition:width .2s ease;box-shadow:0 0 12px #35e0c8}
 @keyframes pulse {0%{box-shadow:0 0 0 0 #008f8870}70%{box-shadow:0 0 0 9px #008f8800}100%{box-shadow:0 0 0 0 #008f8800}}
 [data-testid="stSidebar"] {background:#062d63;color:white}
 [data-testid="stSidebar"] h1,
@@ -110,6 +113,7 @@ with st.sidebar:
     st.caption("Agents never approve gates. Every approval shown here is a human action.")
 
 st.markdown('<div class="hero"><h1>AI UX Discovery-to-Prototype Pipeline</h1><p>BRD → Research → Ideation → Design → Validation → Verified Workable Prototype</p></div>', unsafe_allow_html=True)
+execution_hud = st.empty()
 st.write("")
 
 cols = st.columns(4)
@@ -162,18 +166,24 @@ with c1:
             with st.status(f"Dispatching Phase {phase.number} agents…", expanded=True) as execution_status:
                 st.write(f"**Agents:** {active_agents}")
                 progress = st.progress(0, text="Preparing authoritative workflow context")
+                execution_hud.markdown(f'<div class="run-overlay"><div class="run-overlay-head"><span>Phase {phase.number} · {active_agents}</span><span>0%</span></div><div class="run-overlay-detail">Preparing authoritative workflow context</div><div class="run-overlay-track"><div class="run-overlay-fill" style="width:0%"></div></div></div>', unsafe_allow_html=True)
                 for index, skill in enumerate(phase.skills, 1):
-                    progress.progress(index / (len(phase.skills) + 1), text=f"Applying {skill}")
+                    percent = round(index / (len(phase.skills) + 1) * 100)
+                    progress.progress(percent / 100, text=f"Applying {skill}")
+                    execution_hud.markdown(f'<div class="run-overlay"><div class="run-overlay-head"><span>Phase {phase.number} · {active_agents}</span><span>{percent}%</span></div><div class="run-overlay-detail">Applying {skill}</div><div class="run-overlay-track"><div class="run-overlay-fill" style="width:{percent}%"></div></div></div>', unsafe_allow_html=True)
                     st.write(f"`{index:02d}`  {skill}")
                     if mode == "Demo":
                         time.sleep(0.22)
                 run_phase(state, phase.number, generator)
                 progress.progress(1.0, text=f"Validating declared outputs for Gate {phase.gate_id}")
+                execution_hud.markdown(f'<div class="run-overlay"><div class="run-overlay-head"><span>Phase {phase.number} · Output validation</span><span>100%</span></div><div class="run-overlay-detail">Preparing Gate {phase.gate_id} for explicit human review</div><div class="run-overlay-track"><div class="run-overlay-fill" style="width:100%"></div></div></div>', unsafe_allow_html=True)
                 execution_status.update(label=f"Phase {phase.number} complete — Gate {phase.gate_id} review required", state="complete", expanded=True)
                 time.sleep(0.35)
+                execution_hud.empty()
             st.success(f"Phase {phase.number} is ready for Gate {phase.gate_id}.")
             st.rerun()
         except Exception as exc:
+            execution_hud.empty()
             st.error(str(exc))
 with c2:
     st.markdown("**Declared skill sequence**")
