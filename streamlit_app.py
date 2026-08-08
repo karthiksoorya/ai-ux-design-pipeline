@@ -22,8 +22,9 @@ st.set_page_config(page_title="AI UX Design Pipeline", page_icon="✦", layout="
 st.markdown("""
 <style>
 .stApp {background: linear-gradient(145deg,#f7fbff 0%,#eef6ff 48%,#f8fffd 100%)}
-.hero {padding:1.7rem 2rem;border-radius:22px;background:linear-gradient(120deg,#062d63,#075a8c 58%,#008f88);color:white;box-shadow:0 14px 35px #0c3d6a26}
-.hero h1 {margin:0;font-size:2.35rem}.hero p{font-size:1.05rem;opacity:.9;margin-bottom:0}
+.block-container {padding-top:1rem !important}
+.hero {padding:.9rem 1.25rem;border-radius:15px;background:linear-gradient(120deg,#062d63,#075a8c 58%,#008f88);color:white;box-shadow:0 8px 24px #0c3d6a20}
+.hero h1 {margin:0;font-size:1.72rem;line-height:1.2}.hero p{font-size:.88rem;opacity:.9;margin:.35rem 0 0}
 .phase-card {position:relative;border:1px solid #bdd5ec;background:#ffffffde;border-radius:16px;padding:1rem;min-height:174px;box-shadow:0 5px 14px #164f7a0d;transition:.25s ease}
 .phase-card::after {content:"";position:absolute;top:31px;right:-22px;width:22px;height:2px;background:#a9c8e5}
 .phase-card.last::after {display:none}
@@ -35,7 +36,6 @@ st.markdown("""
 .active .status::before {animation:pulse 1.4s infinite;box-shadow:0 0 0 0 #008f8870}
 .agent-chip {display:inline-block;margin:.2rem .15rem .1rem 0;padding:.22rem .48rem;border-radius:8px;background:#eaf3fc;color:#174a72;font-size:.76rem;font-weight:650}
 .gate-line {margin-top:.65rem;padding-top:.55rem;border-top:1px dashed #b9cee1;font-size:.76rem;color:#486781}
-.pipeline-strip {display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem;margin:.9rem 0 1.2rem}.pipeline-node {position:relative;padding:.65rem .75rem;border:1px solid #bfd5e9;border-radius:12px;background:#ffffffcc;color:#31526e;font-size:.76rem}.pipeline-node strong {display:block;color:#123c61;font-size:.86rem}.pipeline-node.current {border:2px solid #008f88;background:#edfffb;box-shadow:0 6px 18px #008f8826}.pipeline-node.done {border-color:#58ad80;background:#f1fff7}.pipeline-node::after {content:"→";position:absolute;right:-.55rem;top:35%;z-index:2;color:#6c91af;font-weight:800}.pipeline-node:last-child::after {display:none}
 .side-phase {margin:.55rem 0;padding:.7rem;border:1px solid #547ca4;border-radius:12px;background:#ffffff12}.side-phase.current {border-color:#45d6c5;background:#008f8830;box-shadow:inset 3px 0 #45d6c5}.side-phase.done {border-color:#6ac497;background:#39a67825}.side-phase strong,.side-phase small {display:block;color:#f7fbff !important}.side-phase small {margin-top:.25rem;color:#b9d8ee !important}
 .pipeline-console {padding:1rem 1.2rem;border-radius:16px;background:#082f5b;color:#edf8ff;box-shadow:inset 4px 0 #16b8a6,0 8px 22px #082f5b25}
 .pipeline-console small {color:#9fd8ed}.pipeline-console strong {color:#fff}
@@ -125,10 +125,13 @@ def confirm_gate_decision(phase_number: int, decision: str) -> None:
         st.rerun()
 
 with st.sidebar:
-    st.header("Pipeline console")
-    st.caption("Use the arrow above to collapse this panel and expand the workspace.")
-    controls_tab, phases_tab = st.tabs(["Controls", "Phases"])
-    with controls_tab:
+    st.header("Pipeline phases")
+    for sidebar_phase in PHASES:
+        sidebar_status = state.phase_status[sidebar_phase.number]
+        sidebar_class = "current" if sidebar_phase.number == state.current_phase and sidebar_status != "APPROVED" else "done" if sidebar_status == "APPROVED" else ""
+        sidebar_agents = " + ".join(Path(agent).stem.replace("-", " ").title() for agent in sidebar_phase.agents)
+        st.markdown(f'<div class="side-phase {sidebar_class}"><strong>{sidebar_phase.number}. {sidebar_phase.name}</strong><small>{sidebar_agents}</small><small>{sidebar_status} · {sidebar_phase.gate_id}: {state.gate_status[sidebar_phase.number]}</small></div>', unsafe_allow_html=True)
+    with st.expander("Runner controls", expanded=False):
         mode = st.radio("Execution mode", ["Demo", "Live AI"], help="Demo uses checked-in synthetic artifacts. Live AI calls Gemini.")
         model = st.text_input("Gemini model", value=os.getenv("GEMINI_MODEL", "gemini-2.5-flash"), disabled=mode == "Demo")
         live_password = ""
@@ -144,26 +147,12 @@ with st.sidebar:
             st.session_state.uploaded_inputs = {}
             st.session_state.final_dialog_shown = False
             st.rerun()
-        st.divider()
-        st.link_button("Open public documentation", PAGES_URL, use_container_width=True)
-        st.caption("Agents never approve gates. Every approval shown here is a human action.")
-    with phases_tab:
-        for sidebar_phase in PHASES:
-            sidebar_status = state.phase_status[sidebar_phase.number]
-            sidebar_class = "current" if sidebar_phase.number == state.current_phase and sidebar_status != "APPROVED" else "done" if sidebar_status == "APPROVED" else ""
-            sidebar_agents = " + ".join(Path(agent).stem.replace("-", " ").title() for agent in sidebar_phase.agents)
-            st.markdown(f'<div class="side-phase {sidebar_class}"><strong>{sidebar_phase.number}. {sidebar_phase.name}</strong><small>{sidebar_agents}</small><small>{sidebar_status} · {sidebar_phase.gate_id}: {state.gate_status[sidebar_phase.number]}</small></div>', unsafe_allow_html=True)
+    st.link_button("Open public documentation", PAGES_URL, use_container_width=True)
+    st.caption("Collapse this panel with ☰ to expand the workspace. Human gates require explicit reviewer decisions.")
 
 st.markdown('<div class="hero"><h1>AI UX Discovery-to-Prototype Pipeline</h1><p>BRD → Research → Ideation → Design → Validation → Verified Workable Prototype</p></div>', unsafe_allow_html=True)
 execution_hud = st.empty()
 st.write("")
-
-strip_nodes = []
-for strip_phase in PHASES:
-    strip_status = state.phase_status[strip_phase.number]
-    strip_class = "current" if strip_phase.number == state.current_phase and strip_status != "APPROVED" else "done" if strip_status == "APPROVED" else ""
-    strip_nodes.append(f'<div class="pipeline-node {strip_class}"><strong>{strip_phase.number}. {strip_phase.name}</strong>{strip_status} · {strip_phase.gate_id}</div>')
-st.markdown(f'<div class="pipeline-strip">{"".join(strip_nodes)}</div>', unsafe_allow_html=True)
 
 st.subheader("1. Project inputs")
 uploads = st.file_uploader("Upload Markdown or text inputs", type=["md", "txt"], accept_multiple_files=True)
