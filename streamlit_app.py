@@ -67,7 +67,9 @@ st.markdown("""
 [data-testid="stSidebarCollapseButton"] button span,
 [data-testid="stSidebarCollapsedControl"] button span,
 [data-testid="stSidebarCollapseButton"] button svg,
-[data-testid="stSidebarCollapsedControl"] button svg {color:#ffffff !important;fill:#ffffff !important;opacity:1 !important}
+[data-testid="stSidebarCollapsedControl"] button svg {display:none !important}
+[data-testid="stSidebarCollapseButton"] button::after,
+[data-testid="stSidebarCollapsedControl"] button::after {content:"☰";display:block;color:#ffffff;font-family:Arial,sans-serif;font-size:18px;font-weight:800;line-height:1}
 [data-testid="stSidebarCollapseButton"] button:focus-visible,
 [data-testid="stSidebarCollapsedControl"] button:focus-visible {outline:3px solid #f7d154 !important;outline-offset:2px !important}
 </style>
