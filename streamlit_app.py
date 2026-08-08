@@ -126,14 +126,21 @@ def confirm_gate_decision(phase_number: int, decision: str) -> None:
         st.rerun()
 
 with st.sidebar:
+    live_mode_enabled = st.toggle(
+        "Live AI mode",
+        value=False,
+        key="live_mode_switch",
+        help="Off uses the predefined synthetic demo without model tokens. On runs the protected Gemini execution path.",
+    )
+    mode = "Live AI" if live_mode_enabled else "Demo"
+    st.caption("LIVE AI · password protected" if live_mode_enabled else "DEMO · predefined synthetic inputs · no tokens")
     st.header("Pipeline phases")
     for sidebar_phase in PHASES:
         sidebar_status = state.phase_status[sidebar_phase.number]
         sidebar_class = "current" if sidebar_phase.number == state.current_phase and sidebar_status != "APPROVED" else "done" if sidebar_status == "APPROVED" else ""
         sidebar_agents = " + ".join(Path(agent).stem.replace("-", " ").title() for agent in sidebar_phase.agents)
         st.markdown(f'<div class="side-phase {sidebar_class}"><strong>{sidebar_phase.number}. {sidebar_phase.name}</strong><small>{sidebar_agents}</small><small>{sidebar_status} · {sidebar_phase.gate_id}: {state.gate_status[sidebar_phase.number]}</small></div>', unsafe_allow_html=True)
-    with st.expander("Runner controls", expanded=False):
-        mode = st.radio("Execution mode", ["Demo", "Live AI"], help="Demo uses checked-in synthetic artifacts. Live AI calls Gemini.")
+    with st.expander("Runner controls", expanded=live_mode_enabled):
         model = st.text_input("Gemini model", value=os.getenv("GEMINI_MODEL", "gemini-2.5-flash"), disabled=mode == "Demo")
         live_password = ""
         if mode == "Live AI":
