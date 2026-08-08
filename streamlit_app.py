@@ -35,6 +35,8 @@ st.markdown("""
 .active .status::before {animation:pulse 1.4s infinite;box-shadow:0 0 0 0 #008f8870}
 .agent-chip {display:inline-block;margin:.2rem .15rem .1rem 0;padding:.22rem .48rem;border-radius:8px;background:#eaf3fc;color:#174a72;font-size:.76rem;font-weight:650}
 .gate-line {margin-top:.65rem;padding-top:.55rem;border-top:1px dashed #b9cee1;font-size:.76rem;color:#486781}
+.pipeline-strip {display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem;margin:.9rem 0 1.2rem}.pipeline-node {position:relative;padding:.65rem .75rem;border:1px solid #bfd5e9;border-radius:12px;background:#ffffffcc;color:#31526e;font-size:.76rem}.pipeline-node strong {display:block;color:#123c61;font-size:.86rem}.pipeline-node.current {border:2px solid #008f88;background:#edfffb;box-shadow:0 6px 18px #008f8826}.pipeline-node.done {border-color:#58ad80;background:#f1fff7}.pipeline-node::after {content:"→";position:absolute;right:-.55rem;top:35%;z-index:2;color:#6c91af;font-weight:800}.pipeline-node:last-child::after {display:none}
+.side-phase {margin:.55rem 0;padding:.7rem;border:1px solid #547ca4;border-radius:12px;background:#ffffff12}.side-phase.current {border-color:#45d6c5;background:#008f8830;box-shadow:inset 3px 0 #45d6c5}.side-phase.done {border-color:#6ac497;background:#39a67825}.side-phase strong,.side-phase small {display:block;color:#f7fbff !important}.side-phase small {margin-top:.25rem;color:#b9d8ee !important}
 .pipeline-console {padding:1rem 1.2rem;border-radius:16px;background:#082f5b;color:#edf8ff;box-shadow:inset 4px 0 #16b8a6,0 8px 22px #082f5b25}
 .pipeline-console small {color:#9fd8ed}.pipeline-console strong {color:#fff}
 .run-overlay {position:fixed;z-index:9999;top:3.6rem;left:50%;transform:translateX(-50%);width:min(780px,calc(100vw - 2rem));padding:.75rem 1rem;border:1px solid #45d6c5;border-radius:14px;background:#062d63f2;color:#fff;box-shadow:0 12px 34px #061f3d55;backdrop-filter:blur(10px);pointer-events:none}
@@ -91,39 +93,65 @@ The prototype is verified **within the documented synthetic-demo and synthetic-v
         use_container_width=True,
     )
 
-with st.sidebar:
-    st.header("Runner controls")
-    mode = st.radio("Execution mode", ["Demo", "Live AI"], help="Demo uses checked-in synthetic artifacts. Live AI calls Gemini.")
-    model = st.text_input("Gemini model", value=os.getenv("GEMINI_MODEL", "gemini-2.5-flash"), disabled=mode == "Demo")
-    live_password = ""
-    if mode == "Live AI":
-        live_password = st.text_input(
-            "Live AI access password",
-            type="password",
-            help="This shared password is checked server-side and is separate from the Gemini API key.",
-        )
-    synthetic_ok = st.checkbox("Inputs are synthetic demo data", value=mode == "Demo")
-    if st.button("Reset session", use_container_width=True):
-        st.session_state.pipeline = PipelineSession()
-        st.session_state.uploaded_inputs = {}
-        st.session_state.final_dialog_shown = False
+
+@st.dialog("Confirm human gate decision")
+def confirm_gate_decision(phase_number: int, decision: str) -> None:
+    selected_phase = PHASES[phase_number - 1]
+    st.markdown(f"### Gate {selected_phase.gate_id}: {decision}")
+    consequences = {
+        "APPROVE": f"Advance to Phase {min(phase_number + 1, 4)} after recording your explicit approval.",
+        "REVISE": "Keep this phase active and rerun only affected current/downstream work.",
+        "REJECT": "Block further execution for this session until it is reset.",
+    }
+    st.info(consequences[decision])
+    st.caption("This is a human decision. No agent can record it on your behalf.")
+    confirm, cancel = st.columns(2)
+    if confirm.button(f"Confirm {decision}", type="primary" if decision == "APPROVE" else "secondary", use_container_width=True):
+        record_gate(state, phase_number, decision)
         st.rerun()
-    st.divider()
-    st.link_button("Open public documentation", PAGES_URL, use_container_width=True)
-    st.caption("Agents never approve gates. Every approval shown here is a human action.")
+    if cancel.button("Cancel", use_container_width=True):
+        st.rerun()
+
+with st.sidebar:
+    st.header("Pipeline console")
+    st.caption("Use the arrow above to collapse this panel and expand the workspace.")
+    controls_tab, phases_tab = st.tabs(["Controls", "Phases"])
+    with controls_tab:
+        mode = st.radio("Execution mode", ["Demo", "Live AI"], help="Demo uses checked-in synthetic artifacts. Live AI calls Gemini.")
+        model = st.text_input("Gemini model", value=os.getenv("GEMINI_MODEL", "gemini-2.5-flash"), disabled=mode == "Demo")
+        live_password = ""
+        if mode == "Live AI":
+            live_password = st.text_input(
+                "Live AI access password",
+                type="password",
+                help="This shared password is checked server-side and is separate from the Gemini API key.",
+            )
+        synthetic_ok = st.checkbox("Inputs are synthetic demo data", value=mode == "Demo")
+        if st.button("Reset session", use_container_width=True):
+            st.session_state.pipeline = PipelineSession()
+            st.session_state.uploaded_inputs = {}
+            st.session_state.final_dialog_shown = False
+            st.rerun()
+        st.divider()
+        st.link_button("Open public documentation", PAGES_URL, use_container_width=True)
+        st.caption("Agents never approve gates. Every approval shown here is a human action.")
+    with phases_tab:
+        for sidebar_phase in PHASES:
+            sidebar_status = state.phase_status[sidebar_phase.number]
+            sidebar_class = "current" if sidebar_phase.number == state.current_phase and sidebar_status != "APPROVED" else "done" if sidebar_status == "APPROVED" else ""
+            sidebar_agents = " + ".join(Path(agent).stem.replace("-", " ").title() for agent in sidebar_phase.agents)
+            st.markdown(f'<div class="side-phase {sidebar_class}"><strong>{sidebar_phase.number}. {sidebar_phase.name}</strong><small>{sidebar_agents}</small><small>{sidebar_status} · {sidebar_phase.gate_id}: {state.gate_status[sidebar_phase.number]}</small></div>', unsafe_allow_html=True)
 
 st.markdown('<div class="hero"><h1>AI UX Discovery-to-Prototype Pipeline</h1><p>BRD → Research → Ideation → Design → Validation → Verified Workable Prototype</p></div>', unsafe_allow_html=True)
 execution_hud = st.empty()
 st.write("")
 
-cols = st.columns(4)
-for phase, col in zip(PHASES, cols):
-    with col:
-        status = state.phase_status[phase.number]
-        card_class = "active" if phase.number == state.current_phase and status != "APPROVED" else "approved" if status == "APPROVED" else "blocked" if status in ("REJECTED", "REVISION REQUIRED") else ""
-        last_class = "last" if phase.number == 4 else ""
-        agents = "".join(f'<span class="agent-chip">◉ {Path(agent).stem.replace("-", " ").title()}</span>' for agent in phase.agents)
-        st.markdown(f'<div class="phase-card {card_class} {last_class}"><div class="status">{status}</div><h3>Phase {phase.number}: {phase.name}</h3><div>{agents}</div><div class="gate-line">Human Gate {phase.gate_id} · {state.gate_status[phase.number]}</div></div>', unsafe_allow_html=True)
+strip_nodes = []
+for strip_phase in PHASES:
+    strip_status = state.phase_status[strip_phase.number]
+    strip_class = "current" if strip_phase.number == state.current_phase and strip_status != "APPROVED" else "done" if strip_status == "APPROVED" else ""
+    strip_nodes.append(f'<div class="pipeline-node {strip_class}"><strong>{strip_phase.number}. {strip_phase.name}</strong>{strip_status} · {strip_phase.gate_id}</div>')
+st.markdown(f'<div class="pipeline-strip">{"".join(strip_nodes)}</div>', unsafe_allow_html=True)
 
 st.subheader("1. Project inputs")
 uploads = st.file_uploader("Upload Markdown or text inputs", type=["md", "txt"], accept_multiple_files=True)
@@ -192,18 +220,17 @@ with c2:
 phase_artifacts = [(path, state.artifacts[path]) for path in phase.outputs if path in state.artifacts]
 if phase_artifacts:
     st.subheader(f"3. Gate {phase.gate_id} — Human review")
+    if state.phase_status[phase.number] == "READY FOR REVIEW":
+        st.warning("Review the artifacts below, then record an explicit human decision.")
+        a, r, x = st.columns(3)
+        for column, decision, label in ((a, "APPROVE", "✓ APPROVE"), (r, "REVISE", "↺ REVISE"), (x, "REJECT", "✕ REJECT")):
+            if column.button(label, use_container_width=True, type="primary" if decision == "APPROVE" else "secondary"):
+                confirm_gate_decision(phase.number, decision)
     tabs = st.tabs([Path(path).name for path, _ in phase_artifacts])
     for tab, (path, content) in zip(tabs, phase_artifacts):
         with tab:
             st.caption(path)
             st.markdown(content)
-    if state.phase_status[phase.number] == "READY FOR REVIEW":
-        st.warning("Review all artifacts. Only your explicit APPROVE can advance the workflow.")
-        a, r, x = st.columns(3)
-        for column, decision in ((a, "APPROVE"), (r, "REVISE"), (x, "REJECT")):
-            if column.button(decision, use_container_width=True, type="primary" if decision == "APPROVE" else "secondary"):
-                record_gate(state, phase.number, decision)
-                st.rerun()
 
 if state.artifacts:
     st.divider()
