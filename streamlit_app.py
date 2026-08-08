@@ -12,6 +12,7 @@ sys.path.insert(0, str(ROOT / "src"))
 from ai_ux_workflow.contracts import PHASES
 from ai_ux_workflow.gemini import generate_with_gemini
 from ai_ux_workflow.pipeline import PipelineSession, artifact_zip, record_gate, repository_generator, run_phase
+from ai_ux_workflow.security import valid_live_password
 
 
 PAGES_URL = "https://karthiksoorya.github.io/ai-ux-design-pipeline/"
@@ -78,6 +79,13 @@ with st.sidebar:
     st.header("Runner controls")
     mode = st.radio("Execution mode", ["Demo", "Live AI"], help="Demo uses checked-in synthetic artifacts. Live AI calls Gemini.")
     model = st.text_input("Gemini model", value=os.getenv("GEMINI_MODEL", "gemini-2.5-flash"), disabled=mode == "Demo")
+    live_password = ""
+    if mode == "Live AI":
+        live_password = st.text_input(
+            "Live AI access password",
+            type="password",
+            help="This shared password is checked server-side and is separate from the Gemini API key.",
+        )
     synthetic_ok = st.checkbox("Inputs are synthetic demo data", value=mode == "Demo")
     if st.button("Reset session", use_container_width=True):
         st.session_state.pipeline = PipelineSession()
@@ -116,6 +124,11 @@ with c1:
             if mode == "Demo":
                 generator = repository_generator(ROOT)
             else:
+                configured_password = os.getenv("LIVE_AI_PASSWORD", "") or st.secrets.get("LIVE_AI_PASSWORD", "")
+                if not configured_password:
+                    raise ValueError("Live AI is locked because LIVE_AI_PASSWORD is not configured by the app owner.")
+                if not valid_live_password(live_password, configured_password):
+                    raise ValueError("Incorrect Live AI access password.")
                 if not synthetic_ok:
                     raise ValueError("Confirm that live inputs are synthetic demo data before using the free-tier model.")
                 api_key = os.getenv("GEMINI_API_KEY", "") or st.secrets.get("GEMINI_API_KEY", "")

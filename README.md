@@ -105,7 +105,10 @@ For Streamlit Community Cloud, select this repository, the `main` branch, and `s
 
 ```toml
 GEMINI_API_KEY = "your-key"
+LIVE_AI_PASSWORD = "a-long-unique-password"
 ```
+
+`LIVE_AI_PASSWORD` protects the public Live AI control from casual unauthorized use. Demo mode remains public and consumes no model quota. Treat this as a shared-demo safeguard, not as user-account authentication; rotate it if it is disclosed.
 
 GitHub Pages remains the documentation and static prototype host; Streamlit hosts the executable workflow runner.
 

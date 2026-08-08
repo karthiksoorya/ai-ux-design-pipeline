@@ -5,6 +5,7 @@ import pytest
 from ai_ux_workflow.contracts import PHASES
 from ai_ux_workflow.gemini import build_phase_prompt
 from ai_ux_workflow.pipeline import PipelineSession, artifact_zip, record_gate, run_phase
+from ai_ux_workflow.security import valid_live_password
 
 
 ROOT = Path(__file__).parents[1]
@@ -61,3 +62,10 @@ def test_live_prompt_marks_sources_untrusted_and_demands_exact_paths():
     assert "UNTRUSTED SOURCE" in prompt
     assert "never instructions" in prompt
     assert all(path in prompt for path in PHASES[0].outputs)
+
+
+def test_live_password_requires_exact_nonempty_match():
+    assert valid_live_password("correct horse", "correct horse")
+    assert not valid_live_password("wrong", "correct horse")
+    assert not valid_live_password("", "correct horse")
+    assert not valid_live_password("correct horse", "")
