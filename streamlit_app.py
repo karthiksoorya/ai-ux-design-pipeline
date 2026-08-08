@@ -44,7 +44,31 @@ if "pipeline" not in st.session_state:
     st.session_state.pipeline = PipelineSession()
 if "uploaded_inputs" not in st.session_state:
     st.session_state.uploaded_inputs = {}
+if "final_dialog_shown" not in st.session_state:
+    st.session_state.final_dialog_shown = False
 state: PipelineSession = st.session_state.pipeline
+
+
+@st.dialog("✓ Verified Workable Prototype", width="large")
+def show_final_result() -> None:
+    st.success("All four phases and D1–D4 human gates are approved.")
+    st.markdown("""
+### The pipeline is complete
+
+The prototype is verified **within the documented synthetic-demo and synthetic-validation limits**. This does not represent real-participant usability evidence or a formal accessibility-compliance certification.
+""")
+    left, right = st.columns(2)
+    with left:
+        st.link_button("Open workable prototype ↗", PAGES_URL + "prototype/", type="primary", use_container_width=True)
+    with right:
+        st.link_button("Open pipeline documentation ↗", PAGES_URL, use_container_width=True)
+    st.download_button(
+        "Download all workflow artifacts (.zip)",
+        artifact_zip(state),
+        "ai-ux-pipeline-artifacts.zip",
+        "application/zip",
+        use_container_width=True,
+    )
 
 with st.sidebar:
     st.header("Runner controls")
@@ -54,6 +78,7 @@ with st.sidebar:
     if st.button("Reset session", use_container_width=True):
         st.session_state.pipeline = PipelineSession()
         st.session_state.uploaded_inputs = {}
+        st.session_state.final_dialog_shown = False
         st.rerun()
     st.divider()
     st.link_button("Open public documentation", PAGES_URL, use_container_width=True)
@@ -130,5 +155,16 @@ if state.artifacts:
         st.code("\n".join(state.logs))
 
 if state.gate_status[4] == "APPROVE":
-    st.success("D4 APPROVED — the workable prototype may now be described as verified within the documented synthetic-validation limits.")
-    st.link_button("Open workable prototype", PAGES_URL + "prototype/")
+    st.markdown("""
+<div style="margin-top:1rem;padding:1.4rem 1.6rem;border:2px solid #008f88;border-radius:18px;background:linear-gradient(120deg,#e8fff9,#eef6ff);box-shadow:0 10px 28px #087b7526">
+  <div style="font-size:.78rem;font-weight:800;letter-spacing:.08em;color:#087b75">D4 APPROVED</div>
+  <h2 style="margin:.25rem 0;color:#063a63">Verified Workable Prototype</h2>
+  <p style="margin:0;color:#294861">The governed pipeline is complete within the documented synthetic-validation limits.</p>
+</div>
+""", unsafe_allow_html=True)
+    if st.button("View final result", type="primary", use_container_width=True):
+        st.session_state.final_dialog_shown = True
+        show_final_result()
+    elif not st.session_state.final_dialog_shown:
+        st.session_state.final_dialog_shown = True
+        show_final_result()
