@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 import sys
+import time
 from pathlib import Path
 
 import streamlit as st
@@ -23,8 +24,20 @@ st.markdown("""
 .stApp {background: linear-gradient(145deg,#f7fbff 0%,#eef6ff 48%,#f8fffd 100%)}
 .hero {padding:1.7rem 2rem;border-radius:22px;background:linear-gradient(120deg,#062d63,#075a8c 58%,#008f88);color:white;box-shadow:0 14px 35px #0c3d6a26}
 .hero h1 {margin:0;font-size:2.35rem}.hero p{font-size:1.05rem;opacity:.9;margin-bottom:0}
-.phase-card {border:1px solid #bdd5ec;background:#ffffffcc;border-radius:14px;padding:.9rem;min-height:130px}
-.status {font-size:.72rem;font-weight:800;letter-spacing:.06em;color:#087b75}
+.phase-card {position:relative;border:1px solid #bdd5ec;background:#ffffffde;border-radius:16px;padding:1rem;min-height:174px;box-shadow:0 5px 14px #164f7a0d;transition:.25s ease}
+.phase-card::after {content:"";position:absolute;top:31px;right:-22px;width:22px;height:2px;background:#a9c8e5}
+.phase-card.last::after {display:none}
+.phase-card.active {border:2px solid #008f88;background:linear-gradient(145deg,#fff,#edfffb);box-shadow:0 10px 28px #008f8830;transform:translateY(-4px)}
+.phase-card.approved {border-color:#48a97c;background:#f2fff8}
+.phase-card.blocked {border-color:#d66a6a;background:#fff5f5}
+.status {display:inline-flex;align-items:center;gap:.4rem;border-radius:999px;padding:.25rem .55rem;font-size:.68rem;font-weight:800;letter-spacing:.06em;color:#087b75;background:#ddf8f1}
+.status::before {content:"";width:7px;height:7px;border-radius:50%;background:#008f88}
+.active .status::before {animation:pulse 1.4s infinite;box-shadow:0 0 0 0 #008f8870}
+.agent-chip {display:inline-block;margin:.2rem .15rem .1rem 0;padding:.22rem .48rem;border-radius:8px;background:#eaf3fc;color:#174a72;font-size:.76rem;font-weight:650}
+.gate-line {margin-top:.65rem;padding-top:.55rem;border-top:1px dashed #b9cee1;font-size:.76rem;color:#486781}
+.pipeline-console {padding:1rem 1.2rem;border-radius:16px;background:#082f5b;color:#edf8ff;box-shadow:inset 4px 0 #16b8a6,0 8px 22px #082f5b25}
+.pipeline-console small {color:#9fd8ed}.pipeline-console strong {color:#fff}
+@keyframes pulse {0%{box-shadow:0 0 0 0 #008f8870}70%{box-shadow:0 0 0 9px #008f8800}100%{box-shadow:0 0 0 0 #008f8800}}
 [data-testid="stSidebar"] {background:#062d63;color:white}
 [data-testid="stSidebar"] h1,
 [data-testid="stSidebar"] h2,
@@ -102,8 +115,11 @@ st.write("")
 cols = st.columns(4)
 for phase, col in zip(PHASES, cols):
     with col:
-        agents = "<br>".join(Path(agent).stem.replace("-", " ").title() for agent in phase.agents)
-        st.markdown(f'<div class="phase-card"><div class="status">{state.phase_status[phase.number]}</div><h3>Phase {phase.number}: {phase.name}</h3><div>{agents}</div><small>Gate {phase.gate_id}: {state.gate_status[phase.number]}</small></div>', unsafe_allow_html=True)
+        status = state.phase_status[phase.number]
+        card_class = "active" if phase.number == state.current_phase and status != "APPROVED" else "approved" if status == "APPROVED" else "blocked" if status in ("REJECTED", "REVISION REQUIRED") else ""
+        last_class = "last" if phase.number == 4 else ""
+        agents = "".join(f'<span class="agent-chip">◉ {Path(agent).stem.replace("-", " ").title()}</span>' for agent in phase.agents)
+        st.markdown(f'<div class="phase-card {card_class} {last_class}"><div class="status">{status}</div><h3>Phase {phase.number}: {phase.name}</h3><div>{agents}</div><div class="gate-line">Human Gate {phase.gate_id} · {state.gate_status[phase.number]}</div></div>', unsafe_allow_html=True)
 
 st.subheader("1. Project inputs")
 uploads = st.file_uploader("Upload Markdown or text inputs", type=["md", "txt"], accept_multiple_files=True)
@@ -116,6 +132,10 @@ st.caption("Active inputs: " + (", ".join(input_names) if input_names else "None
 
 phase = PHASES[state.current_phase - 1]
 st.subheader(f"2. Execute Phase {phase.number} — {phase.name}")
+active_agents = " + ".join(Path(agent).stem.replace("-", " ").title() for agent in phase.agents)
+mode_note = "Synthetic artifact replay — no model tokens used" if mode == "Demo" else "Live Gemini execution — protected by password"
+st.markdown(f'<div class="pipeline-console"><small>CURRENT PIPELINE ACTIVITY</small><br><strong>{active_agents}</strong><br><small>{mode_note} · waiting to execute {len(phase.skills)} declared skills</small></div>', unsafe_allow_html=True)
+st.write("")
 c1, c2 = st.columns([1, 2])
 with c1:
     can_run = state.phase_status[phase.number] in ("NOT STARTED", "REVISION REQUIRED")
@@ -139,8 +159,18 @@ with c1:
                     raise ValueError("Upload at least one BRD or supporting source for Live AI mode.")
                 supplied.update(state.artifacts)
                 generator = lambda p, _: generate_with_gemini(ROOT, p, supplied, api_key, model)
-            with st.spinner(f"{', '.join(Path(a).stem for a in phase.agents)} is working…"):
+            with st.status(f"Dispatching Phase {phase.number} agents…", expanded=True) as execution_status:
+                st.write(f"**Agents:** {active_agents}")
+                progress = st.progress(0, text="Preparing authoritative workflow context")
+                for index, skill in enumerate(phase.skills, 1):
+                    progress.progress(index / (len(phase.skills) + 1), text=f"Applying {skill}")
+                    st.write(f"`{index:02d}`  {skill}")
+                    if mode == "Demo":
+                        time.sleep(0.22)
                 run_phase(state, phase.number, generator)
+                progress.progress(1.0, text=f"Validating declared outputs for Gate {phase.gate_id}")
+                execution_status.update(label=f"Phase {phase.number} complete — Gate {phase.gate_id} review required", state="complete", expanded=True)
+                time.sleep(0.35)
             st.success(f"Phase {phase.number} is ready for Gate {phase.gate_id}.")
             st.rerun()
         except Exception as exc:
