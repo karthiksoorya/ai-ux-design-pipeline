@@ -25,6 +25,18 @@ st.markdown("""
 .phase-card {border:1px solid #bdd5ec;background:#ffffffcc;border-radius:14px;padding:.9rem;min-height:130px}
 .status {font-size:.72rem;font-weight:800;letter-spacing:.06em;color:#087b75}
 [data-testid="stSidebar"] {background:#062d63;color:white}
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] [data-testid="stWidgetLabel"],
+[data-testid="stSidebar"] [role="radiogroup"] label span,
+[data-testid="stSidebar"] [data-testid="stCaptionContainer"] {color:#f7fbff !important}
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p {color:#f7fbff !important}
+[data-testid="stSidebar"] input {color:#102a43 !important;background:#f7fbff !important}
+[data-testid="stSidebar"] input:disabled {-webkit-text-fill-color:#34516f !important;opacity:1 !important}
+[data-testid="stSidebar"] hr {border-color:#6f91b5 !important}
 </style>
 """, unsafe_allow_html=True)
 
