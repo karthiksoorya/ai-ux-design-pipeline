@@ -87,6 +87,28 @@ This submission represents **Deliverable 01: AI Design Pipeline Documentation**.
 
 The included Python utility validates and demonstrates deterministic workflow contracts; it does not replace the Markdown agents or perform autonomous LLM execution. The local prototype and Phase 4 findings remain limited to the documented synthetic demo scope.
 
+## Interactive Streamlit Demo
+
+`streamlit_app.py` provides a browser-based runner showing all four phases, responsible agents, ordered skills, generated artifacts, and explicit D1-D4 human decisions.
+
+- **Demo mode** replays checked-in synthetic artifacts without an API key or repository writes.
+- **Live AI mode** sends synthetic demo inputs to Gemini and accepts only the phase's declared output paths. Store `GEMINI_API_KEY` in Streamlit secrets; never commit it.
+
+Run locally:
+
+```powershell
+python -m pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+For Streamlit Community Cloud, select this repository, the `main` branch, and `streamlit_app.py`. Demo mode works immediately. To enable Live AI mode, add the following under the deployed app's **Settings > Secrets**:
+
+```toml
+GEMINI_API_KEY = "your-key"
+```
+
+GitHub Pages remains the documentation and static prototype host; Streamlit hosts the executable workflow runner.
+
 ## GitHub Pages
 
 The public documentation site lives in `docs/` and uses dependency-free HTML, CSS, and JavaScript. It can be hosted directly with GitHub Pages:
