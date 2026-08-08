@@ -109,6 +109,8 @@ GEMINI_API_KEY = "your-key"
 
 GitHub Pages remains the documentation and static prototype host; Streamlit hosts the executable workflow runner.
 
+Public runner: **https://ai-ux-design-pipeline.streamlit.app/**
+
 ## GitHub Pages
 
 The public documentation site lives in `docs/` and uses dependency-free HTML, CSS, and JavaScript. It can be hosted directly with GitHub Pages:
