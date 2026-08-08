@@ -23,8 +23,8 @@ st.markdown("""
 <style>
 .stApp {background: linear-gradient(145deg,#f7fbff 0%,#eef6ff 48%,#f8fffd 100%)}
 .block-container {padding-top:1rem !important}
-.hero {padding:.9rem 1.25rem;border-radius:15px;background:linear-gradient(120deg,#062d63,#075a8c 58%,#008f88);color:white;box-shadow:0 8px 24px #0c3d6a20}
-.hero h1 {margin:0;font-size:1.72rem;line-height:1.2}.hero p{font-size:.88rem;opacity:.9;margin:.35rem 0 0}
+.hero {padding:.7rem 1.1rem;border-radius:15px;background:linear-gradient(120deg,#062d63,#075a8c 58%,#008f88);color:white;box-shadow:0 8px 24px #0c3d6a20}
+.hero h1 {margin:0 !important;padding:0 !important;font-size:1.55rem;line-height:1.15}.hero p{font-size:.8rem;line-height:1.25;opacity:.9;margin:.3rem 0 0 !important}
 .phase-card {position:relative;border:1px solid #bdd5ec;background:#ffffffde;border-radius:16px;padding:1rem;min-height:174px;box-shadow:0 5px 14px #164f7a0d;transition:.25s ease}
 .phase-card::after {content:"";position:absolute;top:31px;right:-22px;width:22px;height:2px;background:#a9c8e5}
 .phase-card.last::after {display:none}
