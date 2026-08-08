@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A reusable, agent-owned AI UX Discovery-to-Prototype pipeline with human review gates and traceable artifacts.">
+  <title>AI UX Discovery-to-Prototype Pipeline</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="AI UX Pipeline home">
+      <span class="brand-mark">AI</span>
+      <span>UX Pipeline</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" aria-label="Primary navigation">
+      <a href="#architecture">Architecture</a>
+      <a href="#agents">Agents</a>
+      <a href="#artifacts">Artifacts</a>
+      <a href="#evidence">Evidence rules</a>
+      <a class="nav-cta" href="prototype/index.html">Open prototype</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Deliverable 01 · AI Design Pipeline Documentation</p>
+        <h1>From BRD to a governed, human-approved UX prototype.</h1>
+        <p class="lead">A reusable agentic workflow that separates evidence from assumptions, assigns work to specialist agents, and requires explicit human approval at every decision gate.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#architecture">Explore the pipeline</a>
+          <a class="button secondary" href="prototype/index.html">Try the demo prototype</a>
+        </div>
+        <ul class="status-strip" aria-label="Project status">
+          <li><strong>4</strong><span>Phases</span></li>
+          <li><strong>5</strong><span>Agents</span></li>
+          <li><strong>22</strong><span>Skills</span></li>
+          <li><strong>4/4</strong><span>Gates approved</span></li>
+          <li><strong>32</strong><span>Tests passed</span></li>
+        </ul>
+      </div>
+      <aside class="hero-panel" aria-label="Pipeline sequence">
+        <p class="panel-label">Execution sequence</p>
+        <ol>
+          <li><span>01</span><div><strong>Discover</strong><small>Challenge + research</small></div></li>
+          <li><span>02</span><div><strong>Define & Ideate</strong><small>Frame + explore</small></div></li>
+          <li><span>03</span><div><strong>Design & Prototype</strong><small>Specify + build</small></div></li>
+          <li><span>04</span><div><strong>Validate</strong><small>Audit + cover</small></div></li>
+        </ol>
+      </aside>
+    </section>
+
+    <section class="section" id="architecture">
+      <div class="section-heading">
+        <p class="eyebrow">Interactive architecture</p>
+        <h2>Agent-owned work. Human-owned decisions.</h2>
+        <p>Select a phase to inspect its owners, skills, outputs, and gate.</p>
+      </div>
+      <div class="phase-tabs" role="tablist" aria-label="Workflow phases" id="phase-tabs"></div>
+      <article class="phase-detail" id="phase-detail" aria-live="polite"></article>
+      <figure class="diagram-card">
+        <img src="assets/AI_UX_Workflow_Flow_Color.png" alt="Color diagram of the four-phase AI UX workflow, its agents, and D1 through D4 human gates.">
+        <figcaption>Four phases move from BRD discovery to validation. Only explicit human approval advances the pipeline.</figcaption>
+      </figure>
+    </section>
+
+    <section class="section section-tint" id="agents">
+      <div class="section-heading">
+        <p class="eyebrow">Specialist agent model</p>
+        <h2>Five clear responsibility owners</h2>
+        <p>The orchestrator routes work but never substitutes for the specialist agent or approves a human gate.</p>
+      </div>
+      <div class="agent-grid" id="agent-grid"></div>
+    </section>
+
+    <section class="section" id="artifacts">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">Traceable deliverables</p>
+          <h2>Inputs become reviewable artifacts</h2>
+        </div>
+        <label class="artifact-filter">Filter artifacts
+          <select id="artifact-filter">
+            <option value="all">All phases</option>
+            <option value="1">Phase 1</option>
+            <option value="2">Phase 2</option>
+            <option value="3">Phase 3</option>
+            <option value="4">Phase 4</option>
+            <option value="reviews">Human reviews</option>
+          </select>
+        </label>
+      </div>
+      <div class="artifact-grid" id="artifact-grid"></div>
+      <figure class="diagram-card folder-diagram">
+        <img src="assets/AI_UX_Folder_Structure_Color.png" alt="Repository folder tree showing workflow, agents, skills, gates, inputs, outputs, runtime, and tests.">
+        <figcaption>The repository keeps workflow contracts, active project state, generated outputs, runtime code, and tests separate.</figcaption>
+      </figure>
+    </section>
+
+    <section class="section evidence" id="evidence">
+      <div class="section-heading">
+        <p class="eyebrow">Safety and evidence governance</p>
+        <h2>Designed to resist confident fiction</h2>
+      </div>
+      <div class="rule-grid">
+        <article><span>01</span><h3>No invented research</h3><p>Synthetic inputs remain visibly labelled and are never presented as real-participant findings.</p></article>
+        <article><span>02</span><h3>Facts stay separate</h3><p>Facts, BRD statements, inferences, assumptions, and risk hypotheses retain distinct classifications.</p></article>
+        <article><span>03</span><h3>Traceability required</h3><p>Substantive findings point back to a source locator and include confidence where needed.</p></article>
+        <article><span>04</span><h3>Humans approve</h3><p>Agents cannot self-approve D1, D2, D3, or D4. Silence never counts as approval.</p></article>
+        <article><span>05</span><h3>Synthetic validation disclosed</h3><p>Heuristic walkthroughs are not empirical usability evidence or measured participant behavior.</p></article>
+        <article><span>06</span><h3>No unsupported compliance claim</h3><p>Accessibility analysis identifies evidence-bounded risks and does not claim full WCAG conformance.</p></article>
+      </div>
+    </section>
+
+    <section class="section final-cta">
+      <div>
+        <p class="eyebrow">Current outcome</p>
+        <h2>Verified workable prototype—for the documented synthetic demo scope.</h2>
+        <p>D1 through D4 were explicitly approved. Recorded limitations remain visible and do not become hidden claims.</p>
+      </div>
+      <a class="button primary" href="prototype/index.html">Launch appointment demo</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>AI UX Discovery-to-Prototype Pipeline · Stable v2.0</p>
+    <p>Static GitHub Pages documentation · No personal data is collected</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

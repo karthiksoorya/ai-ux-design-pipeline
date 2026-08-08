@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-ux-workflow"
+version = "2.0.0"
+description = "Runtime validation and routing for the frozen AI UX workflow"
+requires-python = ">=3.10"
+
+[project.scripts]
+ai-ux-workflow = "ai_ux_workflow.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
