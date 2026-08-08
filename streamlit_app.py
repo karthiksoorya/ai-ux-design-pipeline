@@ -22,9 +22,10 @@ st.set_page_config(page_title="AI UX Design Pipeline", page_icon="✦", layout="
 st.markdown("""
 <style>
 .stApp {background: linear-gradient(145deg,#f7fbff 0%,#eef6ff 48%,#f8fffd 100%)}
-.block-container {padding-top:1rem !important}
+.block-container {padding-top:3.6rem !important}
 .hero {padding:.7rem 1.1rem;border-radius:15px;background:linear-gradient(120deg,#062d63,#075a8c 58%,#008f88);color:white;box-shadow:0 8px 24px #0c3d6a20}
-.hero h1 {margin:0 !important;padding:0 !important;font-size:1.55rem;line-height:1.15}.hero p{font-size:.8rem;line-height:1.25;opacity:.9;margin:.3rem 0 0 !important}
+.hero-top {display:flex;align-items:center;justify-content:space-between;gap:1rem}.hero h1 {margin:0 !important;padding:0 !important;font-size:1.55rem;line-height:1.15}.hero p{font-size:.8rem;line-height:1.25;opacity:.9;margin:.3rem 0 0 !important}
+.mode-badge {flex:0 0 auto;padding:.3rem .65rem;border:1px solid #bafff4;border-radius:999px;font-size:.7rem;font-weight:850;letter-spacing:.08em;color:#062d63;background:#bafff4}.mode-badge.live {color:#fff;background:#d66a27;border-color:#ffd5ad}
 .phase-card {position:relative;border:1px solid #bdd5ec;background:#ffffffde;border-radius:16px;padding:1rem;min-height:174px;box-shadow:0 5px 14px #164f7a0d;transition:.25s ease}
 .phase-card::after {content:"";position:absolute;top:31px;right:-22px;width:22px;height:2px;background:#a9c8e5}
 .phase-card.last::after {display:none}
@@ -150,7 +151,9 @@ with st.sidebar:
     st.link_button("Open public documentation", PAGES_URL, use_container_width=True)
     st.caption("Collapse this panel with ☰ to expand the workspace. Human gates require explicit reviewer decisions.")
 
-st.markdown('<div class="hero"><h1>AI UX Discovery-to-Prototype Pipeline</h1><p>BRD → Research → Ideation → Design → Validation → Verified Workable Prototype</p></div>', unsafe_allow_html=True)
+mode_label = "LIVE AI MODE" if mode == "Live AI" else "DEMO MODE"
+mode_class = "live" if mode == "Live AI" else "demo"
+st.markdown(f'<div class="hero"><div class="hero-top"><h1>AI UX Discovery-to-Prototype Pipeline</h1><span class="mode-badge {mode_class}">{mode_label}</span></div><p>BRD → Research → Ideation → Design → Validation → Verified Workable Prototype</p></div>', unsafe_allow_html=True)
 execution_hud = st.empty()
 st.write("")
 
