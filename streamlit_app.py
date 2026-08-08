@@ -60,6 +60,16 @@ st.markdown("""
 [data-testid="stSidebar"] input {color:#102a43 !important;background:#f7fbff !important}
 [data-testid="stSidebar"] input:disabled {-webkit-text-fill-color:#34516f !important;opacity:1 !important}
 [data-testid="stSidebar"] hr {border-color:#6f91b5 !important}
+[data-testid="stSidebarCollapseButton"] button,
+[data-testid="stSidebarCollapsedControl"] button {background:#0b4b7f !important;border:1px solid #69d7cd !important;border-radius:9px !important;box-shadow:0 3px 10px #001c3840 !important}
+[data-testid="stSidebarCollapseButton"] button:hover,
+[data-testid="stSidebarCollapsedControl"] button:hover {background:#087b75 !important;border-color:#b9fff6 !important}
+[data-testid="stSidebarCollapseButton"] button span,
+[data-testid="stSidebarCollapsedControl"] button span,
+[data-testid="stSidebarCollapseButton"] button svg,
+[data-testid="stSidebarCollapsedControl"] button svg {color:#ffffff !important;fill:#ffffff !important;opacity:1 !important}
+[data-testid="stSidebarCollapseButton"] button:focus-visible,
+[data-testid="stSidebarCollapsedControl"] button:focus-visible {outline:3px solid #f7d154 !important;outline-offset:2px !important}
 </style>
 """, unsafe_allow_html=True)
 
