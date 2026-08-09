@@ -1,0 +1,782 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ghu4i3",
+    "id": "ghu4i3",
+    "slide": 7,
+    "layoutId": "bd85a3a8-e5d7-42d8-b2a9-e9c612018c20",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "4ae48aaf-1327-4e8e-b6d4-0e58072ca55b",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#EEF6FD",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bd85a3a8-e5d7-42d8-b2a9-e9c612018c20",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "4ae48aaf-1327-4e8e-b6d4-0e58072ca55b",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "4ae48aaf-1327-4e8e-b6d4-0e58072ca55b",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sv21c72l",
+      "id": "1",
+      "bbox": [
+        64,
+        44,
+        1120,
+        24
+      ],
+      "geometry": "rect",
+      "text": "TRY IT NOW",
+      "textPreview": "TRY IT NOW",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#079A92",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TRY IT NOW"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TRY IT NOW",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#079A92",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TRY IT NOW",
+              "fontSize": 15,
+              "color": "#079A92",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ru903210",
+      "id": "2",
+      "bbox": [
+        64,
+        75,
+        1120,
+        58
+      ],
+      "geometry": "rect",
+      "text": "A two-minute demo shows the full governed journey",
+      "textPreview": "A two-minute demo shows the full governed journey",
+      "resolvedFontSize": 37,
+      "resolvedTextStyle": {
+        "fontSize": 37,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A two-minute demo shows the full governed journey"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A two-minute demo shows the full governed journey",
+          "resolvedTextStyle": {
+            "fontSize": 37,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A two-minute demo shows the full governed journey",
+              "fontSize": 37,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qt0jahkf",
+      "id": "3",
+      "bbox": [
+        64,
+        136,
+        1120,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Start in Demo mode; switch to Live AI only with the configured password and API secret.",
+      "textPreview": "Start in Demo mode; switch to Live AI only with the configured password and API secret.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#5F7287",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Start in Demo mode; switch to Live AI only with the configured password and API secret."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Start in Demo mode; switch to Live AI only with the configured password and API secret.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#5F7287",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Start in Demo mode; switch to Live AI only with the configured password and API secret.",
+              "fontSize": 18,
+              "color": "#5F7287",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58ri1cju",
+      "id": "4",
+      "bbox": [
+        64,
+        178,
+        92,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#27C5BB",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/tcry9wfq",
+      "id": "5",
+      "bbox": [
+        660,
+        202,
+        560,
+        315
+      ],
+      "geometry": "roundRect",
+      "alt": "Project screenshot",
+      "contentType": "image/jpeg",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 3810"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "02c803ce-6002-41e6-a166-c8430f60bc6c",
+        "contentType": "image/jpeg",
+        "byteLength": 31294
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3690z21o",
+      "id": "6",
+      "bbox": [
+        64,
+        220,
+        260,
+        30
+      ],
+      "geometry": "rect",
+      "text": "DEMO MODE",
+      "textPreview": "DEMO MODE",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#079A92",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DEMO MODE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DEMO MODE",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#079A92",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DEMO MODE",
+              "fontSize": 20,
+              "color": "#079A92",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i50j6xk3",
+      "id": "7",
+      "bbox": [
+        64,
+        268,
+        480,
+        190
+      ],
+      "geometry": "rect",
+      "text": "1  Keep Live AI mode OFF\n2  Run each phase\n3  Review artifacts at D1–D4\n4  Explicitly APPROVE each gate\n5  Open the workable prototype",
+      "textPreview": "1  Keep Live AI mode OFF | 2  Run each phase | 3  Review artifacts at D1–D4 | 4  Explicitly APPROVE each gate | 5  Open the workable prot...",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1  Keep Live AI mode OFF"
+          },
+          {
+            "index": 2,
+            "text": "2  Run each phase"
+          },
+          {
+            "index": 3,
+            "text": "3  Review artifacts at D1–D4"
+          },
+          {
+            "index": 4,
+            "text": "4  Explicitly APPROVE each gate"
+          },
+          {
+            "index": 5,
+            "text": "5  Open the workable prototype"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1  Keep Live AI mode OFF",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#102A43",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1  Keep Live AI mode OFF",
+              "fontSize": 22,
+              "color": "#102A43",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "2  Run each phase",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#102A43",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2  Run each phase",
+              "fontSize": 22,
+              "color": "#102A43",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "3  Review artifacts at D1–D4",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#102A43",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3  Review artifacts at D1–D4",
+              "fontSize": 22,
+              "color": "#102A43",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "4  Explicitly APPROVE each gate",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#102A43",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4  Explicitly APPROVE each gate",
+              "fontSize": 22,
+              "color": "#102A43",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "5  Open the workable prototype",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#102A43",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5  Open the workable prototype",
+              "fontSize": 22,
+              "color": "#102A43",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4rixsji",
+      "id": "8",
+      "bbox": [
+        64,
+        500,
+        260,
+        30
+      ],
+      "geometry": "rect",
+      "text": "LIVE AI MODE",
+      "textPreview": "LIVE AI MODE",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#0B356A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LIVE AI MODE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LIVE AI MODE",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#0B356A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LIVE AI MODE",
+              "fontSize": 20,
+              "color": "#0B356A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3y14n2d",
+      "id": "9",
+      "bbox": [
+        64,
+        540,
+        500,
+        68
+      ],
+      "geometry": "rect",
+      "text": "Switch Live AI ON → enter the access password → use configured Gemini credentials.",
+      "textPreview": "Switch Live AI ON → enter the access password → use configured Gemini credentials.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#5F7287",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Switch Live AI ON → enter the access password → use configured"
+          },
+          {
+            "index": 2,
+            "text": "Gemini credentials."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Switch Live AI ON → enter the access password → use configured Gemini credentials.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#5F7287",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Switch Live AI ON → enter the access password → use configured Gemini credentials.",
+              "fontSize": 18,
+              "color": "#5F7287",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yl8721gv",
+      "id": "10",
+      "bbox": [
+        660,
+        548,
+        560,
+        72
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0B356A",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z6h8vmh0",
+      "id": "11",
+      "bbox": [
+        684,
+        568,
+        510,
+        32
+      ],
+      "geometry": "rect",
+      "text": "https://ai-ux-design-pipeline.streamlit.app/",
+      "textPreview": "https://ai-ux-design-pipeline.streamlit.app/",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "https://ai-ux-design-pipeline.streamlit.app/"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "https://ai-ux-design-pipeline.streamlit.app/",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "https://ai-ux-design-pipeline.streamlit.app/",
+              "fontSize": 20,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/07qp4ryl",
+      "id": "12",
+      "bbox": [
+        64,
+        682,
+        500,
+        18
+      ],
+      "geometry": "rect",
+      "text": "AI UX DESIGN PIPELINE  •  07",
+      "textPreview": "AI UX DESIGN PIPELINE  •  07",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#7790A8",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI UX DESIGN PIPELINE  •  07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI UX DESIGN PIPELINE  •  07",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#7790A8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI UX DESIGN PIPELINE  •  07",
+              "fontSize": 12,
+              "color": "#7790A8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

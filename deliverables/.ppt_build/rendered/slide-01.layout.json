@@ -1,0 +1,710 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/rfwois",
+    "id": "rfwois",
+    "slide": 1,
+    "layoutId": "bd85a3a8-e5d7-42d8-b2a9-e9c612018c20",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "4ae48aaf-1327-4e8e-b6d4-0e58072ca55b",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#EEF6FD",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bd85a3a8-e5d7-42d8-b2a9-e9c612018c20",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "4ae48aaf-1327-4e8e-b6d4-0e58072ca55b",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "4ae48aaf-1327-4e8e-b6d4-0e58072ca55b",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0vm947yt",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0B356A",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zudsv2h8",
+      "id": "2",
+      "bbox": [
+        890,
+        0,
+        390,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#079A92",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yt4r2xgn",
+      "id": "3",
+      "bbox": [
+        70,
+        78,
+        430,
+        28
+      ],
+      "geometry": "rect",
+      "text": "AI UX",
+      "textPreview": "AI UX",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#27C5BB",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI UX"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI UX",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#27C5BB",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI UX",
+              "fontSize": 18,
+              "color": "#27C5BB",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dsvatsz2",
+      "id": "4",
+      "bbox": [
+        70,
+        132,
+        760,
+        164
+      ],
+      "geometry": "rect",
+      "text": "Discovery-to-Prototype\nPipeline",
+      "textPreview": "Discovery-to-Prototype | Pipeline",
+      "resolvedFontSize": 58,
+      "resolvedTextStyle": {
+        "fontSize": 58,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Discovery-to-Prototype"
+          },
+          {
+            "index": 2,
+            "text": "Pipeline"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Discovery-to-Prototype",
+          "resolvedTextStyle": {
+            "fontSize": 58,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Discovery-to-Prototype",
+              "fontSize": 58,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Pipeline",
+          "resolvedTextStyle": {
+            "fontSize": 58,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Pipeline",
+              "fontSize": 58,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cr2907yh",
+      "id": "5",
+      "bbox": [
+        70,
+        326,
+        690,
+        84
+      ],
+      "geometry": "rect",
+      "text": "A governed multi-agent process that turns a BRD into a human-verified workable prototype.",
+      "textPreview": "A governed multi-agent process that turns a BRD into a human-verified workable prototype.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#D7E9F8",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A governed multi-agent process that turns a BRD into a"
+          },
+          {
+            "index": 2,
+            "text": "human-verified workable prototype."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A governed multi-agent process that turns a BRD into a human-verified workable prototype.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#D7E9F8",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A governed multi-agent process that turns a BRD into a human-verified workable prototype.",
+              "fontSize": 24,
+              "color": "#D7E9F8",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bqtsr2hw",
+      "id": "6",
+      "bbox": [
+        70,
+        445,
+        210,
+        7
+      ],
+      "geometry": "rect",
+      "fillColor": "#27C5BB",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpkryxgb",
+      "id": "7",
+      "bbox": [
+        70,
+        476,
+        330,
+        28
+      ],
+      "geometry": "rect",
+      "text": "RUNNABLE PUBLIC DEMO",
+      "textPreview": "RUNNABLE PUBLIC DEMO",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#27C5BB",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "RUNNABLE PUBLIC DEMO"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "RUNNABLE PUBLIC DEMO",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#27C5BB",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "RUNNABLE PUBLIC DEMO",
+              "fontSize": 16,
+              "color": "#27C5BB",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xofa5wf6",
+      "id": "8",
+      "bbox": [
+        70,
+        514,
+        600,
+        32
+      ],
+      "geometry": "rect",
+      "text": "ai-ux-design-pipeline.streamlit.app",
+      "textPreview": "ai-ux-design-pipeline.streamlit.app",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ai-ux-design-pipeline.streamlit.app"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ai-ux-design-pipeline.streamlit.app",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ai-ux-design-pipeline.streamlit.app",
+              "fontSize": 21,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wn6tcryl",
+      "id": "9",
+      "bbox": [
+        955,
+        150,
+        160,
+        120
+      ],
+      "geometry": "rect",
+      "text": "4",
+      "textPreview": "4",
+      "resolvedFontSize": 92,
+      "resolvedTextStyle": {
+        "fontSize": 92,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4",
+          "resolvedTextStyle": {
+            "fontSize": 92,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4",
+              "fontSize": 92,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yt8vql4v",
+      "id": "10",
+      "bbox": [
+        930,
+        268,
+        210,
+        62
+      ],
+      "geometry": "rect",
+      "text": "specialized phase agents",
+      "textPreview": "specialized phase agents",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "specialized phase"
+          },
+          {
+            "index": 2,
+            "text": "agents"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "specialized phase agents",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "specialized phase agents",
+              "fontSize": 22,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zuhcjq5g",
+      "id": "11",
+      "bbox": [
+        955,
+        412,
+        160,
+        65
+      ],
+      "geometry": "rect",
+      "text": "D1–D4",
+      "textPreview": "D1–D4",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "fontSize": 48,
+        "typeface": "+mn-lt",
+        "color": "#D7FFF8",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "D1–D4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "D1–D4",
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "color": "#D7FFF8",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "D1–D4",
+              "fontSize": 48,
+              "color": "#D7FFF8",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0vqdsbm1",
+      "id": "12",
+      "bbox": [
+        930,
+        480,
+        210,
+        62
+      ],
+      "geometry": "rect",
+      "text": "explicit human gates",
+      "textPreview": "explicit human gates",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "explicit human gates"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "explicit human gates",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "explicit human gates",
+              "fontSize": 22,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

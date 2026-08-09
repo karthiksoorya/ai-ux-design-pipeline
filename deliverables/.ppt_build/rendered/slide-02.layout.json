@@ -1,0 +1,361 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/riujtp",
+    "id": "riujtp",
+    "slide": 2,
+    "layoutId": "bd85a3a8-e5d7-42d8-b2a9-e9c612018c20",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "4ae48aaf-1327-4e8e-b6d4-0e58072ca55b",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bd85a3a8-e5d7-42d8-b2a9-e9c612018c20",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "4ae48aaf-1327-4e8e-b6d4-0e58072ca55b",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "4ae48aaf-1327-4e8e-b6d4-0e58072ca55b",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svq5sn6x",
+      "id": "1",
+      "bbox": [
+        64,
+        44,
+        1120,
+        24
+      ],
+      "geometry": "rect",
+      "text": "THE DIFFERENTIATOR",
+      "textPreview": "THE DIFFERENTIATOR",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#079A92",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "THE DIFFERENTIATOR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "THE DIFFERENTIATOR",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#079A92",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "THE DIFFERENTIATOR",
+              "fontSize": 15,
+              "color": "#079A92",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7uh4zipc",
+      "id": "2",
+      "bbox": [
+        64,
+        75,
+        1120,
+        58
+      ],
+      "geometry": "rect",
+      "text": "Specialized agents own the work; the orchestrator only routes it",
+      "textPreview": "Specialized agents own the work; the orchestrator only routes it",
+      "resolvedFontSize": 37,
+      "resolvedTextStyle": {
+        "fontSize": 37,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Specialized agents own the work; the orchestrator only routes it"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Specialized agents own the work; the orchestrator only routes it",
+          "resolvedTextStyle": {
+            "fontSize": 37,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Specialized agents own the work; the orchestrator only routes it",
+              "fontSize": 37,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6t8nqdor",
+      "id": "3",
+      "bbox": [
+        64,
+        136,
+        1120,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Each agent invokes reusable skills and hands traceable artifacts to the next governed stage.",
+      "textPreview": "Each agent invokes reusable skills and hands traceable artifacts to the next governed stage.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#5F7287",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Each agent invokes reusable skills and hands traceable artifacts to the next governed stage."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Each agent invokes reusable skills and hands traceable artifacts to the next governed stage.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#5F7287",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Each agent invokes reusable skills and hands traceable artifacts to the next governed stage.",
+              "fontSize": 18,
+              "color": "#5F7287",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5szmx876",
+      "id": "4",
+      "bbox": [
+        64,
+        178,
+        92,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#27C5BB",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/pojetcrq",
+      "id": "5",
+      "bbox": [
+        50,
+        200,
+        1180,
+        452
+      ],
+      "geometry": "roundRect",
+      "alt": "Project screenshot",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 1770"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "405379d0-9ddc-4281-b473-5718f9ebd39d",
+        "contentType": "image/png",
+        "byteLength": 1863826
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqh4vypg",
+      "id": "6",
+      "bbox": [
+        64,
+        682,
+        500,
+        18
+      ],
+      "geometry": "rect",
+      "text": "AI UX DESIGN PIPELINE  •  02",
+      "textPreview": "AI UX DESIGN PIPELINE  •  02",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#7790A8",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI UX DESIGN PIPELINE  •  02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI UX DESIGN PIPELINE  •  02",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#7790A8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI UX DESIGN PIPELINE  •  02",
+              "fontSize": 12,
+              "color": "#7790A8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

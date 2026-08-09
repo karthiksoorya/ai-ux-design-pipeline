@@ -1,0 +1,104 @@
+{"kind":"deck","id":"pr/nrvvon","name":"Deck"}
+{"kind":"layout","layoutId":"4ae48aaf-1327-4e8e-b6d4-0e58072ca55b","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"bd85a3a8-e5d7-42d8-b2a9-e9c612018c20","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/rfwois","slide":1,"title":"AI UX","textShapes":9}
+{"kind":"shape","id":"sh/0vm947yt","slide":1,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/zudsv2h8","slide":1,"bbox":[890,0,390,720]}
+{"kind":"textbox","id":"sh/yt4r2xgn","slide":1,"text":"AI UX","textPreview":"AI UX","textChars":5,"textLines":1,"bbox":[70,78,430,28]}
+{"kind":"textbox","id":"sh/dsvatsz2","slide":1,"text":"Discovery-to-Prototype\nPipeline","textPreview":"Discovery-to-Prototype | Pipeline","textChars":31,"textLines":2,"bbox":[70,132,760,164]}
+{"kind":"textbox","id":"sh/cr2907yh","slide":1,"text":"A governed multi-agent process that turns a BRD into a human-verified workable prototype.","textPreview":"A governed multi-agent process that turns a BRD into a human-verified workable prototype.","textChars":89,"textLines":1,"bbox":[70,326,690,84]}
+{"kind":"shape","id":"sh/bqtsr2hw","slide":1,"bbox":[70,445,210,7]}
+{"kind":"textbox","id":"sh/qpkryxgb","slide":1,"text":"RUNNABLE PUBLIC DEMO","textPreview":"RUNNABLE PUBLIC DEMO","textChars":20,"textLines":1,"bbox":[70,476,330,28]}
+{"kind":"textbox","id":"sh/xofa5wf6","slide":1,"text":"ai-ux-design-pipeline.streamlit.app","textPreview":"ai-ux-design-pipeline.streamlit.app","textChars":35,"textLines":1,"bbox":[70,514,600,32]}
+{"kind":"textbox","id":"sh/wn6tcryl","slide":1,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[955,150,160,120]}
+{"kind":"textbox","id":"sh/yt8vql4v","slide":1,"text":"specialized phase agents","textPreview":"specialized phase agents","textChars":24,"textLines":1,"bbox":[930,268,210,62]}
+{"kind":"textbox","id":"sh/zuhcjq5g","slide":1,"text":"D1–D4","textPreview":"D1–D4","textChars":5,"textLines":1,"bbox":[955,412,160,65]}
+{"kind":"textbox","id":"sh/0vqdsbm1","slide":1,"text":"explicit human gates","textPreview":"explicit human gates","textChars":20,"textLines":1,"bbox":[930,480,210,62]}
+{"kind":"notes","id":"nt/rfwois","slide":1,"text":""}
+{"kind":"slide","id":"sl/riujtp","slide":2,"title":"THE DIFFERENTIATOR","textShapes":4}
+{"kind":"textbox","id":"sh/svq5sn6x","slide":2,"text":"THE DIFFERENTIATOR","textPreview":"THE DIFFERENTIATOR","textChars":18,"textLines":1,"bbox":[64,44,1120,24]}
+{"kind":"textbox","id":"sh/7uh4zipc","slide":2,"text":"Specialized agents own the work; the orchestrator only routes it","textPreview":"Specialized agents own the work; the orchestrator only routes it","textChars":64,"textLines":1,"bbox":[64,75,1120,58]}
+{"kind":"textbox","id":"sh/6t8nqdor","slide":2,"text":"Each agent invokes reusable skills and hands traceable artifacts to the next governed stage.","textPreview":"Each agent invokes reusable skills and hands traceable artifacts to the next governed stage.","textChars":92,"textLines":1,"bbox":[64,136,1120,38]}
+{"kind":"shape","id":"sh/5szmx876","slide":2,"bbox":[64,178,92,5]}
+{"kind":"textbox","id":"sh/jqh4vypg","slide":2,"text":"AI UX DESIGN PIPELINE  •  02","textPreview":"AI UX DESIGN PIPELINE  •  02","textChars":28,"textLines":1,"bbox":[64,682,500,18]}
+{"kind":"image","id":"im/pojetcrq","slide":2,"name":"","geometry":"roundRect","alt":"Project screenshot","bbox":[50,200,1180,452]}
+{"kind":"notes","id":"nt/riujtp","slide":2,"text":""}
+{"kind":"slide","id":"sl/4aqdow","slide":3,"title":"RUNNABLE EXPERIENCE","textShapes":13}
+{"kind":"textbox","id":"sh/ipkf6p0j","slide":3,"text":"RUNNABLE EXPERIENCE","textPreview":"RUNNABLE EXPERIENCE","textChars":19,"textLines":1,"bbox":[64,44,1120,24]}
+{"kind":"textbox","id":"sh/5sby1kju","slide":3,"text":"The public runner makes the architecture visible","textPreview":"The public runner makes the architecture visible","textChars":48,"textLines":1,"bbox":[64,75,1120,58]}
+{"kind":"textbox","id":"sh/kr2x8zi9","slide":3,"text":"Demo mode uses predefined synthetic inputs; Live AI can be protected and configured separately.","textPreview":"Demo mode uses predefined synthetic inputs; Live AI can be protected and configured separately.","textChars":95,"textLines":1,"bbox":[64,136,1120,38]}
+{"kind":"shape","id":"sh/7utg3u10","slide":3,"bbox":[64,178,92,5]}
+{"kind":"shape","id":"sh/twby54j6","slide":3,"bbox":[910,220,306,112]}
+{"kind":"textbox","id":"sh/sv2xczil","slide":3,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[932,238,54,38]}
+{"kind":"textbox","id":"sh/ny9w7a1w","slide":3,"text":"Mode is always visible","textPreview":"Mode is always visible","textChars":22,"textLines":1,"bbox":[993,238,198,46]}
+{"kind":"textbox","id":"sh/mxgfy5kb","slide":3,"text":"DEMO avoids token use; LIVE exposes secured runner controls.","textPreview":"DEMO avoids token use; LIVE exposes secured runner controls.","textChars":60,"textLines":1,"bbox":[932,284,252,40]}
+{"kind":"shape","id":"sh/ozqd8neh","slide":3,"bbox":[910,350,306,112]}
+{"kind":"textbox","id":"sh/p0zuhsf2","slide":3,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[932,368,54,38]}
+{"kind":"textbox","id":"sh/2d8v6xwb","slide":3,"text":"Phases stay in view","textPreview":"Phases stay in view","textChars":19,"textLines":1,"bbox":[993,368,198,46]}
+{"kind":"textbox","id":"sh/nehcf2xw","slide":3,"text":"The vertical rail shows agent ownership and gate state.","textPreview":"The vertical rail shows agent ownership and gate state.","textChars":55,"textLines":1,"bbox":[932,414,252,40]}
+{"kind":"shape","id":"sh/c3qdc7et","slide":3,"bbox":[910,480,306,112]}
+{"kind":"textbox","id":"sh/x4jelcfy","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[932,498,54,38]}
+{"kind":"textbox","id":"sh/a18vaxwn","slide":3,"text":"Skills are explicit","textPreview":"Skills are explicit","textChars":19,"textLines":1,"bbox":[993,498,198,46]}
+{"kind":"textbox","id":"sh/b2hcj2x8","slide":3,"text":"The declared sequence is visible before execution begins.","textPreview":"The declared sequence is visible before execution begins.","textChars":57,"textLines":1,"bbox":[932,544,252,40]}
+{"kind":"textbox","id":"sh/s76d03e9","slide":3,"text":"AI UX DESIGN PIPELINE  •  03","textPreview":"AI UX DESIGN PIPELINE  •  03","textChars":28,"textLines":1,"bbox":[64,682,500,18]}
+{"kind":"image","id":"im/zy1sbehg","slide":3,"name":"","geometry":"roundRect","alt":"Project screenshot","bbox":[54,208,820,446]}
+{"kind":"notes","id":"nt/4aqdow","slide":3,"text":""}
+{"kind":"slide","id":"sl/xvkyje","slide":4,"title":"EXECUTION FEELS REAL","textShapes":10}
+{"kind":"textbox","id":"sh/nel43mh0","slide":4,"text":"EXECUTION FEELS REAL","textPreview":"EXECUTION FEELS REAL","textChars":20,"textLines":1,"bbox":[64,44,1120,24]}
+{"kind":"textbox","id":"sh/ofulc7yl","slide":4,"text":"Progress exposes the active agent and skill","textPreview":"Progress exposes the active agent and skill","textChars":43,"textLines":1,"bbox":[64,75,1120,58]}
+{"kind":"textbox","id":"sh/9g3m5czq","slide":4,"text":"The runner shows movement without pretending synthetic demo outputs are real research.","textPreview":"The runner shows movement without pretending synthetic demo outputs are real research.","textChars":86,"textLines":1,"bbox":[64,136,1120,38]}
+{"kind":"shape","id":"sh/e9s36xg3","slide":4,"bbox":[64,178,92,5]}
+{"kind":"textbox","id":"sh/0bul87y9","slide":4,"text":"57%","textPreview":"57%","textChars":3,"textLines":1,"bbox":[997,232,190,60]}
+{"kind":"textbox","id":"sh/1c3m1czu","slide":4,"text":"active progress","textPreview":"active progress","textChars":15,"textLines":1,"bbox":[997,292,190,28]}
+{"kind":"shape","id":"sh/y5wni1gn","slide":4,"bbox":[1018,345,150,6]}
+{"kind":"textbox","id":"sh/j654b6h8","slide":4,"text":"UX Research Agent","textPreview":"UX Research Agent","textChars":17,"textLines":1,"bbox":[982,380,220,32]}
+{"kind":"textbox","id":"sh/nmp03u5c","slide":4,"text":"+","textPreview":"+","textChars":1,"textLines":1,"bbox":[1055,414,74,30]}
+{"kind":"textbox","id":"sh/mlgjup4r","slide":4,"text":"Requirements Challenge Agent","textPreview":"Requirements Challenge Agent","textChars":28,"textLines":1,"bbox":[978,450,230,58]}
+{"kind":"textbox","id":"sh/9o7i54n2","slide":4,"text":"Current skill:\ndebate-synthesis-skill","textPreview":"Current skill: | debate-synthesis-skill","textChars":37,"textLines":2,"bbox":[985,536,214,60]}
+{"kind":"textbox","id":"sh/ony1wzmh","slide":4,"text":"AI UX DESIGN PIPELINE  •  04","textPreview":"AI UX DESIGN PIPELINE  •  04","textChars":28,"textLines":1,"bbox":[64,682,500,18]}
+{"kind":"image","id":"im/axcvm1sr","slide":4,"name":"","geometry":"roundRect","alt":"Project screenshot","bbox":[54,208,900,440]}
+{"kind":"notes","id":"nt/xvkyje","slide":4,"text":""}
+{"kind":"slide","id":"sl/vn70us","slide":5,"title":"HUMAN GOVERNANCE","textShapes":10}
+{"kind":"textbox","id":"sh/nax0b61c","slide":5,"text":"HUMAN GOVERNANCE","textPreview":"HUMAN GOVERNANCE","textChars":16,"textLines":1,"bbox":[64,44,1120,24]}
+{"kind":"textbox","id":"sh/8b61kb2x","slide":5,"text":"No agent can approve its own work","textPreview":"No agent can approve its own work","textChars":33,"textLines":1,"bbox":[64,75,1120,58]}
+{"kind":"textbox","id":"sh/9cz2dgj2","slide":5,"text":"D1–D4 require an explicit reviewer decision before the next phase becomes eligible.","textPreview":"D1–D4 require an explicit reviewer decision before the next phase becomes eligible.","textChars":83,"textLines":1,"bbox":[64,136,1120,38]}
+{"kind":"shape","id":"sh/y5oje1kf","slide":5,"bbox":[64,178,92,5]}
+{"kind":"textbox","id":"sh/0761gb2l","slide":5,"text":"APPROVE","textPreview":"APPROVE","textChars":7,"textLines":1,"bbox":[900,226,260,32]}
+{"kind":"textbox","id":"sh/l8fi9wj6","slide":5,"text":"Record the decision and advance exactly one phase.","textPreview":"Record the decision and advance exactly one phase.","textChars":50,"textLines":1,"bbox":[900,264,280,54]}
+{"kind":"shape","id":"sh/i18jqlkz","slide":5,"bbox":[900,338,260,2]}
+{"kind":"textbox","id":"sh/j2hkjq1k","slide":5,"text":"REVISE","textPreview":"REVISE","textChars":6,"textLines":1,"bbox":[900,362,260,32]}
+{"kind":"textbox","id":"sh/3ud4bupc","slide":5,"text":"Rerun only the minimum affected downstream work.","textPreview":"Rerun only the minimum affected downstream work.","textChars":48,"textLines":1,"bbox":[900,400,280,54]}
+{"kind":"shape","id":"sh/2t4n29or","slide":5,"bbox":[900,474,260,2]}
+{"kind":"textbox","id":"sh/pwvmd47i","slide":5,"text":"REJECT","textPreview":"REJECT","textChars":6,"textLines":1,"bbox":[900,498,260,32]}
+{"kind":"textbox","id":"sh/ovm54z6x","slide":5,"text":"Block the workflow; no automatic progression.","textPreview":"Block the workflow; no automatic progression.","textChars":45,"textLines":1,"bbox":[900,536,280,54]}
+{"kind":"textbox","id":"sh/byd4fep8","slide":5,"text":"AI UX DESIGN PIPELINE  •  05","textPreview":"AI UX DESIGN PIPELINE  •  05","textChars":28,"textLines":1,"bbox":[64,682,500,18]}
+{"kind":"image","id":"im/yx876ts7","slide":5,"name":"","geometry":"roundRect","alt":"Project screenshot","bbox":[54,210,790,444]}
+{"kind":"notes","id":"nt/vn70us","slide":5,"text":""}
+{"kind":"slide","id":"sl/ud007w","slide":6,"title":"GOVERNED OUTCOME","textShapes":9}
+{"kind":"textbox","id":"sh/zi5knu5s","slide":6,"text":"GOVERNED OUTCOME","textPreview":"GOVERNED OUTCOME","textChars":16,"textLines":1,"bbox":[64,44,1120,24]}
+{"kind":"textbox","id":"sh/0je1gfmd","slide":6,"text":"The prototype is ‘verified’ only after D4 approval","textPreview":"The prototype is ‘verified’ only after D4 approval","textChars":50,"textLines":1,"bbox":[64,75,1120,58]}
+{"kind":"textbox","id":"sh/lkn2pkny","slide":6,"text":"The completion message retains the synthetic-validation and accessibility limitations.","textPreview":"The completion message retains the synthetic-validation and accessibility limitations.","textChars":86,"textLines":1,"bbox":[64,136,1120,38]}
+{"kind":"shape","id":"sh/mlwjip43","slide":6,"bbox":[64,178,92,5]}
+{"kind":"shape","id":"sh/8ne1kzm9","slide":6,"bbox":[925,224,260,210]}
+{"kind":"textbox","id":"sh/9on2t4nu","slide":6,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[1003,244,100,70]}
+{"kind":"textbox","id":"sh/2psj654z","slide":6,"text":"4 phases","textPreview":"4 phases","textChars":8,"textLines":1,"bbox":[965,320,180,32]}
+{"kind":"textbox","id":"sh/3ql0fa5k","slide":6,"text":"4 human gates","textPreview":"4 human gates","textChars":13,"textLines":1,"bbox":[965,360,180,32]}
+{"kind":"textbox","id":"sh/beh87yd8","slide":6,"text":"1 verified prototype","textPreview":"1 verified prototype","textChars":20,"textLines":1,"bbox":[950,400,210,34]}
+{"kind":"textbox","id":"sh/ad87etcn","slide":6,"text":"Verification is scoped—not a claim of real-participant evidence or formal WCAG certification.","textPreview":"Verification is scoped—not a claim of real-participant evidence or formal WCAG certification.","textChars":93,"textLines":1,"bbox":[932,476,246,100]}
+{"kind":"textbox","id":"sh/x0zq9ove","slide":6,"text":"AI UX DESIGN PIPELINE  •  06","textPreview":"AI UX DESIGN PIPELINE  •  06","textChars":28,"textLines":1,"bbox":[64,682,500,18]}
+{"kind":"image","id":"im/2pgfypcr","slide":6,"name":"","geometry":"roundRect","alt":"Project screenshot","bbox":[54,208,835,445]}
+{"kind":"notes","id":"nt/ud007w","slide":6,"text":""}
+{"kind":"slide","id":"sl/ghu4i3","slide":7,"title":"TRY IT NOW","textShapes":9}
+{"kind":"textbox","id":"sh/sv21c72l","slide":7,"text":"TRY IT NOW","textPreview":"TRY IT NOW","textChars":10,"textLines":1,"bbox":[64,44,1120,24]}
+{"kind":"textbox","id":"sh/ru903210","slide":7,"text":"A two-minute demo shows the full governed journey","textPreview":"A two-minute demo shows the full governed journey","textChars":49,"textLines":1,"bbox":[64,75,1120,58]}
+{"kind":"textbox","id":"sh/qt0jahkf","slide":7,"text":"Start in Demo mode; switch to Live AI only with the configured password and API secret.","textPreview":"Start in Demo mode; switch to Live AI only with the configured password and API secret.","textChars":87,"textLines":1,"bbox":[64,136,1120,38]}
+{"kind":"shape","id":"sh/58ri1cju","slide":7,"bbox":[64,178,92,5]}
+{"kind":"textbox","id":"sh/3690z21o","slide":7,"text":"DEMO MODE","textPreview":"DEMO MODE","textChars":9,"textLines":1,"bbox":[64,220,260,30]}
+{"kind":"textbox","id":"sh/i50j6xk3","slide":7,"text":"1  Keep Live AI mode OFF\n2  Run each phase\n3  Review artifacts at D1–D4\n4  Explicitly APPROVE each gate\n5  Open the workable prototype","textPreview":"1  Keep Live AI mode OFF | 2  Run each phase | 3  Review artifacts at D1–D4 | 4  Explicitly APPROVE each gate | 5  Open the workable prot...","textChars":134,"textLines":5,"bbox":[64,268,480,190]}
+{"kind":"textbox","id":"sh/h4rixsji","slide":7,"text":"LIVE AI MODE","textPreview":"LIVE AI MODE","textChars":12,"textLines":1,"bbox":[64,500,260,30]}
+{"kind":"textbox","id":"sh/g3y14n2d","slide":7,"text":"Switch Live AI ON → enter the access password → use configured Gemini credentials.","textPreview":"Switch Live AI ON → enter the access password → use configured Gemini credentials.","textChars":82,"textLines":1,"bbox":[64,540,500,68]}
+{"kind":"shape","id":"sh/yl8721gv","slide":7,"bbox":[660,548,560,72]}
+{"kind":"textbox","id":"sh/z6h8vmh0","slide":7,"text":"https://ai-ux-design-pipeline.streamlit.app/","textPreview":"https://ai-ux-design-pipeline.streamlit.app/","textChars":44,"textLines":1,"bbox":[684,568,510,32]}
+{"kind":"textbox","id":"sh/07qp4ryl","slide":7,"text":"AI UX DESIGN PIPELINE  •  07","textPreview":"AI UX DESIGN PIPELINE  •  07","textChars":28,"textLines":1,"bbox":[64,682,500,18]}
+{"kind":"image","id":"im/tcry9wfq","slide":7,"name":"","geometry":"roundRect","alt":"Project screenshot","bbox":[660,202,560,315]}
+{"kind":"notes","id":"nt/ghu4i3","slide":7,"text":""}
