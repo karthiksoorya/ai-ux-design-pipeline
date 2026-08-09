@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Frequently asked questions about the AI UX Discovery-to-Prototype Pipeline, its agents, governance, evidence rules, and runnable demo.">
+  <title>FAQ | AI UX Design Pipeline</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#faq-list">Skip to questions</a>
+
+  <header class="site-header">
+    <a class="brand" href="../" aria-label="AI UX Design Pipeline home">
+      <span class="brand-mark" aria-hidden="true">AI</span>
+      <span>UX Design Pipeline</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Documentation</a>
+      <a href="../prototype/">Prototype</a>
+      <a class="nav-cta" href="https://ai-ux-design-pipeline.streamlit.app/">Run pipeline</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">PROJECT FAQ</p>
+        <h1>Understand the pipeline.<br><span>Test it with confidence.</span></h1>
+        <p class="lede">Answers about the four-phase workflow, its specialist agents, human approval gates, Gemini-powered Live AI mode, and the evidence rules that keep generated UX work honest.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://ai-ux-design-pipeline.streamlit.app/">Open runnable demo <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="../prototype/">Try the UX prototype</a>
+        </div>
+      </div>
+      <aside class="agent-card" aria-label="Pipeline overview">
+        <div class="agent-card-title"><span class="pulse"></span> Agent-led workflow</div>
+        <ol>
+          <li><b>Discover</b><span>Research + challenge</span></li>
+          <li><b>Define &amp; Ideate</b><span>Frame + select</span></li>
+          <li><b>Design &amp; Prototype</b><span>Specify + build</span></li>
+          <li><b>Validate</b><span>Audit + evidence</span></li>
+        </ol>
+        <p>Every phase ends at a human gate.</p>
+      </aside>
+    </section>
+
+    <section class="quick-facts" aria-label="Quick facts">
+      <article><strong>4</strong><span>bounded phases</span></article>
+      <article><strong>5</strong><span>specialist agents</span></article>
+      <article><strong>D1–D4</strong><span>human review gates</span></article>
+      <article><strong>2</strong><span>execution modes</span></article>
+    </section>
+
+    <section class="faq-shell">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">FIND AN ANSWER</p>
+          <h2>Frequently asked questions</h2>
+        </div>
+        <p id="result-count" aria-live="polite">Showing all questions</p>
+      </div>
+
+      <div class="search-wrap">
+        <label for="faq-search">Search the FAQ</label>
+        <div class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="faq-search" type="search" placeholder="Try “Gemini”, “agents”, “BRD”, or “approval”…" autocomplete="off">
+          <kbd>/</kbd>
+        </div>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter FAQ categories">
+        <button class="filter active" data-category="all" aria-pressed="true">All</button>
+        <button class="filter" data-category="overview" aria-pressed="false">Overview</button>
+        <button class="filter" data-category="agents" aria-pressed="false">Agents</button>
+        <button class="filter" data-category="running" aria-pressed="false">Running it</button>
+        <button class="filter" data-category="governance" aria-pressed="false">Governance</button>
+        <button class="filter" data-category="outputs" aria-pressed="false">Outputs</button>
+      </div>
+
+      <div id="faq-list" class="faq-list">
+        <details class="faq-item" data-category="overview" open>
+          <summary><span>What is the AI UX Discovery-to-Prototype Pipeline?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><p>It is a reusable, Markdown-defined AI design process that takes a BRD and supporting UX inputs through <b>Research → Ideation → Design → Validation</b>. A Python and Streamlit runtime demonstrates the same governed workflow, while human gates control progression.</p></div>
+        </details>
+
+        <details class="faq-item" data-category="overview">
+          <summary><span>Does the pipeline accept only a BRD?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><p>No. The BRD is the primary starting point, but the input folder can also contain relevant supporting material such as research notes, survey summaries, analytics, support tickets, stakeholder notes, existing flows, design-system guidance, and constraints. The quality of the outputs depends on the quality and traceability of those inputs.</p></div>
+        </details>
+
+        <details class="faq-item" data-category="overview">
+          <summary><span>What are the four phases?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><ol><li><b>Discover:</b> analyze evidence, challenge the BRD, synthesize personas, pain points, and research gaps.</li><li><b>Define &amp; Ideate:</b> frame the problem, map the journey, identify opportunities, and select a concept.</li><li><b>Design &amp; Prototype:</b> define flows, screens, interaction states, and generate a workable prototype.</li><li><b>Validate:</b> perform evidence, heuristic, accessibility, and synthetic usability audits before final human approval.</li></ol></div>
+        </details>
+
+        <details class="faq-item" data-category="agents">
+          <summary><span>Which agents are involved, and what does each one own?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><ul><li><b>UX Research Agent:</b> source analysis, personas, pain points, and research gaps.</li><li><b>Requirements Challenge Agent:</b> pre-design BRD challenge and risk analysis.</li><li><b>UX Definition &amp; Ideation Agent:</b> problem framing, journey mapping, opportunities, and concept selection.</li><li><b>Experience Design Agent:</b> user flow, information architecture, screen and state specifications, and prototype generation.</li><li><b>UX Validation &amp; Audit Agent:</b> validation evidence, accessibility and heuristic review, and final audit reporting.</li></ul></div>
+        </details>
+
+        <details class="faq-item featured" data-category="agents">
+          <summary><span>What do Advocate, Cynic, and Debate Synthesis actually do?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><p>They are three reusable skills invoked by the <b>Requirements Challenge Agent</b>:</p><div class="capability-grid"><div><b>Advocate</b><p>Builds the strongest evidence-based interpretation of the BRD—its supported goals, needs, happy paths, constraints, and strengths.</p></div><div><b>Cynic</b><p>Stress-tests ambiguity, edge cases, accessibility, user trust, failure states, and missing requirements without turning suspicion into fact.</p></div><div><b>Debate Synthesis</b><p>Reconciles both views into a concise, traceable risk review with classifications, confidence, evidence locators, questions, and actions.</p></div></div></div>
+        </details>
+
+        <details class="faq-item" data-category="agents">
+          <summary><span>Why use skills instead of creating more agents?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><p>An agent owns a responsibility and handoff; a skill is a reusable capability it invokes. Keeping Advocate, Cynic, and Debate Synthesis as skills gives the Requirements Challenge Agent one accountable owner while avoiding overlapping or competing agents.</p></div>
+        </details>
+
+        <details class="faq-item" data-category="running">
+          <summary><span>What is the difference between Demo Mode and Live AI Mode?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><p><b>Demo Mode</b> uses predefined synthetic inputs and deterministic example outputs. It works without an API key and consumes no model quota. <b>Live AI Mode</b> sends the declared phase inputs and instructions to Gemini and requires both the configured Gemini API key and the Live AI access password.</p></div>
+        </details>
+
+        <details class="faq-item" data-category="running">
+          <summary><span>Why is Live AI Mode password-protected?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><p>The application is public, while model calls can consume the owner's API quota. The password is a shared-demo safeguard against casual unauthorized use; it is not a full user-account or enterprise authentication system.</p></div>
+        </details>
+
+        <details class="faq-item" data-category="running">
+          <summary><span>How can I test the application safely?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><ol><li>Open the <a href="https://ai-ux-design-pipeline.streamlit.app/">Streamlit runner</a>.</li><li>Keep <b>Demo Mode</b> selected.</li><li>Review the predefined synthetic inputs.</li><li>Run Phase 1 and inspect the generated artifacts.</li><li>Use the D1 decision controls; only APPROVE unlocks Phase 2.</li><li>Continue through D4, reviewing the outputs at every gate.</li><li>Open the final prototype and downloadable artifacts.</li></ol></div>
+        </details>
+
+        <details class="faq-item" data-category="running">
+          <summary><span>Can the entire flow run without waiting for approval?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><p>No—not in the governed workflow. Each phase deliberately stops at D1, D2, D3, or D4. Only an explicit human <b>APPROVE</b> advances the workflow. This is a core safety and quality-control feature, not a technical limitation.</p></div>
+        </details>
+
+        <details class="faq-item" data-category="running">
+          <summary><span>Is this a Python-only project?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><p>No. The workflow is defined in Markdown and can guide a compatible agentic environment that can read the files, follow ordered instructions, create declared artifacts, and pause for human decisions. The Python runtime validates and demonstrates those contracts; Streamlit provides the public UI. The static documentation and prototype use HTML, CSS, and JavaScript.</p></div>
+        </details>
+
+        <details class="faq-item" data-category="governance">
+          <summary><span>What do APPROVE, REVISE, and REJECT mean?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><ul><li><b>APPROVE:</b> unlock the next phase; D4 approval completes the workflow.</li><li><b>REVISE:</b> rerun only the affected work and its dependent outputs, then return to the gate.</li><li><b>REJECT:</b> stop the workflow and record the decision.</li></ul><p>Agents cannot approve their own work.</p></div>
+        </details>
+
+        <details class="faq-item" data-category="governance">
+          <summary><span>How does the pipeline prevent invented research?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><p>Findings must distinguish facts and BRD statements from inferences, assumptions, and risk hypotheses. Substantive challenge findings include confidence and a source locator where available. Risk hypotheses cannot automatically become persona attributes, pain points, confirmed requirements, or research findings.</p></div>
+        </details>
+
+        <details class="faq-item" data-category="governance">
+          <summary><span>Does the accessibility audit certify WCAG compliance?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><p>No. The pipeline identifies accessibility risks and items requiring validation. It does not claim formal WCAG conformance unless sufficient evidence and appropriate testing support that conclusion.</p></div>
+        </details>
+
+        <details class="faq-item" data-category="governance">
+          <summary><span>Is synthetic usability validation the same as real-user research?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><p>No. Synthetic validation can expose plausible issues and help prepare research questions, but it is not evidence from real participants. Demo inputs and related findings remain explicitly labelled <b>SYNTHETIC DEMO DATA</b>.</p></div>
+        </details>
+
+        <details class="faq-item" data-category="outputs">
+          <summary><span>What does the pipeline produce?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><p>Outputs include a BRD risk review, persona, pain points, research gaps, problem definition, journey map, opportunities, selected concept, user flow, screen specification, interaction states, prototype specification, a runnable prototype, validation findings, an audit report, and recorded human review decisions.</p></div>
+        </details>
+
+        <details class="faq-item" data-category="outputs">
+          <summary><span>When can the prototype be called verified and workable?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><p>Only after Phase 4 validation and explicit human <b>D4 APPROVE</b>. Even then, the claim is bounded by the documented evidence and synthetic demo scope; it does not imply production readiness or real-user validation.</p></div>
+        </details>
+
+        <details class="faq-item" data-category="outputs">
+          <summary><span>Where are the application and source code hosted?</span><i aria-hidden="true"></i></summary>
+          <div class="answer"><ul><li><a href="https://ai-ux-design-pipeline.streamlit.app/">Runnable workflow — Streamlit Community Cloud</a></li><li><a href="../">Documentation — GitHub Pages</a></li><li><a href="../prototype/">Workable prototype — GitHub Pages</a></li><li><a href="https://github.com/karthiksoorya/ai-ux-design-pipeline">Source repository — GitHub</a></li></ul></div>
+        </details>
+      </div>
+
+      <div id="empty-state" class="empty-state" hidden>
+        <div aria-hidden="true">?</div>
+        <h3>No matching answer</h3>
+        <p>Try a shorter search or select another category.</p>
+        <button id="clear-search" class="button secondary" type="button">Clear filters</button>
+      </div>
+    </section>
+
+    <section class="closing-card">
+      <div><p class="eyebrow">READY TO EXPLORE?</p><h2>See the governed agent workflow in action.</h2><p>Demo Mode is public, predefined, and consumes no model quota.</p></div>
+      <a class="button light" href="https://ai-ux-design-pipeline.streamlit.app/">Launch Demo Mode <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer><p>AI UX Discovery-to-Prototype Pipeline</p><p>Human-governed · Evidence-aware · Agent-led</p></footer>
+  <script src="app.js"></script>
+</body>
+</html>
