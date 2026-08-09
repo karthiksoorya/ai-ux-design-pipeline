@@ -1,0 +1,1224 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/r3ms0y",
+    "id": "r3ms0y",
+    "slide": 4,
+    "layoutId": "7da0ee97-15eb-4c1f-a554-5a29f7151b95",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "83f33f14-67df-4f2b-a16f-6a35353507ab",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#EEF6FD",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "7da0ee97-15eb-4c1f-a554-5a29f7151b95",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "83f33f14-67df-4f2b-a16f-6a35353507ab",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "83f33f14-67df-4f2b-a16f-6a35353507ab",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed4j6lwz",
+      "id": "1",
+      "bbox": [
+        64,
+        38,
+        1120,
+        22
+      ],
+      "geometry": "roundRect",
+      "text": "AGENT 2 · DISCOVER",
+      "textPreview": "AGENT 2 · DISCOVER",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#079A92",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AGENT 2 · DISCOVER"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AGENT 2 · DISCOVER",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#079A92",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AGENT 2 · DISCOVER",
+              "fontSize": 14,
+              "color": "#079A92",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lgf2h0vq",
+      "id": "2",
+      "bbox": [
+        64,
+        66,
+        1140,
+        54
+      ],
+      "geometry": "roundRect",
+      "text": "Requirements Challenge Agent makes the BRD argue with itself",
+      "textPreview": "Requirements Challenge Agent makes the BRD argue with itself",
+      "resolvedFontSize": 37,
+      "resolvedTextStyle": {
+        "fontSize": 37,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Requirements Challenge Agent makes the BRD argue with itself"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Requirements Challenge Agent makes the BRD argue with itself",
+          "resolvedTextStyle": {
+            "fontSize": 37,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Requirements Challenge Agent makes the BRD argue with itself",
+              "fontSize": 37,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0f618ve5",
+      "id": "3",
+      "bbox": [
+        64,
+        126,
+        1140,
+        42
+      ],
+      "geometry": "roundRect",
+      "text": "It runs before personas so unsupported business assumptions cannot quietly become user facts.",
+      "textPreview": "It runs before personas so unsupported business assumptions cannot quietly become user facts.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#61758A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "It runs before personas so unsupported business assumptions cannot quietly become user facts."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "It runs before personas so unsupported business assumptions cannot quietly become user facts.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#61758A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "It runs before personas so unsupported business assumptions cannot quietly become user facts.",
+              "fontSize": 18,
+              "color": "#61758A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqdkb6d8",
+      "id": "4",
+      "bbox": [
+        64,
+        178,
+        92,
+        5
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#29C7BC",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qp4j2lwn",
+      "id": "5",
+      "bbox": [
+        252,
+        326,
+        204,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#29C7BC",
+      "lineWidth": 4
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcv2dgve",
+      "id": "6",
+      "bbox": [
+        644,
+        326,
+        204,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#29C7BC",
+      "lineWidth": 4
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crm14bet",
+      "id": "7",
+      "bbox": [
+        64,
+        228,
+        292,
+        210
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0B356A",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmhknads",
+      "id": "8",
+      "bbox": [
+        86,
+        252,
+        58,
+        58
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#079A92",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/alo3e5w7",
+      "id": "9",
+      "bbox": [
+        86,
+        263,
+        58,
+        36
+      ],
+      "geometry": "roundRect",
+      "text": "B",
+      "textPreview": "B",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "B"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "B",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "B",
+              "fontSize": 24,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fa10jid",
+      "id": "10",
+      "bbox": [
+        164,
+        248,
+        170,
+        62
+      ],
+      "geometry": "roundRect",
+      "text": "Readable BRD + source inventory",
+      "textPreview": "Readable BRD + source inventory",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Readable BRD"
+          },
+          {
+            "index": 2,
+            "text": "+ source"
+          },
+          {
+            "index": 3,
+            "text": "inventory"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Readable BRD + source inventory",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Readable BRD + source inventory",
+              "fontSize": 22,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1g3itojy",
+      "id": "11",
+      "bbox": [
+        86,
+        328,
+        240,
+        82
+      ],
+      "geometry": "roundRect",
+      "text": "Goals · scope · actors · workflows · constraints · assumptions",
+      "textPreview": "Goals · scope · actors · workflows · constraints · assumptions",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#D7E8F7",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Goals · scope · actors ·"
+          },
+          {
+            "index": 2,
+            "text": "workflows · constraints ·"
+          },
+          {
+            "index": 3,
+            "text": "assumptions"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Goals · scope · actors · workflows · constraints · assumptions",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#D7E8F7",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Goals · scope · actors · workflows · constraints · assumptions",
+              "fontSize": 17,
+              "color": "#D7E8F7",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/edsjy90n",
+      "id": "12",
+      "bbox": [
+        456,
+        228,
+        188,
+        210
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8DBEB",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fe10re18",
+      "id": "13",
+      "bbox": [
+        521,
+        248,
+        58,
+        58
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#079A92",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sba1wjih",
+      "id": "14",
+      "bbox": [
+        521,
+        259,
+        58,
+        36
+      ],
+      "geometry": "roundRect",
+      "text": "?",
+      "textPreview": "?",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "?",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "?",
+              "fontSize": 24,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcjip4j2",
+      "id": "15",
+      "bbox": [
+        478,
+        326,
+        144,
+        88
+      ],
+      "geometry": "roundRect",
+      "text": "Requirements\nChallenge\nAgent",
+      "textPreview": "Requirements | Challenge | Agent",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Requirements"
+          },
+          {
+            "index": 2,
+            "text": "Challenge"
+          },
+          {
+            "index": 3,
+            "text": "Agent"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Requirements",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Requirements",
+              "fontSize": 20,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Challenge",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Challenge",
+              "fontSize": 20,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Agent",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Agent",
+              "fontSize": 20,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpsju90b",
+      "id": "16",
+      "bbox": [
+        848,
+        228,
+        360,
+        210
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#079A92",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra10ne1w",
+      "id": "17",
+      "bbox": [
+        876,
+        252,
+        310,
+        26
+      ],
+      "geometry": "roundRect",
+      "text": "TRACEABLE BRD RISK REVIEW",
+      "textPreview": "TRACEABLE BRD RISK REVIEW",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#D7FFF8",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TRACEABLE BRD RISK REVIEW"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TRACEABLE BRD RISK REVIEW",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#D7FFF8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TRACEABLE BRD RISK REVIEW",
+              "fontSize": 16,
+              "color": "#D7FFF8",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4nq1szil",
+      "id": "18",
+      "bbox": [
+        876,
+        300,
+        300,
+        116
+      ],
+      "geometry": "roundRect",
+      "text": "Strengths\nChallenged assumptions\nMissing requirements\nEdge cases & contradictions",
+      "textPreview": "Strengths | Challenged assumptions | Missing requirements | Edge cases & contradictions",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Strengths"
+          },
+          {
+            "index": 2,
+            "text": "Challenged assumptions"
+          },
+          {
+            "index": 3,
+            "text": "Missing requirements"
+          },
+          {
+            "index": 4,
+            "text": "Edge cases & contradictions"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Strengths",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Strengths",
+              "fontSize": 19,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Challenged assumptions",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Challenged assumptions",
+              "fontSize": 19,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Missing requirements",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Missing requirements",
+              "fontSize": 19,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "Edge cases & contradictions",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Edge cases & contradictions",
+              "fontSize": 19,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5ojil4jq",
+      "id": "19",
+      "bbox": [
+        64,
+        478,
+        490,
+        30
+      ],
+      "geometry": "roundRect",
+      "text": "The agent does not invent the missing answer.",
+      "textPreview": "The agent does not invent the missing answer.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#B63D42",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The agent does not invent the missing answer."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The agent does not invent the missing answer.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#B63D42",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The agent does not invent the missing answer.",
+              "fontSize": 24,
+              "color": "#B63D42",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lsrq9w7i",
+      "id": "20",
+      "bbox": [
+        64,
+        520,
+        1080,
+        58
+      ],
+      "geometry": "roundRect",
+      "text": "A missing specification becomes a question, research gap, risk hypothesis or D1 decision—not a fabricated requirement.",
+      "textPreview": "A missing specification becomes a question, research gap, risk hypothesis or D1 decision—not a fabricated requirement.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A missing specification becomes a question, research gap, risk hypothesis or D1 decision—not a fabricated requirement."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A missing specification becomes a question, research gap, risk hypothesis or D1 decision—not a fabricated requirement.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#102A43",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A missing specification becomes a question, research gap, risk hypothesis or D1 decision—not a fabricated requirement.",
+              "fontSize": 20,
+              "color": "#102A43",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k7ip0rqx",
+      "id": "21",
+      "bbox": [
+        64,
+        602,
+        1144,
+        49
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0B356A",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6p87mpc",
+      "id": "22",
+      "bbox": [
+        85,
+        614,
+        1100,
+        26
+      ],
+      "geometry": "roundRect",
+      "text": "Classification + confidence + source locator are required for every substantive finding.",
+      "textPreview": "Classification + confidence + source locator are required for every substantive finding.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Classification + confidence + source locator are required for every substantive finding."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Classification + confidence + source locator are required for every substantive finding.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Classification + confidence + source locator are required for every substantive finding.",
+              "fontSize": 18,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y5g7yh8r",
+      "id": "23",
+      "bbox": [
+        64,
+        682,
+        550,
+        18
+      ],
+      "geometry": "roundRect",
+      "text": "AI UX AGENT WORKFLOW GUIDE  •  04",
+      "textPreview": "AI UX AGENT WORKFLOW GUIDE  •  04",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#7890A5",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI UX AGENT WORKFLOW GUIDE  •  04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI UX AGENT WORKFLOW GUIDE  •  04",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#7890A5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI UX AGENT WORKFLOW GUIDE  •  04",
+              "fontSize": 12,
+              "color": "#7890A5",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

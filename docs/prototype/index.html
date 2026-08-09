@@ -1,5 +1,66 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Clinic appointment demo</title><link rel="stylesheet" href="styles.css"></head>
-<body><main class="shell"><p class="demo">SYNTHETIC DEMO — no real booking is created</p><header><h1>Request an appointment</h1><p id="progress">Step 1 of 5 · Search</p></header><section id="app" aria-live="polite"></section></main><script src="app.js"></script></body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Synthetic clinic appointment workflow prototype">
+  <title>Community Clinic — Appointment Request Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to appointment form</a>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Community Clinic home">
+      <span class="brand-mark" aria-hidden="true">CC</span>
+      <span><strong>Community Clinic</strong><small>Appointment services</small></span>
+    </a>
+    <span class="secure-note"><span aria-hidden="true">◇</span> Secure demo</span>
+  </header>
+
+  <main class="page-shell">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">ONLINE APPOINTMENT REQUEST</p>
+      <h1 id="page-title">Find a convenient clinic appointment</h1>
+      <p>Check availability before sharing personal details. This demonstration does not create a real booking.</p>
+      <div class="demo-banner" role="note">
+        <span class="demo-icon" aria-hidden="true">i</span>
+        <span><strong>Synthetic demo:</strong> All clinics, times, people and outcomes are fictional.</span>
+      </div>
+    </section>
+
+    <section class="workspace" aria-label="Appointment request">
+      <aside class="progress-panel" aria-label="Request progress">
+        <p class="progress-label">YOUR PROGRESS</p>
+        <ol id="step-list" class="step-list">
+          <li data-step="1"><span>1</span><div><strong>Search</strong><small>Clinic and service</small></div></li>
+          <li data-step="2"><span>2</span><div><strong>Availability</strong><small>Choose a time</small></div></li>
+          <li data-step="3"><span>3</span><div><strong>Your details</strong><small>Contact information</small></div></li>
+          <li data-step="4"><span>4</span><div><strong>Review</strong><small>Check and consent</small></div></li>
+          <li data-step="5"><span>5</span><div><strong>Outcome</strong><small>Request status</small></div></li>
+        </ol>
+        <div class="privacy-note"><strong>Privacy by design</strong><p>Your entries remain in this browser session and are cleared on restart or reload.</p></div>
+      </aside>
+
+      <section class="form-panel">
+        <header class="form-header">
+          <div><p id="step-kicker" class="step-kicker">STEP 1 OF 5</p><h2 id="step-title">Search</h2></div>
+          <button id="exit-button" class="text-button" type="button">Exit request</button>
+        </header>
+        <div id="app" tabindex="-1" aria-live="polite"></div>
+      </section>
+    </section>
+  </main>
+
+  <div id="exit-dialog" class="dialog-backdrop" hidden>
+    <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="exit-title">
+      <button class="dialog-close" type="button" aria-label="Close dialog">×</button>
+      <span class="dialog-icon" aria-hidden="true">!</span>
+      <h2 id="exit-title">Exit this request?</h2>
+      <p>Your progress is not saved. You will need to start again.</p>
+      <div class="button-row"><button id="confirm-exit" type="button">Exit request</button><button id="stay" class="secondary" type="button">Stay here</button></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
 </html>

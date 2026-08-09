@@ -1,0 +1,286 @@
+{"kind":"deck","id":"pr/9sb52v","name":"Deck"}
+{"kind":"layout","layoutId":"83f33f14-67df-4f2b-a16f-6a35353507ab","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"7da0ee97-15eb-4c1f-a554-5a29f7151b95","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/zdfy4y","slide":1,"title":"AI UX","textShapes":8}
+{"kind":"shape","id":"sh/ypgbep47","slide":1,"bbox":[880,0,400,720]}
+{"kind":"textbox","id":"sh/lcrupk3y","slide":1,"text":"AI UX","textPreview":"AI UX","textChars":5,"textLines":1,"bbox":[72,72,240,26]}
+{"kind":"textbox","id":"sh/0ritgfmd","slide":1,"text":"Specialized Agent\nWorkflow Guide","textPreview":"Specialized Agent | Workflow Guide","textChars":32,"textLines":2,"bbox":[72,130,700,155]}
+{"kind":"textbox","id":"sh/bmpsjalw","slide":1,"text":"What each agent receives, which skills it invokes, what those skills do, and how evidence moves safely to the next phase.","textPreview":"What each agent receives, which skills it invokes, what those skills do, and how evidence moves safely to the next phase.","textChars":121,"textLines":1,"bbox":[72,326,680,98]}
+{"kind":"shape","id":"sh/qlgba54b","slide":1,"bbox":[72,462,210,7]}
+{"kind":"textbox","id":"sh/do7ulk3m","slide":1,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[990,145,160,95]}
+{"kind":"textbox","id":"sh/cnytcfmh","slide":1,"text":"specialized agents","textPreview":"specialized agents","textChars":18,"textLines":1,"bbox":[930,245,280,36]}
+{"kind":"textbox","id":"sh/3i5sfalk","slide":1,"text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[990,360,160,80]}
+{"kind":"textbox","id":"sh/2hwb654z","slide":1,"text":"reusable UX skills","textPreview":"reusable UX skills","textChars":18,"textLines":1,"bbox":[930,447,280,36]}
+{"kind":"textbox","id":"sh/cv69ojy5","slide":1,"text":"Human governed · evidence traceable","textPreview":"Human governed · evidence traceable","textChars":35,"textLines":1,"bbox":[72,510,600,34]}
+{"kind":"notes","id":"nt/zdfy4y","slide":1,"text":""}
+{"kind":"slide","id":"sl/qru5sy","slide":2,"title":"THE OPERATING MODEL","textShapes":26}
+{"kind":"textbox","id":"sh/d4n2h0re","slide":2,"text":"THE OPERATING MODEL","textPreview":"THE OPERATING MODEL","textChars":19,"textLines":1,"bbox":[64,38,1120,22]}
+{"kind":"textbox","id":"sh/qhwj6583","slide":2,"text":"One orchestrator routes five specialists through four human gates","textPreview":"One orchestrator routes five specialists through four human gates","textChars":65,"textLines":1,"bbox":[64,66,1140,54]}
+{"kind":"textbox","id":"sh/ri5kfa98","slide":2,"text":"The agents do the UX work. The orchestrator controls order and state. Humans control advancement.","textPreview":"The agents do the UX work. The orchestrator controls order and state. Humans control advancement.","textChars":97,"textLines":1,"bbox":[64,126,1140,42]}
+{"kind":"shape","id":"sh/4fe14vqx","slide":2,"bbox":[64,178,92,5]}
+{"kind":"shape","id":"sh/5gn2d0ri","slide":2,"bbox":[222,358,36,0]}
+{"kind":"shape","id":"sh/idwj2l8r","slide":2,"bbox":[434,358,36,0]}
+{"kind":"shape","id":"sh/3e5kbq9c","slide":2,"bbox":[646,358,36,0]}
+{"kind":"shape","id":"sh/obylgzq1","slide":2,"bbox":[858,358,36,0]}
+{"kind":"shape","id":"sh/pcr2pkrm","slide":2,"bbox":[232,336,46,46]}
+{"kind":"textbox","id":"sh/1krypcny","slide":2,"text":"D1","textPreview":"D1","textChars":2,"textLines":1,"bbox":[232,346,46,24]}
+{"kind":"shape","id":"sh/0jixg7md","slide":2,"bbox":[444,336,46,46]}
+{"kind":"textbox","id":"sh/fi9gn25s","slide":2,"text":"D2","textPreview":"D2","textChars":2,"textLines":1,"bbox":[444,346,46,24]}
+{"kind":"shape","id":"sh/eh0fex47","slide":2,"bbox":[656,336,46,46]}
+{"kind":"textbox","id":"sh/dg7ylsnm","slide":2,"text":"D3","textPreview":"D3","textChars":2,"textLines":1,"bbox":[656,346,46,24]}
+{"kind":"shape","id":"sh/sfyxcnm1","slide":2,"bbox":[868,336,46,46]}
+{"kind":"textbox","id":"sh/rupgj25g","slide":2,"text":"D4","textPreview":"D4","textChars":2,"textLines":1,"bbox":[868,346,46,24]}
+{"kind":"shape","id":"sh/qtgfax4b","slide":2,"bbox":[58,286,172,180]}
+{"kind":"shape","id":"sh/xcbyxw3q","slide":2,"bbox":[73,302,58,58]}
+{"kind":"textbox","id":"sh/cb2horml","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[73,313,58,36]}
+{"kind":"textbox","id":"sh/wva1kvuh","slide":2,"text":"Discover","textPreview":"Discover","textChars":8,"textLines":1,"bbox":[76,368,140,48]}
+{"kind":"textbox","id":"sh/xwjit0b2","slide":2,"text":"UX Research +\nRequirements Challenge","textPreview":"UX Research + | Requirements Challenge","textChars":36,"textLines":2,"bbox":[76,420,140,38]}
+{"kind":"shape","id":"sh/atsjilcr","slide":2,"bbox":[270,286,172,180]}
+{"kind":"shape","id":"sh/vu10rqtw","slide":2,"bbox":[285,302,58,58]}
+{"kind":"textbox","id":"sh/8rqhgvul","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[285,313,58,36]}
+{"kind":"textbox","id":"sh/9szip0b6","slide":2,"text":"Define & Ideate","textPreview":"Define & Ideate","textChars":15,"textLines":1,"bbox":[288,368,140,48]}
+{"kind":"textbox","id":"sh/mp8zelcf","slide":2,"text":"UX Definition Agent","textPreview":"UX Definition Agent","textChars":19,"textLines":1,"bbox":[288,420,140,38]}
+{"kind":"shape","id":"sh/nqh0nqt0","slide":2,"bbox":[482,286,172,180]}
+{"kind":"shape","id":"sh/0nqhcbu9","slide":2,"bbox":[497,302,58,58]}
+{"kind":"textbox","id":"sh/lozilgbu","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[497,313,58,36]}
+{"kind":"textbox","id":"sh/3yxkv6xw","slide":2,"text":"Design & Prototype","textPreview":"Design & Prototype","textChars":18,"textLines":1,"bbox":[500,368,140,48]}
+{"kind":"textbox","id":"sh/2xoj21wb","slide":2,"text":"Experience Design Agent","textPreview":"Experience Design Agent","textChars":23,"textLines":1,"bbox":[500,420,140,38]}
+{"kind":"shape","id":"sh/p0f2xgfm","slide":2,"bbox":[694,286,172,180]}
+{"kind":"shape","id":"sh/oz614beh","slide":2,"bbox":[709,302,58,58]}
+{"kind":"textbox","id":"sh/bmhkzqxs","slide":2,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[709,313,58,36]}
+{"kind":"textbox","id":"sh/qloj6lw7","slide":2,"text":"Validate","textPreview":"Validate","textChars":8,"textLines":1,"bbox":[712,368,140,48]}
+{"kind":"textbox","id":"sh/doz21gfy","slide":2,"text":"UX Validation & Audit","textPreview":"UX Validation & Audit","textChars":21,"textLines":1,"bbox":[712,420,140,38]}
+{"kind":"shape","id":"sh/cnq18ved","slide":2,"bbox":[906,286,172,180]}
+{"kind":"shape","id":"sh/zqhk3qx4","slide":2,"bbox":[921,302,58,58]}
+{"kind":"textbox","id":"sh/yp8jalwj","slide":2,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[921,313,58,36]}
+{"kind":"textbox","id":"sh/i50vmt8r","slide":2,"text":"Outcome","textPreview":"Outcome","textChars":7,"textLines":1,"bbox":[924,368,140,48]}
+{"kind":"textbox","id":"sh/j69cvypc","slide":2,"text":"Human D4 decision","textPreview":"Human D4 decision","textChars":17,"textLines":1,"bbox":[924,420,140,38]}
+{"kind":"shape","id":"sh/47ido3qx","slide":2,"bbox":[170,510,940,112]}
+{"kind":"textbox","id":"sh/58rux87i","slide":2,"text":"ORCHESTRATOR","textPreview":"ORCHESTRATOR","textChars":12,"textLines":1,"bbox":[194,532,190,24]}
+{"kind":"textbox","id":"sh/690vqd83","slide":2,"text":"Reads state → dispatches eligible agent → validates required artifacts → stops at the next gate","textPreview":"Reads state → dispatches eligible agent → validates required artifacts → stops at the next gate","textChars":95,"textLines":1,"bbox":[395,526,680,52]}
+{"kind":"textbox","id":"sh/ratczipo","slide":2,"text":"It never authors phase outputs and never approves D1–D4.","textPreview":"It never authors phase outputs and never approves D1–D4.","textChars":56,"textLines":1,"bbox":[395,584,680,24]}
+{"kind":"textbox","id":"sh/sb2ds3qt","slide":2,"text":"AI UX AGENT WORKFLOW GUIDE  •  02","textPreview":"AI UX AGENT WORKFLOW GUIDE  •  02","textChars":33,"textLines":1,"bbox":[64,682,550,18]}
+{"kind":"notes","id":"nt/qru5sy","slide":2,"text":""}
+{"kind":"slide","id":"sl/4tfbf0","slide":3,"title":"AGENT 1 · DISCOVER","textShapes":19}
+{"kind":"textbox","id":"sh/gv65sbuh","slide":3,"text":"AGENT 1 · DISCOVER","textPreview":"AGENT 1 · DISCOVER","textChars":18,"textLines":1,"bbox":[64,38,1120,22]}
+{"kind":"textbox","id":"sh/vuxoz6dw","slide":3,"text":"UX Research Agent builds a trustworthy evidence baseline","textPreview":"UX Research Agent builds a trustworthy evidence baseline","textChars":56,"textLines":1,"bbox":[64,66,1140,54]}
+{"kind":"textbox","id":"sh/utonqlcb","slide":3,"text":"It organizes what is known, what is uncertain, and what still requires research.","textPreview":"It organizes what is known, what is uncertain, and what still requires research.","textChars":80,"textLines":1,"bbox":[64,126,1140,42]}
+{"kind":"shape","id":"sh/5kz650vy","slide":3,"bbox":[64,178,92,5]}
+{"kind":"shape","id":"sh/4jq5wvut","slide":3,"bbox":[64,210,58,58]}
+{"kind":"textbox","id":"sh/3iho3qd8","slide":3,"text":"R","textPreview":"R","textChars":1,"textLines":1,"bbox":[64,221,58,36]}
+{"kind":"textbox","id":"sh/ix8nulcn","slide":3,"text":"Evidence in","textPreview":"Evidence in","textChars":11,"textLines":1,"bbox":[140,214,250,24]}
+{"kind":"textbox","id":"sh/doz690va","slide":3,"text":"BRD, research notes, surveys, analytics, support tickets, stakeholder and design context","textPreview":"BRD, research notes, surveys, analytics, support tickets, stakeholder and design context","textChars":88,"textLines":1,"bbox":[140,244,520,53]}
+{"kind":"shape","id":"sh/snqp0vup","slide":3,"bbox":[90,324,38,38]}
+{"kind":"textbox","id":"sh/mtg769kj","slide":3,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[90,330,38,24]}
+{"kind":"textbox","id":"sh/nup8ze1o","slide":3,"text":"Source & Evidence Analysis","textPreview":"Source & Evidence Analysis","textChars":26,"textLines":1,"bbox":[146,322,315,28]}
+{"kind":"textbox","id":"sh/8fyp8j29","slide":3,"text":"Inventories every input, classifies source type, confidence, gaps and contradictions.","textPreview":"Inventories every input, classifies source type, confidence, gaps and contradictions.","textChars":85,"textLines":1,"bbox":[146,351,500,42]}
+{"kind":"shape","id":"sh/9grq14ju","slide":3,"bbox":[90,406,38,38]}
+{"kind":"textbox","id":"sh/ah07a9kf","slide":3,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[90,412,38,24]}
+{"kind":"textbox","id":"sh/vi983e10","slide":3,"text":"Persona Synthesis","textPreview":"Persona Synthesis","textChars":17,"textLines":1,"bbox":[146,404,315,28]}
+{"kind":"textbox","id":"sh/wji9cj2l","slide":3,"text":"Creates only evidence-supported personas—or fewer/limited proto-personas when evidence is weak.","textPreview":"Creates only evidence-supported personas—or fewer/limited proto-personas when evidence is weak.","textChars":95,"textLines":1,"bbox":[146,433,500,42]}
+{"kind":"shape","id":"sh/xkrq5oj6","slide":3,"bbox":[90,488,38,38]}
+{"kind":"textbox","id":"sh/qlw7ypkb","slide":3,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[90,494,38,24]}
+{"kind":"textbox","id":"sh/rm58ru1w","slide":3,"text":"Pain-Point Extraction","textPreview":"Pain-Point Extraction","textChars":21,"textLines":1,"bbox":[146,486,315,28]}
+{"kind":"textbox","id":"sh/fql4zqho","slide":3,"text":"Finds traceable barriers and frustrations without converting opportunities into requirements.","textPreview":"Finds traceable barriers and frustrations without converting opportunities into requirements.","textChars":93,"textLines":1,"bbox":[146,515,500,42]}
+{"kind":"shape","id":"sh/upcn6l03","slide":3,"bbox":[750,218,458,125]}
+{"kind":"textbox","id":"sh/hs3m1gze","slide":3,"text":"OUTPUT & HANDOFF\npersona.md · pain-points.md · research-gaps.md → D1","textPreview":"OUTPUT & HANDOFF | persona.md · pain-points.md · research-gaps.md → D1","textChars":68,"textLines":2,"bbox":[778,240,400,84]}
+{"kind":"shape","id":"sh/gru58vit","slide":3,"bbox":[750,362,458,116]}
+{"kind":"textbox","id":"sh/7214v6hc","slide":3,"text":"GUARDRAIL — Never invent demographics, quotations, motivations, behaviours or research findings.","textPreview":"GUARDRAIL — Never invent demographics, quotations, motivations, behaviours or research findings.","textChars":96,"textLines":1,"bbox":[778,390,400,70]}
+{"kind":"shape","id":"sh/61sn210r","slide":3,"bbox":[750,497,458,145]}
+{"kind":"textbox","id":"sh/t4jmxgzi","slide":3,"text":"WHY IT MATTERS — It prevents downstream design decisions from being built on attractive but unsupported user stories.","textPreview":"WHY IT MATTERS — It prevents downstream design decisions from being built on attractive but unsupported user stories.","textChars":117,"textLines":1,"bbox":[778,530,400,88]}
+{"kind":"textbox","id":"sh/s3a54bix","slide":3,"text":"AI UX AGENT WORKFLOW GUIDE  •  03","textPreview":"AI UX AGENT WORKFLOW GUIDE  •  03","textChars":33,"textLines":1,"bbox":[64,682,550,18]}
+{"kind":"notes","id":"nt/4tfbf0","slide":3,"text":""}
+{"kind":"slide","id":"sl/r3ms0y","slide":4,"title":"AGENT 2 · DISCOVER","textShapes":14}
+{"kind":"textbox","id":"sh/ed4j6lwz","slide":4,"text":"AGENT 2 · DISCOVER","textPreview":"AGENT 2 · DISCOVER","textChars":18,"textLines":1,"bbox":[64,38,1120,22]}
+{"kind":"textbox","id":"sh/lgf2h0vq","slide":4,"text":"Requirements Challenge Agent makes the BRD argue with itself","textPreview":"Requirements Challenge Agent makes the BRD argue with itself","textChars":60,"textLines":1,"bbox":[64,66,1140,54]}
+{"kind":"textbox","id":"sh/0f618ve5","slide":4,"text":"It runs before personas so unsupported business assumptions cannot quietly become user facts.","textPreview":"It runs before personas so unsupported business assumptions cannot quietly become user facts.","textChars":93,"textLines":1,"bbox":[64,126,1140,42]}
+{"kind":"shape","id":"sh/rqdkb6d8","slide":4,"bbox":[64,178,92,5]}
+{"kind":"shape","id":"sh/qp4j2lwn","slide":4,"bbox":[252,326,204,0]}
+{"kind":"shape","id":"sh/dcv2dgve","slide":4,"bbox":[644,326,204,0]}
+{"kind":"shape","id":"sh/crm14bet","slide":4,"bbox":[64,228,292,210]}
+{"kind":"shape","id":"sh/vmhknads","slide":4,"bbox":[86,252,58,58]}
+{"kind":"textbox","id":"sh/alo3e5w7","slide":4,"text":"B","textPreview":"B","textChars":1,"textLines":1,"bbox":[86,263,58,36]}
+{"kind":"textbox","id":"sh/0fa10jid","slide":4,"text":"Readable BRD + source inventory","textPreview":"Readable BRD + source inventory","textChars":31,"textLines":1,"bbox":[164,248,170,62]}
+{"kind":"textbox","id":"sh/1g3itojy","slide":4,"text":"Goals · scope · actors · workflows · constraints · assumptions","textPreview":"Goals · scope · actors · workflows · constraints · assumptions","textChars":62,"textLines":1,"bbox":[86,328,240,82]}
+{"kind":"shape","id":"sh/edsjy90n","slide":4,"bbox":[456,228,188,210]}
+{"kind":"shape","id":"sh/fe10re18","slide":4,"bbox":[521,248,58,58]}
+{"kind":"textbox","id":"sh/sba1wjih","slide":4,"text":"?","textPreview":"?","textChars":1,"textLines":1,"bbox":[521,259,58,36]}
+{"kind":"textbox","id":"sh/dcjip4j2","slide":4,"text":"Requirements\nChallenge\nAgent","textPreview":"Requirements | Challenge | Agent","textChars":28,"textLines":3,"bbox":[478,326,144,88]}
+{"kind":"shape","id":"sh/qpsju90b","slide":4,"bbox":[848,228,360,210]}
+{"kind":"textbox","id":"sh/ra10ne1w","slide":4,"text":"TRACEABLE BRD RISK REVIEW","textPreview":"TRACEABLE BRD RISK REVIEW","textChars":25,"textLines":1,"bbox":[876,252,310,26]}
+{"kind":"textbox","id":"sh/4nq1szil","slide":4,"text":"Strengths\nChallenged assumptions\nMissing requirements\nEdge cases & contradictions","textPreview":"Strengths | Challenged assumptions | Missing requirements | Edge cases & contradictions","textChars":81,"textLines":4,"bbox":[876,300,300,116]}
+{"kind":"textbox","id":"sh/5ojil4jq","slide":4,"text":"The agent does not invent the missing answer.","textPreview":"The agent does not invent the missing answer.","textChars":45,"textLines":1,"bbox":[64,478,490,30]}
+{"kind":"textbox","id":"sh/lsrq9w7i","slide":4,"text":"A missing specification becomes a question, research gap, risk hypothesis or D1 decision—not a fabricated requirement.","textPreview":"A missing specification becomes a question, research gap, risk hypothesis or D1 decision—not a fabricated requirement.","textChars":118,"textLines":1,"bbox":[64,520,1080,58]}
+{"kind":"shape","id":"sh/k7ip0rqx","slide":4,"bbox":[64,602,1144,49]}
+{"kind":"textbox","id":"sh/j6p87mpc","slide":4,"text":"Classification + confidence + source locator are required for every substantive finding.","textPreview":"Classification + confidence + source locator are required for every substantive finding.","textChars":88,"textLines":1,"bbox":[85,614,1100,26]}
+{"kind":"textbox","id":"sh/y5g7yh8r","slide":4,"text":"AI UX AGENT WORKFLOW GUIDE  •  04","textPreview":"AI UX AGENT WORKFLOW GUIDE  •  04","textChars":33,"textLines":1,"bbox":[64,682,550,18]}
+{"kind":"notes","id":"nt/r3ms0y","slide":4,"text":""}
+{"kind":"slide","id":"sl/wdx28c","slide":5,"title":"INSIDE THE CHALLENGE","textShapes":17}
+{"kind":"textbox","id":"sh/adsbapw3","slide":5,"text":"INSIDE THE CHALLENGE","textPreview":"INSIDE THE CHALLENGE","textChars":20,"textLines":1,"bbox":[64,38,1120,22]}
+{"kind":"textbox","id":"sh/x03alkvu","slide":5,"text":"Advocate, Cynic and Debate Synthesis have distinct jobs","textPreview":"Advocate, Cynic and Debate Synthesis have distinct jobs","textChars":55,"textLines":1,"bbox":[64,66,1140,54]}
+{"kind":"textbox","id":"sh/wzutcfu9","slide":5,"text":"The goal is a balanced evidence review—not a winner and loser.","textPreview":"The goal is a balanced evidence review—not a winner and loser.","textChars":62,"textLines":1,"bbox":[64,126,1140,42]}
+{"kind":"shape","id":"sh/j2lsnudk","slide":5,"bbox":[64,178,92,5]}
+{"kind":"shape","id":"sh/y1cbepcf","slide":5,"bbox":[64,220,328,338]}
+{"kind":"textbox","id":"sh/543ap4vq","slide":5,"text":"ADVOCATE REVIEW","textPreview":"ADVOCATE REVIEW","textChars":15,"textLines":1,"bbox":[88,244,280,26]}
+{"kind":"textbox","id":"sh/k3utgzu5","slide":5,"text":"What is genuinely supported?","textPreview":"What is genuinely supported?","textChars":28,"textLines":1,"bbox":[88,286,280,54]}
+{"kind":"shape","id":"sh/z6hsbqdg","slide":5,"bbox":[88,353,92,5]}
+{"kind":"textbox","id":"sh/e58r25wv","slide":5,"text":"• Stated goals and scope\n• Explicit BRD needs\n• Supported happy paths\n• Clear requirements\n• Risks already handled","textPreview":"• Stated goals and scope | • Explicit BRD needs | • Supported happy paths | • Clear requirements | • Risks already handled","textChars":114,"textLines":5,"bbox":[88,382,280,155]}
+{"kind":"shape","id":"sh/8bitofqx","slide":5,"bbox":[432,220,328,338]}
+{"kind":"textbox","id":"sh/9craxk72","slide":5,"text":"CYNIC REVIEW","textPreview":"CYNIC REVIEW","textChars":12,"textLines":1,"bbox":[456,244,280,26]}
+{"kind":"textbox","id":"sh/m9grm58r","slide":5,"text":"What could fail or be missing?","textPreview":"What could fail or be missing?","textChars":30,"textLines":1,"bbox":[456,286,280,54]}
+{"kind":"shape","id":"sh/7apsvapc","slide":5,"bbox":[456,353,92,5]}
+{"kind":"textbox","id":"sh/wzitsfqt","slide":5,"text":"• Rushed-user friction\n• Failure and recovery states\n• Accessibility risks\n• Potential trust risks\n• Ambiguity and contradiction","textPreview":"• Rushed-user friction | • Failure and recovery states | • Accessibility risks | • Potential trust risks | • Ambiguity and contradiction","textChars":128,"textLines":5,"bbox":[456,382,280,155]}
+{"kind":"shape","id":"sh/h0ra1k7e","slide":5,"bbox":[800,220,328,338]}
+{"kind":"textbox","id":"sh/ud0bqp8n","slide":5,"text":"DEBATE SYNTHESIS","textPreview":"DEBATE SYNTHESIS","textChars":16,"textLines":1,"bbox":[824,244,280,26]}
+{"kind":"textbox","id":"sh/vy9szap8","slide":5,"text":"What should happen next?","textPreview":"What should happen next?","textChars":24,"textLines":1,"bbox":[824,286,280,54]}
+{"kind":"shape","id":"sh/c3e9gvqp","slide":5,"bbox":[824,353,92,5]}
+{"kind":"textbox","id":"sh/x47ap0ru","slide":5,"text":"• Compares both analyses\n• Preserves contradictions\n• Classifies each finding\n• Adds confidence + source\n• Recommends actions/decisions","textPreview":"• Compares both analyses | • Preserves contradictions | • Classifies each finding | • Adds confidence + source | • Recommends actions/dec...","textChars":135,"textLines":5,"bbox":[824,382,280,155]}
+{"kind":"textbox","id":"sh/d0zqtcjy","slide":5,"text":"Advocate does not defend assumptions.","textPreview":"Advocate does not defend assumptions.","textChars":37,"textLines":1,"bbox":[64,590,330,26]}
+{"kind":"textbox","id":"sh/sz6pk7id","slide":5,"text":"Cynic does not make accusations.","textPreview":"Cynic does not make accusations.","textChars":32,"textLines":1,"bbox":[432,590,330,26]}
+{"kind":"textbox","id":"sh/ryx8rm1s","slide":5,"text":"Synthesis does not turn risk into research.","textPreview":"Synthesis does not turn risk into research.","textChars":43,"textLines":1,"bbox":[800,590,390,26]}
+{"kind":"shape","id":"sh/qxo7ih07","slide":5,"bbox":[64,628,1128,36]}
+{"kind":"textbox","id":"sh/14zqxwju","slide":5,"text":"FACT · BRD STATEMENT · INFERENCE · ASSUMPTION · RISK HYPOTHESIS    |    HIGH · MEDIUM · LOW · CONTRADICTORY","textPreview":"FACT · BRD STATEMENT · INFERENCE · ASSUMPTION · RISK HYPOTHESIS    |    HIGH · MEDIUM · LOW · CONTRADICTORY","textChars":107,"textLines":1,"bbox":[78,635,1100,22]}
+{"kind":"textbox","id":"sh/03qpori9","slide":5,"text":"AI UX AGENT WORKFLOW GUIDE  •  05","textPreview":"AI UX AGENT WORKFLOW GUIDE  •  05","textChars":33,"textLines":1,"bbox":[64,682,550,18]}
+{"kind":"notes","id":"nt/wdx28c","slide":5,"text":""}
+{"kind":"slide","id":"sl/di1qrg","slide":6,"title":"AGENT 3 · DEFINE & IDEATE","textShapes":25}
+{"kind":"textbox","id":"sh/kjmpcvmh","slide":6,"text":"AGENT 3 · DEFINE & IDEATE","textPreview":"AGENT 3 · DEFINE & IDEATE","textChars":25,"textLines":1,"bbox":[64,38,1120,22]}
+{"kind":"textbox","id":"sh/jidojq5w","slide":6,"text":"UX Definition Agent converts evidence into a deliberate direction","textPreview":"UX Definition Agent converts evidence into a deliberate direction","textChars":65,"textLines":1,"bbox":[64,66,1140,54]}
+{"kind":"textbox","id":"sh/yh4nal4b","slide":6,"text":"It expands the solution space before recommending one concept for human review.","textPreview":"It expands the solution space before recommending one concept for human review.","textChars":79,"textLines":1,"bbox":[64,126,1140,42]}
+{"kind":"shape","id":"sh/xwv6hgnq","slide":6,"bbox":[64,178,92,5]}
+{"kind":"shape","id":"sh/wv258bm5","slide":6,"bbox":[64,210,58,58]}
+{"kind":"textbox","id":"sh/butof650","slide":6,"text":"D","textPreview":"D","textChars":1,"textLines":1,"bbox":[64,221,58,36]}
+{"kind":"textbox","id":"sh/atkn614f","slide":6,"text":"Approved discovery in","textPreview":"Approved discovery in","textChars":21,"textLines":1,"bbox":[140,214,270,24]}
+{"kind":"textbox","id":"sh/hcf6tk3a","slide":6,"text":"BRD risk review, personas, pain points, research gaps and supporting sources","textPreview":"BRD risk review, personas, pain points, research gaps and supporting sources","textChars":76,"textLines":1,"bbox":[140,244,520,48]}
+{"kind":"shape","id":"sh/gr6pkfmp","slide":6,"bbox":[90,314,38,38]}
+{"kind":"textbox","id":"sh/6h8bad8v","slide":6,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[90,320,38,24]}
+{"kind":"textbox","id":"sh/7ihcji9g","slide":6,"text":"Problem Framing","textPreview":"Problem Framing","textChars":15,"textLines":1,"bbox":[146,312,315,28]}
+{"kind":"textbox","id":"sh/sjqtcnq1","slide":6,"text":"Defines user, context, evidence, impact, uncertainty and business relationship.","textPreview":"Defines user, context, evidence, impact, uncertainty and business relationship.","textChars":79,"textLines":1,"bbox":[146,341,500,42]}
+{"kind":"shape","id":"sh/tkzul8r6","slide":6,"bbox":[90,382,38,38]}
+{"kind":"textbox","id":"sh/itob6t8j","slide":6,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[90,388,38,24]}
+{"kind":"textbox","id":"sh/juhsfy94","slide":6,"text":"Journey Mapping","textPreview":"Journey Mapping","textChars":15,"textLines":1,"bbox":[146,380,315,28]}
+{"kind":"textbox","id":"sh/kvqt83qp","slide":6,"text":"Maps stages and breakdowns; labels unsupported stages as hypothetical.","textPreview":"Maps stages and breakdowns; labels unsupported stages as hypothetical.","textChars":70,"textLines":1,"bbox":[146,409,500,42]}
+{"kind":"shape","id":"sh/5wzah8ra","slide":6,"bbox":[90,450,38,38]}
+{"kind":"textbox","id":"sh/2psbix83","slide":6,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[90,456,38,24]}
+{"kind":"textbox","id":"sh/3q1cr2po","slide":6,"text":"Opportunity Prioritization","textPreview":"Opportunity Prioritization","textChars":26,"textLines":1,"bbox":[146,448,315,28]}
+{"kind":"textbox","id":"sh/zut83up0","slide":6,"text":"Ranks candidate design spaces using evidence, user value, business relevance and uncertainty.","textPreview":"Ranks candidate design spaces using evidence, user value, business relevance and uncertainty.","textChars":93,"textLines":1,"bbox":[146,477,500,42]}
+{"kind":"shape","id":"sh/ytk7apof","slide":6,"bbox":[90,518,38,38]}
+{"kind":"textbox","id":"sh/lwvq5k76","slide":6,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[90,524,38,24]}
+{"kind":"textbox","id":"sh/0vm9cz6l","slide":6,"text":"Concept Generation","textPreview":"Concept Generation","textChars":18,"textLines":1,"bbox":[146,516,315,28]}
+{"kind":"textbox","id":"sh/nyd87upw","slide":6,"text":"Creates meaningfully different options instead of jumping to the first feature idea.","textPreview":"Creates meaningfully different options instead of jumping to the first feature idea.","textChars":84,"textLines":1,"bbox":[146,545,500,42]}
+{"kind":"shape","id":"sh/mx4repob","slide":6,"bbox":[90,586,38,38]}
+{"kind":"textbox","id":"sh/90vq9472","slide":6,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[90,592,38,24]}
+{"kind":"textbox","id":"sh/8zm9gz6h","slide":6,"text":"Concept Evaluation","textPreview":"Concept Evaluation","textChars":18,"textLines":1,"bbox":[146,584,315,28]}
+{"kind":"textbox","id":"sh/v2x8bep8","slide":6,"text":"Uses common criteria to recommend a direction while preserving alternatives and risks.","textPreview":"Uses common criteria to recommend a direction while preserving alternatives and risks.","textChars":86,"textLines":1,"bbox":[146,613,500,42]}
+{"kind":"shape","id":"sh/a14ri9on","slide":6,"bbox":[750,218,458,125]}
+{"kind":"textbox","id":"sh/sr6p8jml","slide":6,"text":"OUTPUT & HANDOFF\nproblem · journey · opportunities · concept options · selected concept → D2","textPreview":"OUTPUT & HANDOFF | problem · journey · opportunities · concept options · selected concept → D2","textChars":92,"textLines":2,"bbox":[778,240,400,84]}
+{"kind":"shape","id":"sh/tsfq1o36","slide":6,"bbox":[750,362,458,116]}
+{"kind":"textbox","id":"sh/6po7694v","slide":6,"text":"GUARDRAIL — An opportunity is not a requirement, and a recommendation is not usability proof.","textPreview":"GUARDRAIL — An opportunity is not a requirement, and a recommendation is not usability proof.","textChars":93,"textLines":1,"bbox":[778,390,400,70]}
+{"kind":"shape","id":"sh/7qx8zelg","slide":6,"bbox":[750,497,458,145]}
+{"kind":"textbox","id":"sh/k36p4zmp","slide":6,"text":"WHY IT MATTERS — It converts discovery into an explainable decision rather than an unexplained solution jump.","textPreview":"WHY IT MATTERS — It converts discovery into an explainable decision rather than an unexplained solution jump.","textChars":109,"textLines":1,"bbox":[778,530,400,88]}
+{"kind":"textbox","id":"sh/54fqx43a","slide":6,"text":"AI UX AGENT WORKFLOW GUIDE  •  06","textPreview":"AI UX AGENT WORKFLOW GUIDE  •  06","textChars":33,"textLines":1,"bbox":[64,682,550,18]}
+{"kind":"notes","id":"nt/di1qrg","slide":6,"text":""}
+{"kind":"slide","id":"sl/kioy3d","slide":7,"title":"AGENT 4 · DESIGN & PROTOTYPE","textShapes":25}
+{"kind":"textbox","id":"sh/zyhg7i9s","slide":7,"text":"AGENT 4 · DESIGN & PROTOTYPE","textPreview":"AGENT 4 · DESIGN & PROTOTYPE","textChars":28,"textLines":1,"bbox":[64,38,1120,22]}
+{"kind":"textbox","id":"sh/0jqhgnad","slide":7,"text":"Experience Design Agent turns direction into testable behavior","textPreview":"Experience Design Agent turns direction into testable behavior","textChars":62,"textLines":1,"bbox":[64,66,1140,54]}
+{"kind":"textbox","id":"sh/1kzy9sry","slide":7,"text":"It specifies the experience before claiming anything about its quality.","textPreview":"It specifies the experience before claiming anything about its quality.","textChars":71,"textLines":1,"bbox":[64,126,1140,42]}
+{"kind":"shape","id":"sh/qtofadsb","slide":7,"bbox":[64,178,92,5]}
+{"kind":"shape","id":"sh/ruxg3itw","slide":7,"bbox":[64,210,58,58]}
+{"kind":"textbox","id":"sh/svqxcna1","slide":7,"text":"X","textPreview":"X","textChars":1,"textLines":1,"bbox":[64,221,58,36]}
+{"kind":"textbox","id":"sh/dwzy5sbm","slide":7,"text":"D2-approved direction in","textPreview":"D2-approved direction in","textChars":24,"textLines":1,"bbox":[140,214,300,24]}
+{"kind":"textbox","id":"sh/ipof6tsz","slide":7,"text":"Problem, journey, opportunities, selected concept and project constraints","textPreview":"Problem, journey, opportunities, selected concept and project constraints","textChars":73,"textLines":1,"bbox":[140,244,520,48]}
+{"kind":"shape","id":"sh/3qxgzytk","slide":7,"bbox":[90,314,38,38]}
+{"kind":"textbox","id":"sh/3658bypo","slide":7,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[90,320,38,24]}
+{"kind":"textbox","id":"sh/i5wr2t83","slide":7,"text":"User Flow","textPreview":"User Flow","textChars":9,"textLines":1,"bbox":[146,312,315,28]}
+{"kind":"textbox","id":"sh/587qd87u","slide":7,"text":"Maps user/system steps, decisions, alternatives, errors, recovery and exit paths.","textPreview":"Maps user/system steps, decisions, alternatives, errors, recovery and exit paths.","textChars":81,"textLines":1,"bbox":[146,341,500,42]}
+{"kind":"shape","id":"sh/47y943q9","slide":7,"bbox":[90,382,38,38]}
+{"kind":"textbox","id":"sh/rapsfipk","slide":7,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[90,388,38,24]}
+{"kind":"textbox","id":"sh/q9gr6d8z","slide":7,"text":"Information Architecture","textPreview":"Information Architecture","textChars":24,"textLines":1,"bbox":[146,380,315,28]}
+{"kind":"textbox","id":"sh/dc7ah87q","slide":7,"text":"Defines hierarchy, labels and navigation when the concept genuinely needs it.","textPreview":"Defines hierarchy, labels and navigation when the concept genuinely needs it.","textChars":77,"textLines":1,"bbox":[146,409,500,42]}
+{"kind":"shape","id":"sh/sby983q5","slide":7,"bbox":[90,450,38,38]}
+{"kind":"textbox","id":"sh/7el83e9g","slide":7,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[90,456,38,24]}
+{"kind":"textbox","id":"sh/6dcru98v","slide":7,"text":"Screen Specification","textPreview":"Screen Specification","textChars":20,"textLines":1,"bbox":[146,448,315,28]}
+{"kind":"textbox","id":"sh/a9kb2hsj","slide":7,"text":"Defines each screen’s purpose, content, actions, validation and traceability.","textPreview":"Defines each screen’s purpose, content, actions, validation and traceability.","textChars":77,"textLines":1,"bbox":[146,477,500,42]}
+{"kind":"shape","id":"sh/batcbm94","slide":7,"bbox":[90,518,38,38]}
+{"kind":"textbox","id":"sh/cv2t4rap","slide":7,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[90,524,38,24]}
+{"kind":"textbox","id":"sh/xwbudwru","slide":7,"text":"Interaction States","textPreview":"Interaction States","textChars":18,"textLines":1,"bbox":[146,516,315,28]}
+{"kind":"textbox","id":"sh/250byhs7","slide":7,"text":"Covers loading, empty, error, timeout, cancellation, permission and recovery states.","textPreview":"Covers loading, empty, error, timeout, cancellation, permission and recovery states.","textChars":84,"textLines":1,"bbox":[146,545,500,42]}
+{"kind":"shape","id":"sh/n6tc7m9s","slide":7,"bbox":[90,586,38,38]}
+{"kind":"textbox","id":"sh/o72t07ad","slide":7,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[90,592,38,24]}
+{"kind":"textbox","id":"sh/p8bu9cry","slide":7,"text":"Prototype Generation","textPreview":"Prototype Generation","textChars":20,"textLines":1,"bbox":[146,584,315,28]}
+{"kind":"textbox","id":"sh/e10buxsb","slide":7,"text":"Builds a prototype contract—and a runnable demo when the runtime is available.","textPreview":"Builds a prototype contract—and a runnable demo when the runtime is available.","textChars":78,"textLines":1,"bbox":[146,613,500,42]}
+{"kind":"shape","id":"sh/f29c329w","slide":7,"bbox":[750,218,458,125]}
+{"kind":"textbox","id":"sh/h8z6p4fq","slide":7,"text":"OUTPUT & HANDOFF\nuser-flow.md · screen-spec.md · interaction-states.md · prototype-spec.md → D3","textPreview":"OUTPUT & HANDOFF | user-flow.md · screen-spec.md · interaction-states.md · prototype-spec.md → D3","textChars":95,"textLines":2,"bbox":[778,240,400,84]}
+{"kind":"shape","id":"sh/g7q5wzy5","slide":7,"bbox":[750,362,458,116]}
+{"kind":"textbox","id":"sh/f6honuxk","slide":7,"text":"GUARDRAIL — Do not invent business rules, backend capabilities or unsupported product features.","textPreview":"GUARDRAIL — Do not invent business rules, backend capabilities or unsupported product features.","textChars":95,"textLines":1,"bbox":[778,390,400,70]}
+{"kind":"shape","id":"sh/u58nupgz","slide":7,"bbox":[750,497,458,145]}
+{"kind":"textbox","id":"sh/t4z6lkfe","slide":7,"text":"WHY IT MATTERS — It turns strategy into an inspectable experience with explicit non-happy paths—not just polished screens.","textPreview":"WHY IT MATTERS — It turns strategy into an inspectable experience with explicit non-happy paths—not just polished screens.","textChars":122,"textLines":1,"bbox":[778,530,400,88]}
+{"kind":"textbox","id":"sh/s3q5sfyt","slide":7,"text":"AI UX AGENT WORKFLOW GUIDE  •  07","textPreview":"AI UX AGENT WORKFLOW GUIDE  •  07","textChars":33,"textLines":1,"bbox":[64,682,550,18]}
+{"kind":"notes","id":"nt/kioy3d","slide":7,"text":""}
+{"kind":"slide","id":"sl/7smtrj","slide":8,"title":"AGENT 5 · VALIDATE","textShapes":28}
+{"kind":"textbox","id":"sh/val07mh0","slide":8,"text":"AGENT 5 · VALIDATE","textPreview":"AGENT 5 · VALIDATE","textChars":18,"textLines":1,"bbox":[64,38,1120,22]}
+{"kind":"textbox","id":"sh/wbu10ryl","slide":8,"text":"Validation Agent challenges the prototype without overclaiming","textPreview":"Validation Agent challenges the prototype without overclaiming","textChars":62,"textLines":1,"bbox":[64,66,1140,54]}
+{"kind":"textbox","id":"sh/xc3i9cz6","slide":8,"text":"Its findings are synthetic and heuristic until real research or formal testing exists.","textPreview":"Its findings are synthetic and heuristic until real research or formal testing exists.","textChars":86,"textLines":1,"bbox":[64,126,1140,42]}
+{"kind":"shape","id":"sh/mlsjuxg3","slide":8,"bbox":[64,178,92,5]}
+{"kind":"shape","id":"sh/nm1032ho","slide":8,"bbox":[64,210,58,58]}
+{"kind":"textbox","id":"sh/8na1w7y9","slide":8,"text":"V","textPreview":"V","textChars":1,"textLines":1,"bbox":[64,221,58,36]}
+{"kind":"textbox","id":"sh/98ji5czu","slide":8,"text":"D3-approved design in","textPreview":"D3-approved design in","textChars":21,"textLines":1,"bbox":[140,214,300,24]}
+{"kind":"textbox","id":"sh/6hwj61gn","slide":8,"text":"Persona, concept, flow, screens, interaction states, prototype and original requirements","textPreview":"Persona, concept, flow, screens, interaction states, prototype and original requirements","textChars":88,"textLines":1,"bbox":[140,244,520,48]}
+{"kind":"shape","id":"sh/7i50f6h8","slide":8,"bbox":[90,304,38,38]}
+{"kind":"textbox","id":"sh/zed0vq1w","slide":8,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[90,310,38,24]}
+{"kind":"textbox","id":"sh/ed4j2lkb","slide":8,"text":"Synthetic Usability Test","textPreview":"Synthetic Usability Test","textChars":24,"textLines":1,"bbox":[146,303,315,25]}
+{"kind":"textbox","id":"sh/10v2x0j2","slide":8,"text":"Simulates tasks; never claims real participants.","textPreview":"Simulates tasks; never claims real participants.","textChars":48,"textLines":1,"bbox":[146,328,500,24]}
+{"kind":"shape","id":"sh/0zm14v2h","slide":8,"bbox":[90,360,38,38]}
+{"kind":"textbox","id":"sh/n2dkzq1s","slide":8,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[90,366,38,24]}
+{"kind":"textbox","id":"sh/m14j65k7","slide":8,"text":"Cognitive Friction Analysis","textPreview":"Cognitive Friction Analysis","textChars":27,"textLines":1,"bbox":[146,359,315,25]}
+{"kind":"textbox","id":"sh/94f210jy","slide":8,"text":"Assesses decisions and recovery with a transparent heuristic.","textPreview":"Assesses decisions and recovery with a transparent heuristic.","textChars":61,"textLines":1,"bbox":[146,384,500,24]}
+{"kind":"shape","id":"sh/o3m18vid","slide":8,"bbox":[90,416,38,38]}
+{"kind":"textbox","id":"sh/b6xk3a14","slide":8,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[90,422,38,24]}
+{"kind":"textbox","id":"sh/a5oja50j","slide":8,"text":"Accessibility Audit","textPreview":"Accessibility Audit","textChars":19,"textLines":1,"bbox":[146,415,315,25]}
+{"kind":"textbox","id":"sh/6dsvid83","slide":8,"text":"Flags evidence-bounded risks; avoids unsupported WCAG claims.","textPreview":"Flags evidence-bounded risks; avoids unsupported WCAG claims.","textChars":61,"textLines":1,"bbox":[146,440,500,24]}
+{"kind":"shape","id":"sh/re1cryp8","slide":8,"bbox":[90,472,38,38]}
+{"kind":"textbox","id":"sh/sfadk3qt","slide":8,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[90,478,38,24]}
+{"kind":"textbox","id":"sh/t03et87e","slide":8,"text":"Design-System Audit","textPreview":"Design-System Audit","textChars":19,"textLines":1,"bbox":[146,471,315,25]}
+{"kind":"textbox","id":"sh/i9svet8r","slide":8,"text":"Checks supplied system evidence—or reports NOT AVAILABLE.","textPreview":"Checks supplied system evidence—or reports NOT AVAILABLE.","textChars":57,"textLines":1,"bbox":[146,496,500,24]}
+{"kind":"shape","id":"sh/ja1cnypc","slide":8,"bbox":[90,528,38,38]}
+{"kind":"textbox","id":"sh/kbadg3qx","slide":8,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[90,534,38,24]}
+{"kind":"textbox","id":"sh/5cjup87i","slide":8,"text":"Requirement Coverage","textPreview":"Requirement Coverage","textChars":20,"textLines":1,"bbox":[146,527,315,25]}
+{"kind":"textbox","id":"sh/25cvqxov","slide":8,"text":"Traces requirements through definition, design and prototype.","textPreview":"Traces requirements through definition, design and prototype.","textChars":61,"textLines":1,"bbox":[146,552,500,24]}
+{"kind":"shape","id":"sh/36lwzipg","slide":8,"bbox":[90,584,38,38]}
+{"kind":"textbox","id":"sh/d07ypwry","slide":8,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[90,590,38,24]}
+{"kind":"textbox","id":"sh/czyxgrqd","slide":8,"text":"Edge-Case Validation","textPreview":"Edge-Case Validation","textChars":20,"textLines":1,"bbox":[146,583,315,25]}
+{"kind":"textbox","id":"sh/by5gnm9s","slide":8,"text":"Rechecks Phase 1 risks against designed failure states.","textPreview":"Rechecks Phase 1 risks against designed failure states.","textChars":55,"textLines":1,"bbox":[146,608,500,24]}
+{"kind":"shape","id":"sh/qxwfehs7","slide":8,"bbox":[750,218,458,125]}
+{"kind":"textbox","id":"sh/pwnylcrm","slide":8,"text":"OUTPUT & HANDOFF\nvalidation report · issues · coverage · accessibility audit → D4","textPreview":"OUTPUT & HANDOFF | validation report · issues · coverage · accessibility audit → D4","textChars":81,"textLines":2,"bbox":[778,240,400,84]}
+{"kind":"shape","id":"sh/ovexc7a1","slide":8,"bbox":[750,362,458,116]}
+{"kind":"textbox","id":"sh/3u5gj29g","slide":8,"text":"GUARDRAIL — Synthetic walkthroughs are not empirical usability evidence; D4 alone can verify the prototype.","textPreview":"GUARDRAIL — Synthetic walkthroughs are not empirical usability evidence; D4 alone can verify the prototype.","textChars":107,"textLines":1,"bbox":[778,390,400,70]}
+{"kind":"shape","id":"sh/29wfaxsb","slide":8,"bbox":[750,497,458,145]}
+{"kind":"textbox","id":"sh/9sryxgr6","slide":8,"text":"WHY IT MATTERS — It closes the loop from BRD risk to designed behavior and exposes what remains unresolved.","textPreview":"WHY IT MATTERS — It closes the loop from BRD risk to designed behavior and exposes what remains unresolved.","textChars":107,"textLines":1,"bbox":[778,530,400,88]}
+{"kind":"textbox","id":"sh/8rihobql","slide":8,"text":"AI UX AGENT WORKFLOW GUIDE  •  08","textPreview":"AI UX AGENT WORKFLOW GUIDE  •  08","textChars":33,"textLines":1,"bbox":[64,682,550,18]}
+{"kind":"notes","id":"nt/7smtrj","slide":8,"text":""}
+{"kind":"slide","id":"sl/6wktta","slide":9,"title":"THE GOVERNED HANDOFF","textShapes":20}
+{"kind":"textbox","id":"sh/jat4re1c","slide":9,"text":"THE GOVERNED HANDOFF","textPreview":"THE GOVERNED HANDOFF","textChars":20,"textLines":1,"bbox":[64,46,380,24]}
+{"kind":"textbox","id":"sh/4bm5kjix","slide":9,"text":"Every agent narrows uncertainty—none can erase it","textPreview":"Every agent narrows uncertainty—none can erase it","textChars":49,"textLines":1,"bbox":[64,82,1120,54]}
+{"kind":"textbox","id":"sh/5cv6tozi","slide":9,"text":"Artifacts carry evidence, assumptions, contradictions and validation needs forward. Human gates decide whether the work is ready to advance.","textPreview":"Artifacts carry evidence, assumptions, contradictions and validation needs forward. Human gates decide whether the work is ready to advance.","textChars":140,"textLines":1,"bbox":[64,146,1100,52]}
+{"kind":"shape","id":"sh/6x4nmt03","slide":9,"bbox":[70,236,58,58]}
+{"kind":"textbox","id":"sh/rydovyho","slide":9,"text":"D1","textPreview":"D1","textChars":2,"textLines":1,"bbox":[70,251,58,28]}
+{"kind":"textbox","id":"sh/szm5o3it","slide":9,"text":"Research & requirements","textPreview":"Research & requirements","textChars":23,"textLines":1,"bbox":[154,239,300,28]}
+{"kind":"textbox","id":"sh/t0v6x8ze","slide":9,"text":"Are evidence, personas, pain points and BRD challenges traceable?","textPreview":"Are evidence, personas, pain points and BRD challenges traceable?","textChars":65,"textLines":1,"bbox":[154,271,850,36]}
+{"kind":"textbox","id":"sh/e14nqd0z","slide":9,"text":"ADVANCE","textPreview":"ADVANCE","textChars":7,"textLines":1,"bbox":[1060,251,130,26]}
+{"kind":"shape","id":"sh/f2xozihk","slide":9,"bbox":[70,328,58,58]}
+{"kind":"textbox","id":"sh/zapojylo","slide":9,"text":"D2","textPreview":"D2","textChars":2,"textLines":1,"bbox":[70,343,58,28]}
+{"kind":"textbox","id":"sh/y9gnat43","slide":9,"text":"Definition & direction","textPreview":"Definition & direction","textChars":22,"textLines":1,"bbox":[154,331,300,28]}
+{"kind":"textbox","id":"sh/lcr6l83e","slide":9,"text":"Is the problem framed and is the concept choice justified?","textPreview":"Is the problem framed and is the concept choice justified?","textChars":58,"textLines":1,"bbox":[154,363,850,36]}
+{"kind":"textbox","id":"sh/kby5c3m9","slide":9,"text":"ADVANCE","textPreview":"ADVANCE","textChars":7,"textLines":1,"bbox":[1060,343,130,26]}
+{"kind":"shape","id":"sh/b6pofy5c","slide":9,"bbox":[70,420,58,58]}
+{"kind":"textbox","id":"sh/algn6t4r","slide":9,"text":"D3","textPreview":"D3","textChars":2,"textLines":1,"bbox":[70,435,58,28]}
+{"kind":"textbox","id":"sh/x876ho3i","slide":9,"text":"Design & prototype","textPreview":"Design & prototype","textChars":18,"textLines":1,"bbox":[154,423,300,28]}
+{"kind":"textbox","id":"sh/c7y583mx","slide":9,"text":"Is the flow complete and the prototype ready for validation?","textPreview":"Is the flow complete and the prototype ready for validation?","textChars":60,"textLines":1,"bbox":[154,455,850,36]}
+{"kind":"textbox","id":"sh/v29orilw","slide":9,"text":"ADVANCE","textPreview":"ADVANCE","textChars":7,"textLines":1,"bbox":[1060,435,130,26]}
+{"kind":"shape","id":"sh/uh07id4b","slide":9,"bbox":[70,512,58,58]}
+{"kind":"textbox","id":"sh/6x4rahoj","slide":9,"text":"D4","textPreview":"D4","textChars":2,"textLines":1,"bbox":[70,527,58,28]}
+{"kind":"textbox","id":"sh/ryd8jm54","slide":9,"text":"Final validation","textPreview":"Final validation","textChars":16,"textLines":1,"bbox":[154,515,300,28]}
+{"kind":"textbox","id":"sh/szm9cr69","slide":9,"text":"Are issues understood and can the prototype be called verified within limits?","textPreview":"Are issues understood and can the prototype be called verified within limits?","textChars":77,"textLines":1,"bbox":[154,547,850,36]}
+{"kind":"textbox","id":"sh/t0valwnu","slide":9,"text":"VERIFY","textPreview":"VERIFY","textChars":6,"textLines":1,"bbox":[1060,527,130,26]}
+{"kind":"shape","id":"sh/e14re1of","slide":9,"bbox":[64,620,1120,52]}
+{"kind":"textbox","id":"sh/f2xsn650","slide":9,"text":"APPROVE advances · REVISE reruns minimum affected work · REJECT blocks","textPreview":"APPROVE advances · REVISE reruns minimum affected work · REJECT blocks","textChars":70,"textLines":1,"bbox":[82,632,1085,28]}
+{"kind":"notes","id":"nt/6wktta","slide":9,"text":""}

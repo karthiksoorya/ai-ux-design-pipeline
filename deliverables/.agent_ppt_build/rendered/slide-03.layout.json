@@ -1,0 +1,1430 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/4tfbf0",
+    "id": "4tfbf0",
+    "slide": 3,
+    "layoutId": "7da0ee97-15eb-4c1f-a554-5a29f7151b95",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "83f33f14-67df-4f2b-a16f-6a35353507ab",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "7da0ee97-15eb-4c1f-a554-5a29f7151b95",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "83f33f14-67df-4f2b-a16f-6a35353507ab",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "83f33f14-67df-4f2b-a16f-6a35353507ab",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gv65sbuh",
+      "id": "1",
+      "bbox": [
+        64,
+        38,
+        1120,
+        22
+      ],
+      "geometry": "roundRect",
+      "text": "AGENT 1 · DISCOVER",
+      "textPreview": "AGENT 1 · DISCOVER",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#079A92",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AGENT 1 · DISCOVER"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AGENT 1 · DISCOVER",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#079A92",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AGENT 1 · DISCOVER",
+              "fontSize": 14,
+              "color": "#079A92",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vuxoz6dw",
+      "id": "2",
+      "bbox": [
+        64,
+        66,
+        1140,
+        54
+      ],
+      "geometry": "roundRect",
+      "text": "UX Research Agent builds a trustworthy evidence baseline",
+      "textPreview": "UX Research Agent builds a trustworthy evidence baseline",
+      "resolvedFontSize": 37,
+      "resolvedTextStyle": {
+        "fontSize": 37,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "UX Research Agent builds a trustworthy evidence baseline"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "UX Research Agent builds a trustworthy evidence baseline",
+          "resolvedTextStyle": {
+            "fontSize": 37,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "UX Research Agent builds a trustworthy evidence baseline",
+              "fontSize": 37,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/utonqlcb",
+      "id": "3",
+      "bbox": [
+        64,
+        126,
+        1140,
+        42
+      ],
+      "geometry": "roundRect",
+      "text": "It organizes what is known, what is uncertain, and what still requires research.",
+      "textPreview": "It organizes what is known, what is uncertain, and what still requires research.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#61758A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "It organizes what is known, what is uncertain, and what still requires research."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "It organizes what is known, what is uncertain, and what still requires research.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#61758A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "It organizes what is known, what is uncertain, and what still requires research.",
+              "fontSize": 18,
+              "color": "#61758A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5kz650vy",
+      "id": "4",
+      "bbox": [
+        64,
+        178,
+        92,
+        5
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#29C7BC",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4jq5wvut",
+      "id": "5",
+      "bbox": [
+        64,
+        210,
+        58,
+        58
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#0B356A",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3iho3qd8",
+      "id": "6",
+      "bbox": [
+        64,
+        221,
+        58,
+        36
+      ],
+      "geometry": "roundRect",
+      "text": "R",
+      "textPreview": "R",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "R"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "R",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "R",
+              "fontSize": 24,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ix8nulcn",
+      "id": "7",
+      "bbox": [
+        140,
+        214,
+        250,
+        24
+      ],
+      "geometry": "roundRect",
+      "text": "Evidence in",
+      "textPreview": "Evidence in",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#079A92",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Evidence in"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Evidence in",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#079A92",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Evidence in",
+              "fontSize": 17,
+              "color": "#079A92",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/doz690va",
+      "id": "8",
+      "bbox": [
+        140,
+        244,
+        520,
+        53
+      ],
+      "geometry": "roundRect",
+      "text": "BRD, research notes, surveys, analytics, support tickets, stakeholder and design context",
+      "textPreview": "BRD, research notes, surveys, analytics, support tickets, stakeholder and design context",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BRD, research notes, surveys, analytics, support tickets, stakeholder"
+          },
+          {
+            "index": 2,
+            "text": "and design context"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BRD, research notes, surveys, analytics, support tickets, stakeholder and design context",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#102A43",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BRD, research notes, surveys, analytics, support tickets, stakeholder and design context",
+              "fontSize": 18,
+              "color": "#102A43",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/snqp0vup",
+      "id": "9",
+      "bbox": [
+        90,
+        324,
+        38,
+        38
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#079A92",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtg769kj",
+      "id": "10",
+      "bbox": [
+        90,
+        330,
+        38,
+        24
+      ],
+      "geometry": "roundRect",
+      "text": "1",
+      "textPreview": "1",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nup8ze1o",
+      "id": "11",
+      "bbox": [
+        146,
+        322,
+        315,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "Source & Evidence Analysis",
+      "textPreview": "Source & Evidence Analysis",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source & Evidence Analysis"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source & Evidence Analysis",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source & Evidence Analysis",
+              "fontSize": 19,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8fyp8j29",
+      "id": "12",
+      "bbox": [
+        146,
+        351,
+        500,
+        42
+      ],
+      "geometry": "roundRect",
+      "text": "Inventories every input, classifies source type, confidence, gaps and contradictions.",
+      "textPreview": "Inventories every input, classifies source type, confidence, gaps and contradictions.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#61758A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Inventories every input, classifies source type, confidence, gaps and"
+          },
+          {
+            "index": 2,
+            "text": "contradictions."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Inventories every input, classifies source type, confidence, gaps and contradictions.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#61758A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Inventories every input, classifies source type, confidence, gaps and contradictions.",
+              "fontSize": 16,
+              "color": "#61758A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9grq14ju",
+      "id": "13",
+      "bbox": [
+        90,
+        406,
+        38,
+        38
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#079A92",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ah07a9kf",
+      "id": "14",
+      "bbox": [
+        90,
+        412,
+        38,
+        24
+      ],
+      "geometry": "roundRect",
+      "text": "2",
+      "textPreview": "2",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vi983e10",
+      "id": "15",
+      "bbox": [
+        146,
+        404,
+        315,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "Persona Synthesis",
+      "textPreview": "Persona Synthesis",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Persona Synthesis"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Persona Synthesis",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Persona Synthesis",
+              "fontSize": 19,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wji9cj2l",
+      "id": "16",
+      "bbox": [
+        146,
+        433,
+        500,
+        42
+      ],
+      "geometry": "roundRect",
+      "text": "Creates only evidence-supported personas—or fewer/limited proto-personas when evidence is weak.",
+      "textPreview": "Creates only evidence-supported personas—or fewer/limited proto-personas when evidence is weak.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#61758A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Creates only evidence-supported personas—or fewer/limited"
+          },
+          {
+            "index": 2,
+            "text": "proto-personas when evidence is weak."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Creates only evidence-supported personas—or fewer/limited proto-personas when evidence is weak.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#61758A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Creates only evidence-supported personas—or fewer/limited proto-personas when evidence is weak.",
+              "fontSize": 16,
+              "color": "#61758A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkrq5oj6",
+      "id": "17",
+      "bbox": [
+        90,
+        488,
+        38,
+        38
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#079A92",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qlw7ypkb",
+      "id": "18",
+      "bbox": [
+        90,
+        494,
+        38,
+        24
+      ],
+      "geometry": "roundRect",
+      "text": "3",
+      "textPreview": "3",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rm58ru1w",
+      "id": "19",
+      "bbox": [
+        146,
+        486,
+        315,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "Pain-Point Extraction",
+      "textPreview": "Pain-Point Extraction",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Pain-Point Extraction"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Pain-Point Extraction",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Pain-Point Extraction",
+              "fontSize": 19,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fql4zqho",
+      "id": "20",
+      "bbox": [
+        146,
+        515,
+        500,
+        42
+      ],
+      "geometry": "roundRect",
+      "text": "Finds traceable barriers and frustrations without converting opportunities into requirements.",
+      "textPreview": "Finds traceable barriers and frustrations without converting opportunities into requirements.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#61758A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Finds traceable barriers and frustrations without converting"
+          },
+          {
+            "index": 2,
+            "text": "opportunities into requirements."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Finds traceable barriers and frustrations without converting opportunities into requirements.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#61758A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Finds traceable barriers and frustrations without converting opportunities into requirements.",
+              "fontSize": 16,
+              "color": "#61758A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/upcn6l03",
+      "id": "21",
+      "bbox": [
+        750,
+        218,
+        458,
+        125
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0B356A",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hs3m1gze",
+      "id": "22",
+      "bbox": [
+        778,
+        240,
+        400,
+        84
+      ],
+      "geometry": "roundRect",
+      "text": "OUTPUT & HANDOFF\npersona.md · pain-points.md · research-gaps.md → D1",
+      "textPreview": "OUTPUT & HANDOFF | persona.md · pain-points.md · research-gaps.md → D1",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OUTPUT & HANDOFF"
+          },
+          {
+            "index": 2,
+            "text": "persona.md · pain-points.md · research-gaps.md →"
+          },
+          {
+            "index": 3,
+            "text": "D1"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OUTPUT & HANDOFF",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OUTPUT & HANDOFF",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "persona.md · pain-points.md · research-gaps.md → D1",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "persona.md · pain-points.md · research-gaps.md → D1",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gru58vit",
+      "id": "23",
+      "bbox": [
+        750,
+        362,
+        458,
+        116
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8DBEB",
+      "lineWidth": 1
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7214v6hc",
+      "id": "24",
+      "bbox": [
+        778,
+        390,
+        400,
+        70
+      ],
+      "geometry": "roundRect",
+      "text": "GUARDRAIL — Never invent demographics, quotations, motivations, behaviours or research findings.",
+      "textPreview": "GUARDRAIL — Never invent demographics, quotations, motivations, behaviours or research findings.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GUARDRAIL — Never invent demographics, quotations,"
+          },
+          {
+            "index": 2,
+            "text": "motivations, behaviours or research findings."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GUARDRAIL — Never invent demographics, quotations, motivations, behaviours or research findings.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#102A43",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GUARDRAIL — Never invent demographics, quotations, motivations, behaviours or research findings.",
+              "fontSize": 16,
+              "color": "#102A43",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61sn210r",
+      "id": "25",
+      "bbox": [
+        750,
+        497,
+        458,
+        145
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#079A92",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t4jmxgzi",
+      "id": "26",
+      "bbox": [
+        778,
+        530,
+        400,
+        88
+      ],
+      "geometry": "roundRect",
+      "text": "WHY IT MATTERS — It prevents downstream design decisions from being built on attractive but unsupported user stories.",
+      "textPreview": "WHY IT MATTERS — It prevents downstream design decisions from being built on attractive but unsupported user stories.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "WHY IT MATTERS — It prevents downstream design"
+          },
+          {
+            "index": 2,
+            "text": "decisions from being built on attractive but"
+          },
+          {
+            "index": 3,
+            "text": "unsupported user stories."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "WHY IT MATTERS — It prevents downstream design decisions from being built on attractive but unsupported user stories.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "WHY IT MATTERS — It prevents downstream design decisions from being built on attractive but unsupported user stories.",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s3a54bix",
+      "id": "27",
+      "bbox": [
+        64,
+        682,
+        550,
+        18
+      ],
+      "geometry": "roundRect",
+      "text": "AI UX AGENT WORKFLOW GUIDE  •  03",
+      "textPreview": "AI UX AGENT WORKFLOW GUIDE  •  03",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#7890A5",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI UX AGENT WORKFLOW GUIDE  •  03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI UX AGENT WORKFLOW GUIDE  •  03",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#7890A5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI UX AGENT WORKFLOW GUIDE  •  03",
+              "fontSize": 12,
+              "color": "#7890A5",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,1398 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/6wktta",
+    "id": "6wktta",
+    "slide": 9,
+    "layoutId": "7da0ee97-15eb-4c1f-a554-5a29f7151b95",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "83f33f14-67df-4f2b-a16f-6a35353507ab",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#0B356A",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "7da0ee97-15eb-4c1f-a554-5a29f7151b95",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "83f33f14-67df-4f2b-a16f-6a35353507ab",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "83f33f14-67df-4f2b-a16f-6a35353507ab",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jat4re1c",
+      "id": "1",
+      "bbox": [
+        64,
+        46,
+        380,
+        24
+      ],
+      "geometry": "roundRect",
+      "text": "THE GOVERNED HANDOFF",
+      "textPreview": "THE GOVERNED HANDOFF",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#29C7BC",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "THE GOVERNED HANDOFF"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "THE GOVERNED HANDOFF",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#29C7BC",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "THE GOVERNED HANDOFF",
+              "fontSize": 15,
+              "color": "#29C7BC",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4bm5kjix",
+      "id": "2",
+      "bbox": [
+        64,
+        82,
+        1120,
+        54
+      ],
+      "geometry": "roundRect",
+      "text": "Every agent narrows uncertainty—none can erase it",
+      "textPreview": "Every agent narrows uncertainty—none can erase it",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Every agent narrows uncertainty—none can erase it"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Every agent narrows uncertainty—none can erase it",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Every agent narrows uncertainty—none can erase it",
+              "fontSize": 38,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5cv6tozi",
+      "id": "3",
+      "bbox": [
+        64,
+        146,
+        1100,
+        52
+      ],
+      "geometry": "roundRect",
+      "text": "Artifacts carry evidence, assumptions, contradictions and validation needs forward. Human gates decide whether the work is ready to advance.",
+      "textPreview": "Artifacts carry evidence, assumptions, contradictions and validation needs forward. Human gates decide whether the work is ready to advance.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#D8E8F7",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Artifacts carry evidence, assumptions, contradictions and validation needs forward. Human gates decide whether the work is ready"
+          },
+          {
+            "index": 2,
+            "text": "to advance."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Artifacts carry evidence, assumptions, contradictions and validation needs forward. Human gates decide whether the work is ready to advance.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#D8E8F7",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Artifacts carry evidence, assumptions, contradictions and validation needs forward. Human gates decide whether the work is ready to advance.",
+              "fontSize": 20,
+              "color": "#D8E8F7",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6x4nmt03",
+      "id": "4",
+      "bbox": [
+        70,
+        236,
+        58,
+        58
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#174A7E",
+      "lineColor": "#3C6D9E",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rydovyho",
+      "id": "5",
+      "bbox": [
+        70,
+        251,
+        58,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "D1",
+      "textPreview": "D1",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "D1"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "D1",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "D1",
+              "fontSize": 18,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szm5o3it",
+      "id": "6",
+      "bbox": [
+        154,
+        239,
+        300,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "Research & requirements",
+      "textPreview": "Research & requirements",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#29C7BC",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Research & requirements"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Research & requirements",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#29C7BC",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Research & requirements",
+              "fontSize": 21,
+              "color": "#29C7BC",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t0v6x8ze",
+      "id": "7",
+      "bbox": [
+        154,
+        271,
+        850,
+        36
+      ],
+      "geometry": "roundRect",
+      "text": "Are evidence, personas, pain points and BRD challenges traceable?",
+      "textPreview": "Are evidence, personas, pain points and BRD challenges traceable?",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Are evidence, personas, pain points and BRD challenges traceable?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Are evidence, personas, pain points and BRD challenges traceable?",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Are evidence, personas, pain points and BRD challenges traceable?",
+              "fontSize": 18,
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e14nqd0z",
+      "id": "8",
+      "bbox": [
+        1060,
+        251,
+        130,
+        26
+      ],
+      "geometry": "roundRect",
+      "text": "ADVANCE",
+      "textPreview": "ADVANCE",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#B7D4EE",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ADVANCE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ADVANCE",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#B7D4EE",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ADVANCE",
+              "fontSize": 14,
+              "color": "#B7D4EE",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f2xozihk",
+      "id": "9",
+      "bbox": [
+        70,
+        328,
+        58,
+        58
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#174A7E",
+      "lineColor": "#3C6D9E",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zapojylo",
+      "id": "10",
+      "bbox": [
+        70,
+        343,
+        58,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "D2",
+      "textPreview": "D2",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "D2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "D2",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "D2",
+              "fontSize": 18,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y9gnat43",
+      "id": "11",
+      "bbox": [
+        154,
+        331,
+        300,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "Definition & direction",
+      "textPreview": "Definition & direction",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#29C7BC",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Definition & direction"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Definition & direction",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#29C7BC",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Definition & direction",
+              "fontSize": 21,
+              "color": "#29C7BC",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lcr6l83e",
+      "id": "12",
+      "bbox": [
+        154,
+        363,
+        850,
+        36
+      ],
+      "geometry": "roundRect",
+      "text": "Is the problem framed and is the concept choice justified?",
+      "textPreview": "Is the problem framed and is the concept choice justified?",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Is the problem framed and is the concept choice justified?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Is the problem framed and is the concept choice justified?",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Is the problem framed and is the concept choice justified?",
+              "fontSize": 18,
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kby5c3m9",
+      "id": "13",
+      "bbox": [
+        1060,
+        343,
+        130,
+        26
+      ],
+      "geometry": "roundRect",
+      "text": "ADVANCE",
+      "textPreview": "ADVANCE",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#B7D4EE",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ADVANCE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ADVANCE",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#B7D4EE",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ADVANCE",
+              "fontSize": 14,
+              "color": "#B7D4EE",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6pofy5c",
+      "id": "14",
+      "bbox": [
+        70,
+        420,
+        58,
+        58
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#174A7E",
+      "lineColor": "#3C6D9E",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/algn6t4r",
+      "id": "15",
+      "bbox": [
+        70,
+        435,
+        58,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "D3",
+      "textPreview": "D3",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "D3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "D3",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "D3",
+              "fontSize": 18,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x876ho3i",
+      "id": "16",
+      "bbox": [
+        154,
+        423,
+        300,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "Design & prototype",
+      "textPreview": "Design & prototype",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#29C7BC",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Design & prototype"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Design & prototype",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#29C7BC",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Design & prototype",
+              "fontSize": 21,
+              "color": "#29C7BC",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c7y583mx",
+      "id": "17",
+      "bbox": [
+        154,
+        455,
+        850,
+        36
+      ],
+      "geometry": "roundRect",
+      "text": "Is the flow complete and the prototype ready for validation?",
+      "textPreview": "Is the flow complete and the prototype ready for validation?",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Is the flow complete and the prototype ready for validation?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Is the flow complete and the prototype ready for validation?",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Is the flow complete and the prototype ready for validation?",
+              "fontSize": 18,
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v29orilw",
+      "id": "18",
+      "bbox": [
+        1060,
+        435,
+        130,
+        26
+      ],
+      "geometry": "roundRect",
+      "text": "ADVANCE",
+      "textPreview": "ADVANCE",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#B7D4EE",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ADVANCE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ADVANCE",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#B7D4EE",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ADVANCE",
+              "fontSize": 14,
+              "color": "#B7D4EE",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uh07id4b",
+      "id": "19",
+      "bbox": [
+        70,
+        512,
+        58,
+        58
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#079A92",
+      "lineColor": "#3C6D9E",
+      "lineWidth": 1
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6x4rahoj",
+      "id": "20",
+      "bbox": [
+        70,
+        527,
+        58,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "D4",
+      "textPreview": "D4",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "D4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "D4",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "D4",
+              "fontSize": 18,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ryd8jm54",
+      "id": "21",
+      "bbox": [
+        154,
+        515,
+        300,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "Final validation",
+      "textPreview": "Final validation",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#29C7BC",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Final validation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Final validation",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#29C7BC",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Final validation",
+              "fontSize": 21,
+              "color": "#29C7BC",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szm9cr69",
+      "id": "22",
+      "bbox": [
+        154,
+        547,
+        850,
+        36
+      ],
+      "geometry": "roundRect",
+      "text": "Are issues understood and can the prototype be called verified within limits?",
+      "textPreview": "Are issues understood and can the prototype be called verified within limits?",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Are issues understood and can the prototype be called verified within limits?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Are issues understood and can the prototype be called verified within limits?",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Are issues understood and can the prototype be called verified within limits?",
+              "fontSize": 18,
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t0valwnu",
+      "id": "23",
+      "bbox": [
+        1060,
+        527,
+        130,
+        26
+      ],
+      "geometry": "roundRect",
+      "text": "VERIFY",
+      "textPreview": "VERIFY",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#D8FFF9",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "VERIFY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "VERIFY",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#D8FFF9",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "VERIFY",
+              "fontSize": 14,
+              "color": "#D8FFF9",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e14re1of",
+      "id": "24",
+      "bbox": [
+        64,
+        620,
+        1120,
+        52
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#079A92",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f2xsn650",
+      "id": "25",
+      "bbox": [
+        82,
+        632,
+        1085,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "APPROVE advances · REVISE reruns minimum affected work · REJECT blocks",
+      "textPreview": "APPROVE advances · REVISE reruns minimum affected work · REJECT blocks",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "APPROVE advances · REVISE reruns minimum affected work · REJECT blocks"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "APPROVE advances · REVISE reruns minimum affected work · REJECT blocks",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "APPROVE advances · REVISE reruns minimum affected work · REJECT blocks",
+              "fontSize": 20,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

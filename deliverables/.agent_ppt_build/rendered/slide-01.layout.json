@@ -1,0 +1,627 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/zdfy4y",
+    "id": "zdfy4y",
+    "slide": 1,
+    "layoutId": "7da0ee97-15eb-4c1f-a554-5a29f7151b95",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "83f33f14-67df-4f2b-a16f-6a35353507ab",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#0B356A",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "7da0ee97-15eb-4c1f-a554-5a29f7151b95",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "83f33f14-67df-4f2b-a16f-6a35353507ab",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "83f33f14-67df-4f2b-a16f-6a35353507ab",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ypgbep47",
+      "id": "1",
+      "bbox": [
+        880,
+        0,
+        400,
+        720
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#079A92",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lcrupk3y",
+      "id": "2",
+      "bbox": [
+        72,
+        72,
+        240,
+        26
+      ],
+      "geometry": "roundRect",
+      "text": "AI UX",
+      "textPreview": "AI UX",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#29C7BC",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI UX"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI UX",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#29C7BC",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI UX",
+              "fontSize": 17,
+              "color": "#29C7BC",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0ritgfmd",
+      "id": "3",
+      "bbox": [
+        72,
+        130,
+        700,
+        155
+      ],
+      "geometry": "roundRect",
+      "text": "Specialized Agent\nWorkflow Guide",
+      "textPreview": "Specialized Agent | Workflow Guide",
+      "resolvedFontSize": 56,
+      "resolvedTextStyle": {
+        "fontSize": 56,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Specialized Agent"
+          },
+          {
+            "index": 2,
+            "text": "Workflow Guide"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Specialized Agent",
+          "resolvedTextStyle": {
+            "fontSize": 56,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Specialized Agent",
+              "fontSize": 56,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Workflow Guide",
+          "resolvedTextStyle": {
+            "fontSize": 56,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Workflow Guide",
+              "fontSize": 56,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bmpsjalw",
+      "id": "4",
+      "bbox": [
+        72,
+        326,
+        680,
+        98
+      ],
+      "geometry": "roundRect",
+      "text": "What each agent receives, which skills it invokes, what those skills do, and how evidence moves safely to the next phase.",
+      "textPreview": "What each agent receives, which skills it invokes, what those skills do, and how evidence moves safely to the next phase.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#D8E9F8",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "What each agent receives, which skills it invokes, what those skills"
+          },
+          {
+            "index": 2,
+            "text": "do, and how evidence moves safely to the next phase."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "What each agent receives, which skills it invokes, what those skills do, and how evidence moves safely to the next phase.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#D8E9F8",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "What each agent receives, which skills it invokes, what those skills do, and how evidence moves safely to the next phase.",
+              "fontSize": 24,
+              "color": "#D8E9F8",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qlgba54b",
+      "id": "5",
+      "bbox": [
+        72,
+        462,
+        210,
+        7
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#29C7BC",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/do7ulk3m",
+      "id": "6",
+      "bbox": [
+        990,
+        145,
+        160,
+        95
+      ],
+      "geometry": "roundRect",
+      "text": "5",
+      "textPreview": "5",
+      "resolvedFontSize": 76,
+      "resolvedTextStyle": {
+        "fontSize": 76,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5",
+          "resolvedTextStyle": {
+            "fontSize": 76,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5",
+              "fontSize": 76,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cnytcfmh",
+      "id": "7",
+      "bbox": [
+        930,
+        245,
+        280,
+        36
+      ],
+      "geometry": "roundRect",
+      "text": "specialized agents",
+      "textPreview": "specialized agents",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "specialized agents"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "specialized agents",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "specialized agents",
+              "fontSize": 23,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3i5sfalk",
+      "id": "8",
+      "bbox": [
+        990,
+        360,
+        160,
+        80
+      ],
+      "geometry": "roundRect",
+      "text": "22",
+      "textPreview": "22",
+      "resolvedFontSize": 60,
+      "resolvedTextStyle": {
+        "fontSize": 60,
+        "typeface": "+mn-lt",
+        "color": "#D8FFF9",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "22"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "22",
+          "resolvedTextStyle": {
+            "fontSize": 60,
+            "color": "#D8FFF9",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "22",
+              "fontSize": 60,
+              "color": "#D8FFF9",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hwb654z",
+      "id": "9",
+      "bbox": [
+        930,
+        447,
+        280,
+        36
+      ],
+      "geometry": "roundRect",
+      "text": "reusable UX skills",
+      "textPreview": "reusable UX skills",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "reusable UX skills"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "reusable UX skills",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "reusable UX skills",
+              "fontSize": 23,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cv69ojy5",
+      "id": "10",
+      "bbox": [
+        72,
+        510,
+        600,
+        34
+      ],
+      "geometry": "roundRect",
+      "text": "Human governed · evidence traceable",
+      "textPreview": "Human governed · evidence traceable",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#29C7BC",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Human governed · evidence traceable"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Human governed · evidence traceable",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#29C7BC",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Human governed · evidence traceable",
+              "fontSize": 20,
+              "color": "#29C7BC",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

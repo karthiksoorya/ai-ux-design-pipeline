@@ -1,0 +1,1838 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/di1qrg",
+    "id": "di1qrg",
+    "slide": 6,
+    "layoutId": "7da0ee97-15eb-4c1f-a554-5a29f7151b95",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "83f33f14-67df-4f2b-a16f-6a35353507ab",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#EEF6FD",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "7da0ee97-15eb-4c1f-a554-5a29f7151b95",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "83f33f14-67df-4f2b-a16f-6a35353507ab",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "83f33f14-67df-4f2b-a16f-6a35353507ab",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjmpcvmh",
+      "id": "1",
+      "bbox": [
+        64,
+        38,
+        1120,
+        22
+      ],
+      "geometry": "roundRect",
+      "text": "AGENT 3 · DEFINE & IDEATE",
+      "textPreview": "AGENT 3 · DEFINE & IDEATE",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#079A92",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AGENT 3 · DEFINE & IDEATE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AGENT 3 · DEFINE & IDEATE",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#079A92",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AGENT 3 · DEFINE & IDEATE",
+              "fontSize": 14,
+              "color": "#079A92",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jidojq5w",
+      "id": "2",
+      "bbox": [
+        64,
+        66,
+        1140,
+        54
+      ],
+      "geometry": "roundRect",
+      "text": "UX Definition Agent converts evidence into a deliberate direction",
+      "textPreview": "UX Definition Agent converts evidence into a deliberate direction",
+      "resolvedFontSize": 37,
+      "resolvedTextStyle": {
+        "fontSize": 37,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "UX Definition Agent converts evidence into a deliberate direction"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "UX Definition Agent converts evidence into a deliberate direction",
+          "resolvedTextStyle": {
+            "fontSize": 37,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "UX Definition Agent converts evidence into a deliberate direction",
+              "fontSize": 37,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yh4nal4b",
+      "id": "3",
+      "bbox": [
+        64,
+        126,
+        1140,
+        42
+      ],
+      "geometry": "roundRect",
+      "text": "It expands the solution space before recommending one concept for human review.",
+      "textPreview": "It expands the solution space before recommending one concept for human review.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#61758A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "It expands the solution space before recommending one concept for human review."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "It expands the solution space before recommending one concept for human review.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#61758A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "It expands the solution space before recommending one concept for human review.",
+              "fontSize": 18,
+              "color": "#61758A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xwv6hgnq",
+      "id": "4",
+      "bbox": [
+        64,
+        178,
+        92,
+        5
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#29C7BC",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wv258bm5",
+      "id": "5",
+      "bbox": [
+        64,
+        210,
+        58,
+        58
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6C63B5",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/butof650",
+      "id": "6",
+      "bbox": [
+        64,
+        221,
+        58,
+        36
+      ],
+      "geometry": "roundRect",
+      "text": "D",
+      "textPreview": "D",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "D"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "D",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "D",
+              "fontSize": 24,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/atkn614f",
+      "id": "7",
+      "bbox": [
+        140,
+        214,
+        270,
+        24
+      ],
+      "geometry": "roundRect",
+      "text": "Approved discovery in",
+      "textPreview": "Approved discovery in",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#079A92",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Approved discovery in"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Approved discovery in",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#079A92",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Approved discovery in",
+              "fontSize": 17,
+              "color": "#079A92",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcf6tk3a",
+      "id": "8",
+      "bbox": [
+        140,
+        244,
+        520,
+        48
+      ],
+      "geometry": "roundRect",
+      "text": "BRD risk review, personas, pain points, research gaps and supporting sources",
+      "textPreview": "BRD risk review, personas, pain points, research gaps and supporting sources",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BRD risk review, personas, pain points, research gaps and"
+          },
+          {
+            "index": 2,
+            "text": "supporting sources"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BRD risk review, personas, pain points, research gaps and supporting sources",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#102A43",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BRD risk review, personas, pain points, research gaps and supporting sources",
+              "fontSize": 18,
+              "color": "#102A43",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gr6pkfmp",
+      "id": "9",
+      "bbox": [
+        90,
+        314,
+        38,
+        38
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6C63B5",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6h8bad8v",
+      "id": "10",
+      "bbox": [
+        90,
+        320,
+        38,
+        24
+      ],
+      "geometry": "roundRect",
+      "text": "1",
+      "textPreview": "1",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ihcji9g",
+      "id": "11",
+      "bbox": [
+        146,
+        312,
+        315,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "Problem Framing",
+      "textPreview": "Problem Framing",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Problem Framing"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Problem Framing",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Problem Framing",
+              "fontSize": 19,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sjqtcnq1",
+      "id": "12",
+      "bbox": [
+        146,
+        341,
+        500,
+        42
+      ],
+      "geometry": "roundRect",
+      "text": "Defines user, context, evidence, impact, uncertainty and business relationship.",
+      "textPreview": "Defines user, context, evidence, impact, uncertainty and business relationship.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#61758A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Defines user, context, evidence, impact, uncertainty and business"
+          },
+          {
+            "index": 2,
+            "text": "relationship."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Defines user, context, evidence, impact, uncertainty and business relationship.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#61758A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Defines user, context, evidence, impact, uncertainty and business relationship.",
+              "fontSize": 16,
+              "color": "#61758A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tkzul8r6",
+      "id": "13",
+      "bbox": [
+        90,
+        382,
+        38,
+        38
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6C63B5",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itob6t8j",
+      "id": "14",
+      "bbox": [
+        90,
+        388,
+        38,
+        24
+      ],
+      "geometry": "roundRect",
+      "text": "2",
+      "textPreview": "2",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/juhsfy94",
+      "id": "15",
+      "bbox": [
+        146,
+        380,
+        315,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "Journey Mapping",
+      "textPreview": "Journey Mapping",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Journey Mapping"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Journey Mapping",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Journey Mapping",
+              "fontSize": 19,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kvqt83qp",
+      "id": "16",
+      "bbox": [
+        146,
+        409,
+        500,
+        42
+      ],
+      "geometry": "roundRect",
+      "text": "Maps stages and breakdowns; labels unsupported stages as hypothetical.",
+      "textPreview": "Maps stages and breakdowns; labels unsupported stages as hypothetical.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#61758A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Maps stages and breakdowns; labels unsupported stages as hypothetical."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Maps stages and breakdowns; labels unsupported stages as hypothetical.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#61758A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Maps stages and breakdowns; labels unsupported stages as hypothetical.",
+              "fontSize": 16,
+              "color": "#61758A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wzah8ra",
+      "id": "17",
+      "bbox": [
+        90,
+        450,
+        38,
+        38
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6C63B5",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2psbix83",
+      "id": "18",
+      "bbox": [
+        90,
+        456,
+        38,
+        24
+      ],
+      "geometry": "roundRect",
+      "text": "3",
+      "textPreview": "3",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3q1cr2po",
+      "id": "19",
+      "bbox": [
+        146,
+        448,
+        315,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "Opportunity Prioritization",
+      "textPreview": "Opportunity Prioritization",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Opportunity Prioritization"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Opportunity Prioritization",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Opportunity Prioritization",
+              "fontSize": 19,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zut83up0",
+      "id": "20",
+      "bbox": [
+        146,
+        477,
+        500,
+        42
+      ],
+      "geometry": "roundRect",
+      "text": "Ranks candidate design spaces using evidence, user value, business relevance and uncertainty.",
+      "textPreview": "Ranks candidate design spaces using evidence, user value, business relevance and uncertainty.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#61758A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ranks candidate design spaces using evidence, user value, business"
+          },
+          {
+            "index": 2,
+            "text": "relevance and uncertainty."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ranks candidate design spaces using evidence, user value, business relevance and uncertainty.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#61758A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ranks candidate design spaces using evidence, user value, business relevance and uncertainty.",
+              "fontSize": 16,
+              "color": "#61758A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ytk7apof",
+      "id": "21",
+      "bbox": [
+        90,
+        518,
+        38,
+        38
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6C63B5",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lwvq5k76",
+      "id": "22",
+      "bbox": [
+        90,
+        524,
+        38,
+        24
+      ],
+      "geometry": "roundRect",
+      "text": "4",
+      "textPreview": "4",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0vm9cz6l",
+      "id": "23",
+      "bbox": [
+        146,
+        516,
+        315,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "Concept Generation",
+      "textPreview": "Concept Generation",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Concept Generation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Concept Generation",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Concept Generation",
+              "fontSize": 19,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nyd87upw",
+      "id": "24",
+      "bbox": [
+        146,
+        545,
+        500,
+        42
+      ],
+      "geometry": "roundRect",
+      "text": "Creates meaningfully different options instead of jumping to the first feature idea.",
+      "textPreview": "Creates meaningfully different options instead of jumping to the first feature idea.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#61758A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Creates meaningfully different options instead of jumping to the first"
+          },
+          {
+            "index": 2,
+            "text": "feature idea."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Creates meaningfully different options instead of jumping to the first feature idea.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#61758A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Creates meaningfully different options instead of jumping to the first feature idea.",
+              "fontSize": 16,
+              "color": "#61758A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mx4repob",
+      "id": "25",
+      "bbox": [
+        90,
+        586,
+        38,
+        38
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6C63B5",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/90vq9472",
+      "id": "26",
+      "bbox": [
+        90,
+        592,
+        38,
+        24
+      ],
+      "geometry": "roundRect",
+      "text": "5",
+      "textPreview": "5",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8zm9gz6h",
+      "id": "27",
+      "bbox": [
+        146,
+        584,
+        315,
+        28
+      ],
+      "geometry": "roundRect",
+      "text": "Concept Evaluation",
+      "textPreview": "Concept Evaluation",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Concept Evaluation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Concept Evaluation",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#102A43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Concept Evaluation",
+              "fontSize": 19,
+              "color": "#102A43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v2x8bep8",
+      "id": "28",
+      "bbox": [
+        146,
+        613,
+        500,
+        42
+      ],
+      "geometry": "roundRect",
+      "text": "Uses common criteria to recommend a direction while preserving alternatives and risks.",
+      "textPreview": "Uses common criteria to recommend a direction while preserving alternatives and risks.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#61758A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Uses common criteria to recommend a direction while preserving"
+          },
+          {
+            "index": 2,
+            "text": "alternatives and risks."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Uses common criteria to recommend a direction while preserving alternatives and risks.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#61758A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Uses common criteria to recommend a direction while preserving alternatives and risks.",
+              "fontSize": 16,
+              "color": "#61758A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a14ri9on",
+      "id": "29",
+      "bbox": [
+        750,
+        218,
+        458,
+        125
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0B356A",
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sr6p8jml",
+      "id": "30",
+      "bbox": [
+        778,
+        240,
+        400,
+        84
+      ],
+      "geometry": "roundRect",
+      "text": "OUTPUT & HANDOFF\nproblem · journey · opportunities · concept options · selected concept → D2",
+      "textPreview": "OUTPUT & HANDOFF | problem · journey · opportunities · concept options · selected concept → D2",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OUTPUT & HANDOFF"
+          },
+          {
+            "index": 2,
+            "text": "problem · journey · opportunities · concept options ·"
+          },
+          {
+            "index": 3,
+            "text": "selected concept → D2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OUTPUT & HANDOFF",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OUTPUT & HANDOFF",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "problem · journey · opportunities · concept options · selected concept → D2",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "problem · journey · opportunities · concept options · selected concept → D2",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsfq1o36",
+      "id": "31",
+      "bbox": [
+        750,
+        362,
+        458,
+        116
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8DBEB",
+      "lineWidth": 1
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6po7694v",
+      "id": "32",
+      "bbox": [
+        778,
+        390,
+        400,
+        70
+      ],
+      "geometry": "roundRect",
+      "text": "GUARDRAIL — An opportunity is not a requirement, and a recommendation is not usability proof.",
+      "textPreview": "GUARDRAIL — An opportunity is not a requirement, and a recommendation is not usability proof.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#102A43",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GUARDRAIL — An opportunity is not a requirement, and"
+          },
+          {
+            "index": 2,
+            "text": "a recommendation is not usability proof."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GUARDRAIL — An opportunity is not a requirement, and a recommendation is not usability proof.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#102A43",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GUARDRAIL — An opportunity is not a requirement, and a recommendation is not usability proof.",
+              "fontSize": 16,
+              "color": "#102A43",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qx8zelg",
+      "id": "33",
+      "bbox": [
+        750,
+        497,
+        458,
+        145
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#079A92",
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k36p4zmp",
+      "id": "34",
+      "bbox": [
+        778,
+        530,
+        400,
+        88
+      ],
+      "geometry": "roundRect",
+      "text": "WHY IT MATTERS — It converts discovery into an explainable decision rather than an unexplained solution jump.",
+      "textPreview": "WHY IT MATTERS — It converts discovery into an explainable decision rather than an unexplained solution jump.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "WHY IT MATTERS — It converts discovery into an"
+          },
+          {
+            "index": 2,
+            "text": "explainable decision rather than an unexplained"
+          },
+          {
+            "index": 3,
+            "text": "solution jump."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "WHY IT MATTERS — It converts discovery into an explainable decision rather than an unexplained solution jump.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "WHY IT MATTERS — It converts discovery into an explainable decision rather than an unexplained solution jump.",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/54fqx43a",
+      "id": "35",
+      "bbox": [
+        64,
+        682,
+        550,
+        18
+      ],
+      "geometry": "roundRect",
+      "text": "AI UX AGENT WORKFLOW GUIDE  •  06",
+      "textPreview": "AI UX AGENT WORKFLOW GUIDE  •  06",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#7890A5",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI UX AGENT WORKFLOW GUIDE  •  06"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI UX AGENT WORKFLOW GUIDE  •  06",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#7890A5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI UX AGENT WORKFLOW GUIDE  •  06",
+              "fontSize": 12,
+              "color": "#7890A5",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
